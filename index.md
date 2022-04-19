@@ -59,3 +59,8 @@ BDA 연구실은 1991년 김형주 교수님과 4명의 대학원 학생으로 �
    - Machine Learning Algorithm을 장착한 차세대 DBMS 연구개발
    - Machine Learning의 성능향상을 위한 DBMS의 기법도입에 관한 연구  
      <br/>
+
+# Quick Link
+
+[BDA 출신 석·박사들](./members/former_members)  
+[연구실 지원요령](./)
