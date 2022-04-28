@@ -1,0 +1,457 @@
+I"H�<h1 id="hyoung-joo-kim-from-big-data-analytics-lab">Hyoung-Joo Kim <em>From Big Data Analytics Lab</em></h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="./hyoung-joo_kim">Profile</a></td>
+      <td><a href="./hyoung-joo_kim_career">Career</a></td>
+      <td><a href="./hyoung-joo_kim_publication">Publications</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="publications">Publications</h1>
+
+<h3 id="papers">Papers</h3>
+
+<h4 id="international-journal">International Journal</h4>
+
+<!---
+1. Hee-Gook Jun; Dong-Hyuk Im; Hyoung-Joo Kim, "Semantics-preserving optimization of mapping multi-column key constraints for RDB to RDF transformation", Journal of Information Science, 2020 (pdf)
+2. Hyewon Lim; Hyoung-Joo Kim, "Tensor-based tag emotion aware recommendation with probabilistic ranking", KSII Transactions on Internet and Information Systems, vol. 13, no. 12, pp. 5826-5841, 2019 (pdf)
+3. Hyewon Lim; Hyoung-Joo Kim, "Item recommendation using tag emotion in social cataloging services", Expert Systems with Applications 89, pp.179-187, 2017 (pdf)
+4. Hee-Gook Jun; Dong-Hyuk Im; Hyoung-Joo Kim, "An RDF Metadata-based Weighted Semantic Pagerank Algorithm", International Journal of Web & Semantic Technology, vol. 7 no. 2 pp. 11-24, Apr. 2016 (pdf)
+5. Woo-Hyun Lee, Hee-Gook Jun, and Hyoung-Joo Kim, "Hadoop Mapreduce Performance Enhancement Using In-Node Combiners", International Journal of Computer Science & Information Technology, vol. 7 no. 5 pp. 1-18, Oct. 2015 (pdf)
+6. Hyunwoo Kim, Taewhi Lee, and Hyoung-Joo Kim, "A Parallel Tag Affinity Computation for Social Tagging Systems using MapReduce", International Journal of Big Data Intelligence, vol. 1 no. 3 pp. 141-150, 2014 (pdf)
+7. Taewhi Lee, Hye-Chan Bae and Hyoung-Joo Kim, "Join Processing with Threshold-based Filtering in MapReduce", Journal of Supercomputing, vol. 69 no. 2 pp.793-813, Aug. 2014 (pdf)
+8. Kisung Kim, Bongki Moon and Hyoung-Joo Kim, "RG-index: an RDF Graph Index for Efficient SPARQL Query Processing", Expert Systems with Applications, vol. 41 no. 10 pp.4596-4607, Aug. 2014 (pdf)
+9. Hyunwoo Kim and Hyoung-Joo Kim, "A Framework for Tag-aware Recommender Systems", Expert Systems with Applications, vol. 41 no. 8 pp.4000-4009, Jun. 2014 (pdf)
+10. Taewhi Lee, Dong-Hyuk Im, Hangkyu Kim, and Hyoung-Joo Kim, "Application of Filters to Multiway Joins in MapReduce", Mathematical Problems in Engineering, vol. 2014, Article ID 249418, 11 pages, Mar. 2014 (pdf)
+11. Kisung Kim, Bongki Moon, Hyoung-Joo Kim, "R3F: RDF triple filtering method for efficient SPARQL query processing", World Wide Web , vol. 18 Issue. 2 pp. 317-357, 2013 (pdf)
+12. Taewhi Lee, Kisung Kim, and Hyoung-Joo Kim, "Exploiting Bloom Filters for Effcient Joins in MapReduce", INFORMATION - An International Interdisciplinary Journal, vol. 16 no. 8 pp.5869-5885, Aug. 2013 (pdf)
+13. Dong-Hyuk Im ; Sang-Won Lee ; Hyoung-Joo Kim, "Backward inference and pruning for RDF change detection using RDBMS", Journal of Information Science, vol. 39 no. 2 pp.238-255, Apr. 2013 (pdf)
+14. Kang-Pyo Lee ; Hong-Gee Kim ; Hyoung-Joo Kim, "A social inverted index for social tagging-based information retrieval", Journal of Information Science, vol. 38 no. 4 pp.313-332, Aug. 2012 (pdf)
+15. Dong-Hyuk Im ; Sang-Won Lee ; Hyoung-Joo Kim, "A version management framework for RDF triple stores", International Journal of Software Engineering and Knowledge Engineering, vol. 22 no. 1 pp.211-228, Feb. 2012 (pdf)
+16. 김성진 ; Hyung-Dong Lee ; Hyoung-Joo Kim, "Adaptive partitioned indexes for efficient XML keyword search", Journal of Research and Practice in Information Technology, vol. 39 no. 3 pp.211-228, Aug. 2007 (pdf)
+17. Jung-Min Kim ; Hyo-Pil Shin ; Hyoung-Joo Kim, "Schema and constraints-based matching and merging of topic maps", Information Processing & Management, vol. 43 no. 4 pp.930-945, Jul. 2007 (pdf)
+18. Jung-Min Kim ; Byoung-Il Choi ; Hyo-Pil Shin ; Hyoung-Joo Kim, "A methodology for constructing of philosophy ontology based on philosophical texts", Computer Standards & Interfaces, vol. 29 no. 3 pp.302-315, Mar. 2007 (pdf)
+19. Il-Hwan Choi ; Bongki Moon ; Hyoung-Joo Kim, "A clustering method based on path similarities of XML data", Data & Knowledge Engineering, vol. 60 no. 2 pp.361-376, Feb. 2007 (pdf)
+20. 이상원 ; 안정호 ; Hyoung-Joo Kim, "A schema version model for complex objects in object-oriented databases", Journal of Systems Architecture, vol. 52 no. 10 pp.563-577, Oct. 2006 (pdf)
+21. Kyung-Sub Min ; Hyoung-Joo Kim, "A path-based node filtering method for efficient structural joins", Information Processing Letters, vol. 95 no. 5 pp.480-486, Sep. 2005 (pdf)
+22. Hyun-Joo Lee ; Sang-Won Lee ; Hyoung-Joo Kim, "Design and implementation of an extended relationship semantics in an ODMG-compliant OODBMS", Journal of Systems and Software, vol. 76 no. 2 pp.171-180, May. 2005 (pdf)
+23. Jong-Ik Kim ; Hyoung-Joo Kim, "A partition index for XML and semi-structured data", Data & Knowledge Engineering, vol. 51 no. 3 pp.349-368, Dec. 2004 (pdf)
+24. Jong-Ik Kim ; 이상호 ; Hyoung-Joo Kim, "Efficient structural joins with clustered extents", Information Processing Letters, vol. 91 no. 2 pp.69-75, Jul. 2004 (pdf)
+25. Sang-Won Lee ; Yong-Han Kim ; Hyoung-Joo Kim, "The semantics of an extended referential integrity for a multilevel secure relational data model", Data & Knowledge Engineering, vol. 48 no. 1 pp.129-152, Jan. 2004 (pdf)
+26. Tae-Sun Chung ; Hyoung-Joo Kim, "Techniques for the evaluation of XML queries: a survey", Data & Knowledge Engineering, vol. 46 no. 2 pp.225-246, Aug. 2003 (pdf)
+27. Dong-Ho Lee ; Hyoung-Joo Kim, "An efficient technique for nearest-neighbor query processing on the SPY-TEC", IEEE Transactions on Knowledge and Data Engineering, vol. 15 no. 4 pp.1472-1486, Jul. 2003 (pdf)
+28. 안정호 ; 송하주 ; Hyoung-Joo Kim, "Implementation techniques for extensible object storage systems", Advanced Topics in Database Research, vol. 2 no. pp.104-127, May. 2003 (pdf)
+29. Jong-Ik Kim ; Hyoung-Joo Kim, "Efficient processing of regular path joins using PID", Information and Software Technology, vol. 45 no. 5 pp.241-251, Apr. 2003 (pdf)
+30. Chi-Young Seo ; Sang-Won Lee ; Hyoung-Joo Kim, "An efficient inverted index technique for XML documents using RDBMS", Information and Software Technology, vol. 45 no. 1 pp.11-22, Jan. 2003 (pdf)
+31. Dong-Joo Park ; Hyoung-Joo Kim, "An enhanced technique for k-nearest neighbor queries with non-spatial selection predicates", Multimedia Tools and Applications, vol. 19 no. 1 pp.79-103, Jan. 2003 (pdf)
+32. Tae-Sun Chung ; Hyoung-Joo Kim, "A two phase optimization technique for XML queries with multiple regular path expressions", Journal of Systems and Software, vol. 64 no. 3 pp.183-193, Dec. 2002 (pdf)
+33. Tae-Sun Chung ; Hyoung-Joo Kim, "XML query processing using document type definitions", Journal of Systems and Software, vol. 64 no. 3 pp.195-205, Dec. 2002 (pdf)
+34. Dong-Ho Lee ; Hyoung-Joo Kim, "An efficient algorithm for hyperspherical range query processing in high-dimensional data space", Information Processing Letters, vol. 83 no. 2 July pp.115-123, Jul. 2002 (pdf)
+35. Sang-Won Park ; Hyoung-Joo Kim, "SigDAQ: An enhanced XML query optimization technique", Journal of Systems and Software, vol. 61 no. 2 May pp.91-103, May. 2002 (pdf)
+36. Dong-Ho Lee ; Hyoung-Joo Kim, "An efficient nearest neighbor search in high-dimensional data spaces", Information Processing Letters, vol. 81 no. 5 March pp.239-246, Mar. 2002 (pdf)
+37. Tae-Sun Chung ; Hyoung-Joo Kim, "Extracting indexing information from XML DTDs", Information Processing Letters, vol. 81 no. January pp.97-103, Jan. 2002 (pdf)
+38. Jung-Ho Ahn ; Hyoung-Joo Kim, "The soprano extensible object storage system", Journal of Database Management, vol. 13 no. 1 pp.15-24, Jan. 2002 (pdf)
+39. Sang-Won Park ; Y. R. Choi ; Hyoung-Joo Kim, "XML query processing using signature and DTD", Lecture Notes in Computer Science, vol. 2455 no. pp.162-171, Jan. 2002 (pdf)
+40. Dong-Joo Park ; Shin Heu ; Hyoung-Joo Kim, "The RS-tree: An efficient data structure for distance browsing queries", Information Processing Letters, vol. 80 no. October pp.195-203, Oct. 2001 (pdf)
+41. Dong-Ho Lee ; Hyung-Dong Lee ; Il-Hwan Choi ; Hyoung-Joo Kim, "An algorithm for incremental nearest neighbor search in high-dimensional data spaces", Lecture Notes in Computer Science, vol. 2105 no. September pp.436-453, Sep. 2001 (pdf)
+42. Tae-Sun Chung ; Sangwon Park ; Sang-young Han ; Hyoung-Joo Kim, "Extracting object-oriented schemas from XML DTDs using inheritance", Lecture Notes in Computer Science, vol. 2115 no. September pp.49-59, Sep. 2001 (pdf)
+43. Dong-Joo Park ; Hyoung-Joo Kim, "Prefetch policies for large objects in a web-enabled GIS application", Data & Knowledge Engineering, vol. 37 no. April pp.65-84, Apr. 2001 (pdf)
+44. Dong-Ho Lee ; Hyoung-Joo Kim, "A fast content-based indexing and retrieval technique by the shape information in large image database", Journal of Systems and Software, vol. 56 no. 2 March pp.165-182, Mar. 2001 (pdf)
+45. Eun-Sun Cho ; Hyoung-Joo Kim, "Interface/Implementation-Separation mechanism for integrating OODBMSs and general-purpose OOPLs", Computer Journal, vol. 43 no. 6 December pp.512-523, Dec. 2000 (pdf)
+46. Ha-Joo Song ; Jung-Ho Ahn ; Hyoung-Joo Kim, "Using genetic algorithms to work out index configurations for the class-hierarchy indexing in object databases", Information and Software Technology, vol. 42 no. 11 October pp.731-741, Oct. 2000 (pdf)
+47. Dong-Ho Lee ; Hyoung-Joo Kim, v"SPY-TEC: An efficient indexing method for similarity search in high-dimensional data spaces", Data & Knowledge Engineering, vol. 34 no. 1 July pp.77-97, Jul. 2000 (pdf)
+48. Jung-Ho Ahn ; Hyoung-Joo Kim, "Dynamic SEOF: an adaptable object prefetch policy for object-oriented database systems", Computer Journal, vol. 43 no. 6 June pp.93-116, Jun. 2000 (pdf)
+49. Jung-Ho Ahn ; Ha-Joo Song ; Hyoung-Joo Kim, "Index set: A practical indexing scheme for object database systems", Data & Knowledge Engineering, vol. 33 no. 3 June pp.199-217, Jun. 2000 (pdf)
+50. Sang-Won Lee ; Hyoung-Joo Kim, "Rich base Schema(RiBS) : A unified framework for OODB schema version", Journal of Database Management, vol. 11 no. 1 March pp.29-37, Mar. 2000 (pdf)
+51. Eun-Sun Cho ; Hyoung-Joo Kim, "A C++ extension for OODBMSs with orthogonal persistence to class hierachies", Information and Software Technology, vol. 42 no. 5 February pp.347-356, Feb. 2000 (pdf)
+52. Hyoung-Joo Kim, "Object versioning in an ODMG-comliant object database system", Software-Practice & Experience, vol. 29 no. 5 April pp.479-500, Apr. 1999 (pdf)
+53. Kang-Woo Lee ; Hyoung-Joo Kim, "An eager and pessimistic space reservation method for tables frequently accessed by concurrent transactions", Ieice Transactions on Information and Systems, vol. E82-D no. 1 January pp.246-257, Jan. 1999 (pdf)
+54. Jung-Ho Ahn ; Sang-Won Lee ; Ha-Joo Song ; Hyoung-Joo Kim, "A survey of architectural features of contemporary objects storage systems", Journal of Systems Architecture, vol. 45 no. 5 pp.363-386, Dec. 1998 (pdf)
+55. Sang-Won Lee ; Hyoung-Joo Kim, "A model of schema versions for object-oriented databases based on the concept of rich base schema", Information and Software Technology, vol. 40 no. 3 pp.157-173, Jun. 1998 (pdf)
+56. Hyeokman Kim ; Sukho Lee ; Hyoung-Joo Kim, "Two-Step pruning : A distributed query optimization algorithm", Lecture Notes in Computer Science, vol. 940 no. 1 pp.183-203, Jul. 1995 (pdf)
+57. Cheong Youn ; Hyoung-Joo Kim ; Lawrence J. Henschen ; Jiawei Han, "Classification and compilation of linear recursive queries indeductive databases", IEEE Transactions on Knowledge and Data Engineering, vol. 4 no. 1 pp.52-67, Feb. 1992 (pdf)
+58. Il-Yeol Song ; Hyoung-Joo Kim, "Design and implementation of a three-step intensional query processing scheme," Journal of Database Administration, vol. 2 no. 2 pp.23-35, 1991
+59. Hyoung-Joo Kim ; Henry F. Korth ; Abraham Silberschatz, "PICASSO: a graphical query language", Software:Practice and Experience, vol. 18 no. 3 pp.169-203, Mar. 1988 (pdf)
+60. Jay Banerjee ; Hong-Tai Chou ; Jorge F. Garza ; Won Kim ; Darrell Woelk ; Nat Ballou ; Hyoung-Joo Kim, "Data model issues for object-oriented applications", ACM Transactions on Office Information Systems, vol. 5 no. 1 pp.3-26, Jan. 1987 (pdf) --->
+
+<ol>
+  <li>
+    Hee-Gook Jun; Dong-Hyuk Im; Hyoung-Joo Kim,
+    <b>"Semantics-preserving optimization of mapping multi-column key
+      constraints for RDB to RDF transformation"</b>, Journal of Information Science, 2020
+    <a href="/images/5/55/Semantics-preserving_optimization_of_mapping_multi-column_key_constraints_for_RDB_to_RDF_transformation.pdf" class="internal" title="Semantics-preserving optimization of mapping multi-column key constraints for RDB to RDF transformation.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hyewon Lim; Hyoung-Joo Kim,
+    <b>"Tensor-based tag emotion aware recommendation with probabilistic
+      ranking"</b>, KSII Transactions on Internet and Information Systems, vol. 13, no. 12,
+    pp. 5826-5841, 2019
+    <a href="/images/6/60/Tensor-based_tag_emotion_aware_recommendation_with_probabilistic_ranking.pdf" class="internal" title="Tensor-based tag emotion aware recommendation with probabilistic ranking.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hyewon Lim; Hyoung-Joo Kim,
+    <b>"Item recommendation using tag emotion in social cataloging services"</b>, Expert Systems with Applications 89, pp.179-187, 2017
+    <a href="/images/b/b1/Item_recommendation_using_tag_emotion_in_social_cataloging_services.pdf" class="internal" title="Item recommendation using tag emotion in social cataloging services.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hee-Gook Jun; Dong-Hyuk Im; Hyoung-Joo Kim,
+    <b>"An RDF Metadata-based Weighted Semantic Pagerank Algorithm"</b>,
+    International Journal of Web &amp; Semantic Technology, vol. 7 no. 2 pp.
+    11-24, Apr. 2016
+    <a href="/images/b/be/An_RDF_Metadata-based_Weighted_Semantic_Pagerank_Algorithm.pdf" class="internal" title="An RDF Metadata-based Weighted Semantic Pagerank Algorithm.pdf">(pdf)</a>
+  </li>
+  <li>
+    Woo-Hyun Lee, Hee-Gook Jun, and Hyoung-Joo Kim,
+    <b>"Hadoop Mapreduce Performance Enhancement Using In-Node Combiners"</b>,
+    International Journal of Computer Science &amp; Information Technology, vol.
+    7 no. 5 pp. 1-18, Oct. 2015
+    <a href="/images/6/6b/Hadoop_Mapreduce_Performance_Enhancement_Using_In-Node_Combiners.pdf" class="internal" title="Hadoop Mapreduce Performance Enhancement Using In-Node Combiners.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hyunwoo Kim, Taewhi Lee, and Hyoung-Joo Kim,
+    <b>"A Parallel Tag Affinity Computation for Social Tagging Systems using
+      MapReduce"</b>, International Journal of Big Data Intelligence, vol. 1 no. 3 pp. 141-150,
+    2014
+    <a href="/images/b/b6/A_Parallel_Tag_Affinity_Computation_for_Social_Tagging_Systems_using_MapReduce.pdf" class="internal" title="A Parallel Tag Affinity Computation for Social Tagging Systems using MapReduce.pdf">(pdf)</a>
+  </li>
+  <li>
+    Taewhi Lee, Hye-Chan Bae and Hyoung-Joo Kim,
+    <b>"Join Processing with Threshold-based Filtering in MapReduce"</b>,
+    Journal of Supercomputing, vol. 69 no. 2 pp.793-813, Aug. 2014
+    <a href="/images/5/5d/Join_Processing_with_Threshold-based_Filtering_in_MapReduce.pdf" class="internal" title="Join Processing with Threshold-based Filtering in MapReduce.pdf">(pdf)</a>
+  </li>
+  <li>
+    Kisung Kim, Bongki Moon and Hyoung-Joo Kim,
+    <b>"RG-index: an RDF Graph Index for Efficient SPARQL Query Processing"</b>,
+    Expert Systems with Applications, vol. 41 no. 10 pp.4596-4607, Aug. 2014
+    <a href="/images/7/72/RG-index-_an_RDF_Graph_Index_for_Efficient_SPARQL_Query_Processing.pdf" class="internal" title="RG-index- an RDF Graph Index for Efficient SPARQL Query Processing.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hyunwoo Kim and Hyoung-Joo Kim,
+    <b>"A Framework for Tag-aware Recommender Systems"</b>, Expert Systems with
+    Applications, vol. 41 no. 8 pp.4000-4009, Jun. 2014
+    <a href="/images/3/30/A_Framework_for_Tag-aware_Recommender_Systems.pdf" class="internal" title="A Framework for Tag-aware Recommender Systems.pdf">(pdf)</a>
+  </li>
+  <li>
+    Taewhi Lee, Dong-Hyuk Im, Hangkyu Kim, and Hyoung-Joo Kim,
+    <b>"Application of Filters to Multiway Joins in MapReduce"</b>, Mathematical
+    Problems in Engineering, vol. 2014, Article ID 249418, 11 pages, Mar. 2014
+    <a href="/images/c/c3/Application_of_Filters_to_Multiway_Joins_in_MapReduce.pdf" class="internal" title="Application of Filters to Multiway Joins in MapReduce.pdf">(pdf)</a>
+  </li>
+  <li>
+    Kisung Kim, Bongki Moon, Hyoung-Joo Kim,
+    <b>"R3F: RDF triple filtering method for efficient SPARQL query
+      processing"</b>, World Wide Web , vol. 18 Issue. 2 pp. 317-357, 2013
+    <a href="/images/3/3f/R3F-_RDF_triple_filtering_method_for_efficient_SPARQL_query_processing.pdf" class="internal" title="R3F- RDF triple filtering method for efficient SPARQL query processing.pdf">(pdf)</a>
+  </li>
+  <li>
+    Taewhi Lee, Kisung Kim, and Hyoung-Joo Kim,
+    <b>"Exploiting Bloom Filters for Effcient Joins in MapReduce"</b>,
+    INFORMATION - An International Interdisciplinary Journal, vol. 16 no. 8
+    pp.5869-5885, Aug. 2013
+    <a href="/images/6/66/Exploiting_bloom_filters_for_effcient_joins_in_MapReduce.pdf" class="internal" title="Exploiting bloom filters for effcient joins in MapReduce.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Hyuk Im&nbsp;; Sang-Won Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"Backward inference and pruning for RDF change detection using RDBMS"</b>, Journal of Information Science, vol. 39 no. 2 pp.238-255, Apr. 2013
+    <a href="/images/6/63/Backward_inference_and_pruning_for_RDF_change_detection_using_RDBMS.pdf" class="internal" title="Backward inference and pruning for RDF change detection using RDBMS.pdf">(pdf)</a>
+  </li>
+  <li>
+    Kang-Pyo Lee&nbsp;; Hong-Gee Kim&nbsp;; Hyoung-Joo Kim,
+    <b>"A social inverted index for social tagging-based information
+      retrieval"</b>, Journal of Information Science, vol. 38 no. 4 pp.313-332, Aug. 2012
+    <a href="/images/3/3f/A_social_inverted_index_for_social_tagging-based_information_retrieval.pdf" class="internal" title="A social inverted index for social tagging-based information retrieval.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Hyuk Im&nbsp;; Sang-Won Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"A version management framework for RDF triple stores"</b>, International
+    Journal of Software Engineering and Knowledge Engineering, vol. 22 no. 1
+    pp.211-228, Feb. 2012
+    <a href="/images/1/14/A_version_management_framework_for_RDF_triple_stores.pdf" class="internal" title="A version management framework for RDF triple stores.pdf">(pdf)</a>
+  </li>
+  <li>
+    김성진&nbsp;; Hyung-Dong Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"Adaptive partitioned indexes for efficient XML keyword search"</b>,
+    Journal of Research and Practice in Information Technology, vol. 39 no. 3
+    pp.211-228, Aug. 2007
+    <a href="/images/e/ee/Adaptive_partitioned_indexes_for_efficient_XML_keyword_search.pdf" class="internal" title="Adaptive partitioned indexes for efficient XML keyword search.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jung-Min Kim&nbsp;; Hyo-Pil Shin&nbsp;; Hyoung-Joo Kim,
+    <b>"Schema and constraints-based matching and merging of topic maps"</b>,
+    Information Processing &amp; Management, vol. 43 no. 4 pp.930-945, Jul. 2007
+    <a href="/images/f/fd/Schema_and_constraints-based_matching_and_merging_of_topic_maps.pdf" class="internal" title="Schema and constraints-based matching and merging of topic maps.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jung-Min Kim&nbsp;; Byoung-Il Choi&nbsp;; Hyo-Pil Shin&nbsp;; Hyoung-Joo
+    Kim,
+    <b>"A methodology for constructing of philosophy ontology based on
+      philosophical texts"</b>, Computer Standards &amp; Interfaces, vol. 29 no. 3 pp.302-315, Mar. 2007
+    <a href="/images/a/a3/A_methodology_for_constructing_of_philosophy_ontology_based_on_philosophical_texts.pdf" class="internal" title="A methodology for constructing of philosophy ontology based on philosophical texts.pdf">(pdf)</a>
+  </li>
+  <li>
+    Il-Hwan Choi&nbsp;; Bongki Moon&nbsp;; Hyoung-Joo Kim,
+    <b>"A clustering method based on path similarities of XML data"</b>, Data
+    &amp; Knowledge Engineering, vol. 60 no. 2 pp.361-376, Feb. 2007
+    <a href="/images/f/ff/A_clustering_method_based_on_path_similarities_of_XML_data.pdf" class="internal" title="A clustering method based on path similarities of XML data.pdf">(pdf)</a>
+  </li>
+  <li>
+    이상원&nbsp;; 안정호&nbsp;; Hyoung-Joo Kim,
+    <b>"A schema version model for complex objects in object-oriented
+      databases"</b>, Journal of Systems Architecture, vol. 52 no. 10 pp.563-577, Oct. 2006
+    <a href="/images/d/d0/A_schema_version_model_for_complex_objects_in_object-oriented_databases.pdf" class="internal" title="A schema version model for complex objects in object-oriented databases.pdf">(pdf)</a>
+  </li>
+  <li>
+    Kyung-Sub Min&nbsp;; Hyoung-Joo Kim,
+    <b>"A path-based node filtering method for efficient structural joins"</b>,
+    Information Processing Letters, vol. 95 no. 5 pp.480-486, Sep. 2005
+    <a href="/images/9/96/A_path-based_node_filtering_method_for_efficient_structural_joins.pdf" class="internal" title="A path-based node filtering method for efficient structural joins.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hyun-Joo Lee&nbsp;; Sang-Won Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"Design and implementation of an extended relationship semantics in an
+      ODMG-compliant OODBMS"</b>, Journal of Systems and Software, vol. 76 no. 2 pp.171-180, May. 2005
+    <a href="/images/a/a5/Design_and_implementation_of_an_extended_relationship_semantics_in_an_ODMG-compliant_OODBMS.pdf" class="internal" title="Design and implementation of an extended relationship semantics in an ODMG-compliant OODBMS.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jong-Ik Kim&nbsp;; Hyoung-Joo Kim,
+    <b>"A partition index for XML and semi-structured data"</b>, Data &amp;
+    Knowledge Engineering, vol. 51 no. 3 pp.349-368, Dec. 2004
+    <a href="/images/b/b4/A_partition_index_for_XML_and_semi-structured_data.pdf" class="internal" title="A partition index for XML and semi-structured data.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jong-Ik Kim&nbsp;; 이상호&nbsp;; Hyoung-Joo Kim,
+    <b>"Efficient structural joins with clustered extents"</b>, Information
+    Processing Letters, vol. 91 no. 2 pp.69-75, Jul. 2004
+    <a href="/images/e/eb/Efficient_structural_joins_with_clustered_extents.pdf" class="internal" title="Efficient structural joins with clustered extents.pdf">(pdf)</a>
+  </li>
+  <li>
+    Sang-Won Lee&nbsp;; Yong-Han Kim&nbsp;; Hyoung-Joo Kim,
+    <b>"The semantics of an extended referential integrity for a multilevel
+      secure relational data model"</b>, Data &amp; Knowledge Engineering, vol. 48 no. 1 pp.129-152, Jan. 2004
+    <a href="/images/1/11/The_semantics_of_an_extended_referential_integrity_for_a_multilevel_secure_relational_data_model.pdf" class="internal" title="The semantics of an extended referential integrity for a multilevel secure relational data model.pdf">(pdf)</a>
+  </li>
+  <li>
+    Tae-Sun Chung&nbsp;; Hyoung-Joo Kim,
+    <b>"Techniques for the evaluation of XML queries: a survey"</b>, Data &amp;
+    Knowledge Engineering, vol. 46 no. 2 pp.225-246, Aug. 2003
+    <a href="/images/c/ce/Techniques_for_the_evaluation_of_XML_queries-_a_survey.pdf" class="internal" title="Techniques for the evaluation of XML queries- a survey.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Ho Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"An efficient technique for nearest-neighbor query processing on the
+      SPY-TEC"</b>, IEEE Transactions on Knowledge and Data Engineering, vol. 15 no. 4
+    pp.1472-1486, Jul. 2003
+    <a href="/images/8/8d/An_efficient_technique_for_nearest-neighbor_query_processing_on_the_SPY-TEC.pdf" class="internal" title="An efficient technique for nearest-neighbor query processing on the SPY-TEC.pdf">(pdf)</a>
+  </li>
+  <li>
+    안정호&nbsp;; 송하주&nbsp;; Hyoung-Joo Kim,
+    <b>"Implementation techniques for extensible object storage systems"</b>,
+    Advanced Topics in Database Research, vol. 2 no. pp.104-127, May. 2003
+    <a href="/images/e/e7/Implementation_techniques_for_extensible_object_storage_systems.pdf" class="internal" title="Implementation techniques for extensible object storage systems.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jong-Ik Kim&nbsp;; Hyoung-Joo Kim,
+    <b>"Efficient processing of regular path joins using PID"</b>, Information
+    and Software Technology, vol. 45 no. 5 pp.241-251, Apr. 2003
+    <a href="/images/8/80/Efficient_processing_of_regular_path_joins_using_PID.pdf" class="internal" title="Efficient processing of regular path joins using PID.pdf">(pdf)</a>
+  </li>
+  <li>
+    Chi-Young Seo&nbsp;; Sang-Won Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"An efficient inverted index technique for XML documents using RDBMS"</b>, Information and Software Technology, vol. 45 no. 1 pp.11-22, Jan. 2003
+    <a href="/images/1/11/An_efficient_inverted_index_technique_for_XML_documents_using_RDBMS.pdf" class="internal" title="An efficient inverted index technique for XML documents using RDBMS.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Joo Park&nbsp;; Hyoung-Joo Kim,
+    <b>"An enhanced technique for k-nearest neighbor queries with non-spatial
+      selection predicates"</b>, Multimedia Tools and Applications, vol. 19 no. 1 pp.79-103, Jan. 2003
+    <a href="/images/e/ec/An_enhanced_technique_for_k-nearest_neighbor_queries_with_non-spatial_selection_predicates.pdf" class="internal" title="An enhanced technique for k-nearest neighbor queries with non-spatial selection predicates.pdf">(pdf)</a>
+  </li>
+  <li>
+    Tae-Sun Chung&nbsp;; Hyoung-Joo Kim,
+    <b>"A two phase optimization technique for XML queries with multiple regular
+      path expressions"</b>, Journal of Systems and Software, vol. 64 no. 3 pp.183-193, Dec. 2002
+    <a href="/images/0/02/A_two_phase_optimization_technique_for_XML_queries_with_multiple_regular_path_expressions.pdf" class="internal" title="A two phase optimization technique for XML queries with multiple regular path expressions.pdf">(pdf)</a>
+  </li>
+  <li>
+    Tae-Sun Chung&nbsp;; Hyoung-Joo Kim,
+    <b>"XML query processing using document type definitions"</b>, Journal of
+    Systems and Software, vol. 64 no. 3 pp.195-205, Dec. 2002
+    <a href="/images/2/2e/XML_query_processing_using_document_type_definitions.pdf" class="internal" title="XML query processing using document type definitions.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Ho Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"An efficient algorithm for hyperspherical range query processing in
+      high-dimensional data space"</b>, Information Processing Letters, vol. 83 no. 2 July pp.115-123, Jul. 2002
+    <a href="/images/5/58/An_efficient_algorithm_for_hyperspherical_range_query_processing_in_high-dimensional_data_space.pdf" class="internal" title="An efficient algorithm for hyperspherical range query processing in high-dimensional data space.pdf">(pdf)</a>
+  </li>
+  <li>
+    Sang-Won Park&nbsp;; Hyoung-Joo Kim,
+    <b>"SigDAQ: An enhanced XML query optimization technique</b>", Journal of
+    Systems and Software, vol. 61 no. 2 May pp.91-103, May. 2002
+    <a href="/images/7/75/SigDAQ-_An_enhanced_XML_query_optimization_technique.pdf" class="internal" title="SigDAQ- An enhanced XML query optimization technique.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Ho Lee&nbsp;; Hyoung-Joo Kim,
+    <b>"An efficient nearest neighbor search in high-dimensional data spaces"</b>, Information Processing Letters, vol. 81 no. 5 March pp.239-246, Mar. 2002
+    <a href="/images/1/10/An_efficient_nearest_neighbor_search_in_high-dimensional_data_spaces.pdf" class="internal" title="An efficient nearest neighbor search in high-dimensional data spaces.pdf">(pdf)</a>
+  </li>
+  <li>
+    Tae-Sun Chung&nbsp;; Hyoung-Joo Kim,
+    <b>"Extracting indexing information from XML DTDs</b>", Information
+    Processing Letters, vol. 81 no. January pp.97-103, Jan. 2002
+    <a href="/images/7/7a/Extracting_indexing_information_from_XML_DTDs.pdf" class="internal" title="Extracting indexing information from XML DTDs.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jung-Ho Ahn&nbsp;; Hyoung-Joo Kim,
+    <b>"The soprano extensible object storage system"</b>, Journal of Database
+    Management, vol. 13 no. 1 pp.15-24, Jan. 2002
+    <a href="/images/f/f5/The_soprano_extensible_object_storage_system.pdf" class="internal" title="The soprano extensible object storage system.pdf">(pdf)</a>
+  </li>
+  <li>
+    Sang-Won Park&nbsp;; Y. R. Choi&nbsp;; Hyoung-Joo Kim,
+    <b>"XML query processing using signature and DTD"</b>, Lecture Notes in
+    Computer Science, vol. 2455 no. pp.162-171, Jan. 2002
+    <a href="/images/9/95/XML_query_processing_using_signature_and_DTD.pdf" class="internal" title="XML query processing using signature and DTD.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Joo Park&nbsp;; Shin Heu&nbsp;; Hyoung-Joo Kim,
+    <b>"The RS-tree: An efficient data structure for distance browsing
+      queries"</b>, Information Processing Letters, vol. 80 no. October pp.195-203, Oct. 2001
+    <a href="/images/0/0a/The_RS-tree-_An_efficient_data_structure_for_distance_browsing_queries.pdf" class="internal" title="The RS-tree- An efficient data structure for distance browsing queries.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Ho Lee&nbsp;; Hyung-Dong Lee&nbsp;; Il-Hwan Choi&nbsp;; Hyoung-Joo Kim,
+    <b>"An algorithm for incremental nearest neighbor search in high-dimensional
+      data spaces"</b>, Lecture Notes in Computer Science, vol. 2105 no. September pp.436-453,
+    Sep. 2001
+    <a href="/images/b/be/An_algorithm_for_incremental_nearest_neighbor_search_in_high-dimensional_data_spaces.pdf" class="internal" title="An algorithm for incremental nearest neighbor search in high-dimensional data spaces.pdf">(pdf)</a>
+  </li>
+  <li>
+    Tae-Sun Chung&nbsp;; Sangwon Park&nbsp;; Sang-young Han&nbsp;; Hyoung-Joo
+    Kim,
+    <b>"Extracting object-oriented schemas from XML DTDs using inheritance"</b>,
+    Lecture Notes in Computer Science, vol. 2115 no. September pp.49-59, Sep.
+    2001
+    <a href="/images/9/97/Extracting_object-oriented_schemas_from_XML_DTDs_using_inheritance.pdf" class="internal" title="Extracting object-oriented schemas from XML DTDs using inheritance.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Joo Park&nbsp;; Hyoung-Joo Kim,
+    <b>"Prefetch policies for large objects in a web-enabled GIS application"</b>, Data &amp; Knowledge Engineering, vol. 37 no. April pp.65-84, Apr. 2001
+    <a href="/images/a/a1/Prefetch_policies_for_large_objects_in_a_web-enabled_GIS_application.pdf" class="internal" title="Prefetch policies for large objects in a web-enabled GIS application.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Ho Lee&nbsp;; Hyoung-Joo Kim,<b>
+      "A fast content-based indexing and retrieval technique by the shape
+      information in large image database"</b>, Journal of Systems and Software, vol. 56 no. 2 March pp.165-182, Mar.
+    2001
+    <a href="/images/f/f7/A_fast_content-based_indexing_and_retrieval_technique_by_the_shape_information_in_large_image_database.pdf" class="internal" title="A fast content-based indexing and retrieval technique by the shape information in large image database.pdf">(pdf)</a>
+  </li>
+  <li>
+    Eun-Sun Cho&nbsp;; Hyoung-Joo Kim,
+    <b>"Interface/Implementation-Separation mechanism for integrating OODBMSs
+      and general-purpose OOPLs</b>", Computer Journal, vol. 43 no. 6 December pp.512-523, Dec. 2000
+    <a href="/images/e/ef/Interface-Implementation-Separation_mechanism_for_integrating_OODBMSs_and_general-purpose_OOPLs.pdf" class="internal" title="Interface-Implementation-Separation mechanism for integrating OODBMSs and general-purpose OOPLs.pdf">(pdf)</a>
+  </li>
+  <li>
+    Ha-Joo Song&nbsp;; Jung-Ho Ahn&nbsp;; Hyoung-Joo Kim,
+    <b>"Using genetic algorithms to work out index configurations for the
+      class-hierarchy indexing in object databases"</b>, Information and Software Technology, vol. 42 no. 11 October pp.731-741,
+    Oct. 2000
+    <a href="/images/8/81/Using_genetic_algorithms_to_work_out_index_configurations_for_the_class-hierarchy_indexing_in_object_databases.pdf" class="internal" title="Using genetic algorithms to work out index configurations for the class-hierarchy indexing in object databases.pdf">(pdf)</a>
+  </li>
+  <li>
+    Dong-Ho Lee&nbsp;; Hyoung-Joo Kim, v"SPY-TEC: An efficient indexing method
+    for similarity search in high-dimensional data spaces"<b>, Data &amp; Knowledge Engineering, vol. 34 no. 1 July pp.77-97, Jul.
+      2000
+      <a href="/images/c/cd/SPY-TEC_An_efficient_indexing_method_for_similarity_search_in_high-dimensional_data_spaces.pdf" class="internal" title="SPY-TEC An efficient indexing method for similarity search in high-dimensional data spaces.pdf">(pdf)</a></b>
+  </li>
+  <li>
+    Jung-Ho Ahn&nbsp;; Hyoung-Joo Kim,
+    <b>"Dynamic SEOF: an adaptable object prefetch policy for object-oriented
+      database systems</b>", Computer Journal, vol. 43 no. 6 June pp.93-116, Jun. 2000
+    <a href="/images/6/68/Dynamic_SEOF_an_adaptable_object_prefetch_policy_for_object-oriented_database_systems.pdf" class="internal" title="Dynamic SEOF an adaptable object prefetch policy for object-oriented database systems.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jung-Ho Ahn&nbsp;; Ha-Joo Song&nbsp;; Hyoung-Joo Kim,
+    <b>"Index set: A practical indexing scheme for object database systems"</b>,
+    Data &amp; Knowledge Engineering, vol. 33 no. 3 June pp.199-217, Jun. 2000
+    <a href="/images/f/fd/Index_set_A_practical_indexing_scheme_for_object_database_systems.pdf" class="internal" title="Index set A practical indexing scheme for object database systems.pdf">(pdf)</a>
+  </li>
+  <li>
+    Sang-Won Lee&nbsp;; Hyoung-Joo Kim,<b>
+      "Rich base Schema(RiBS)&nbsp;: A unified framework for OODB schema
+      version"</b>, Journal of Database Management, vol. 11 no. 1 March pp.29-37, Mar. 2000
+    <a href="/images/7/76/Rich_base_Schema%28RiBS%29_A_unified_framework_for_OODB_schema_version.pdf" class="internal" title="Rich base Schema(RiBS) A unified framework for OODB schema version.pdf">(pdf)</a>
+  </li>
+  <li>
+    Eun-Sun Cho&nbsp;; Hyoung-Joo Kim,
+    <b>"A C++ extension for OODBMSs with orthogonal persistence to class
+      hierachies"</b>, Information and Software Technology, vol. 42 no. 5 February pp.347-356,
+    Feb. 2000
+    <a href="/images/8/82/A_C%2B%2B_extension_for_OODBMSs_with_orthogonal_persistence_to_class_hierachies.pdf" class="internal" title="A C++ extension for OODBMSs with orthogonal persistence to class hierachies.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hyoung-Joo Kim,
+    <b>"Object versioning in an ODMG-comliant object database system"</b>,
+    Software-Practice &amp; Experience, vol. 29 no. 5 April pp.479-500, Apr.
+    1999
+    <a href="/images/4/4f/Object_versioning_in_an_ODMG-comliant_object_database_system.pdf" class="internal" title="Object versioning in an ODMG-comliant object database system.pdf">(pdf)</a>
+  </li>
+  <li>
+    Kang-Woo Lee&nbsp;; Hyoung-Joo Kim,<b>
+      "An eager and pessimistic space reservation method for tables frequently
+      accessed by concurrent transactions"</b>, Ieice Transactions on Information and Systems, vol. E82-D no. 1 January
+    pp.246-257, Jan. 1999
+    <a href="/images/a/a2/An_eager_and_pessimistic_space_reservation_method_for_tables_frequently_accessed_by_concurrent_transactions.pdf" class="internal" title="An eager and pessimistic space reservation method for tables frequently accessed by concurrent transactions.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jung-Ho Ahn&nbsp;; Sang-Won Lee&nbsp;; Ha-Joo Song&nbsp;; Hyoung-Joo Kim,
+    <b>"A survey of architectural features of contemporary objects storage
+      systems"</b>, Journal of Systems Architecture, vol. 45 no. 5 pp.363-386, Dec. 1998
+    <a href="/images/c/ca/A_survey_of_architectural_features_of_contemporary_objects_storage_systems.pdf" class="internal" title="A survey of architectural features of contemporary objects storage systems.pdf">(pdf)</a>
+  </li>
+  <li>
+    Sang-Won Lee&nbsp;; Hyoung-Joo Kim,<b>
+      "A model of schema versions for object-oriented databases based on the
+      concept of rich base schema"</b>, Information and Software Technology, vol. 40 no. 3 pp.157-173, Jun. 1998
+    <a href="/images/8/8a/A_model_of_schema_versions_for_object-oriented_databases_based_on_the_concept_of_rich_base_schema.pdf" class="internal" title="A model of schema versions for object-oriented databases based on the concept of rich base schema.pdf">(pdf)</a>
+  </li>
+  <li>
+    Hyeokman Kim&nbsp;; Sukho Lee&nbsp;; Hyoung-Joo Kim,<b>
+      "Two-Step pruning&nbsp;: A distributed query optimization algorithm</b>", Lecture Notes in Computer Science, vol. 940 no. 1 pp.183-203, Jul. 1995
+    <a href="/images/2/22/Two-Step_pruning_A_distributed_query_optimization_algorithm.pdf" class="internal" title="Two-Step pruning A distributed query optimization algorithm.pdf">(pdf)</a>
+  </li>
+  <li>
+    Cheong Youn&nbsp;; Hyoung-Joo Kim&nbsp;; Lawrence J. Henschen&nbsp;; Jiawei
+    Han,
+    <b>"Classification and compilation of linear recursive queries indeductive
+      databases"</b>, IEEE Transactions on Knowledge and Data Engineering, vol. 4 no. 1
+    pp.52-67, Feb. 1992
+    <a href="/images/7/77/Classification_and_compilation_of_linear_recursive_queries_indeductive_databases.pdf" class="internal" title="Classification and compilation of linear recursive queries indeductive databases.pdf">(pdf)</a>
+  </li>
+  <li>
+    Il-Yeol Song&nbsp;; Hyoung-Joo Kim,
+    <b>"Design and implementation of a three-step intensional query processing
+      scheme,"</b>
+    Journal of Database Administration, vol. 2 no. 2 pp.23-35, 1991
+  </li>
+  <li>
+    Hyoung-Joo Kim&nbsp;; Henry F. Korth&nbsp;; Abraham Silberschatz,
+    <b>"PICASSO: a graphical query language"</b>, Software:Practice and
+    Experience, vol. 18 no. 3 pp.169-203, Mar. 1988
+    <a href="/images/e/e5/PICASSO_a_graphical_query_language.pdf" class="internal" title="PICASSO a graphical query language.pdf">(pdf)</a>
+  </li>
+  <li>
+    Jay Banerjee&nbsp;; Hong-Tai Chou&nbsp;; Jorge F. Garza&nbsp;; Won
+    Kim&nbsp;; Darrell Woelk&nbsp;; Nat Ballou&nbsp;; Hyoung-Joo Kim,
+    <b>"Data model issues for object-oriented applications"</b>, ACM
+    Transactions on Office Information Systems, vol. 5 no. 1 pp.3-26, Jan. 1987
+    <a href="/images/1/1f/Data_model_issues_for_object-oriented_applications.pdf" class="internal" title="Data model issues for object-oriented applications.pdf">(pdf)</a>
+  </li>
+</ol>
+:ET

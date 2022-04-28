@@ -63,4 +63,4 @@ BDA 연구실은 1991년 김형주 교수님과 4명의 대학원 학생으로 �
 # Quick Link
 
 [BDA 출신 석·박사들](./members/former_members)  
-[연구실 지원요령](./)
+[연구실 지원요령](./admission/index)
