@@ -5,11 +5,22 @@ sitemap:
   priority: 1.0
 ---
 
-# Main Page
+<style>
+div#home {
+  max-width: 95%;
+}
+h1#main-page{
+  margin-bottom: 0px;
+  /* font-weight: bolder; */
+}
+</style>
+
+<h1 id="main-page">Main Page</h1>
 
 _From Big Data Analytics Lab_
 
-<p align="center">
+<!-- <p align="center"> -->
+<p style="text-align: center">
     <img src="/images/thumb/3/3b/Group_2019_pic3.jpg/740px-Group_2019_pic3.jpg" alt="2019-Group" />
 </p>
 

@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
         hidden = !hidden;
     });
-
+    
     var cmtBtn = document.getElementById("showComments");
     if(!cmtBtn){
         return;

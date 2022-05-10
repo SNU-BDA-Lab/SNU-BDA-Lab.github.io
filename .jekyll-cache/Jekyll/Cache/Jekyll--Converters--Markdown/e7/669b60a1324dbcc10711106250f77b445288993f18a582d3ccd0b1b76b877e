@@ -1,0 +1,339 @@
+I"�<h1 id="hyoung-joo-kim">Hyoung-Joo Kim</h1>
+
+<p><em>From Big Data Analytics Lab</em></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="./hyoung-joo_kim">Profile</a></td>
+      <td><a href="./hyoung-joo_kim_career">Career</a></td>
+      <td><a href="./hyoung-joo_kim_publication">Publications</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="publications">Publications</h1>
+
+<h3 id="papers">Papers</h3>
+
+<h4 id="international-journal">International Journal</h4>
+
+<ol>
+  <li>Hee-Gook Jun; Dong-Hyuk Im; Hyoung-Joo Kim, <strong>“Semantics-preserving optimization of mapping multi-column key constraints for RDB to RDF transformation”</strong>, Journal of Information Science, 2020 (<a href="../images/5/55/Semantics-preserving_optimization_of_mapping_multi-column_key_constraints_for_RDB_to_RDF_transformation.pdf">pdf</a>)</li>
+  <li>Hyewon Lim; Hyoung-Joo Kim, <strong>“Tensor-based tag emotion aware recommendation with probabilistic ranking”</strong>, KSII Transactions on Internet and Information Systems, vol. 13, no. 12, pp. 5826-5841, 2019 (<a href="../images/6/60/Tensor-based_tag_emotion_aware_recommendation_with_probabilistic_ranking.pdf">pdf</a>)</li>
+  <li>Hyewon Lim; Hyoung-Joo Kim, <strong>“Item recommendation using tag emotion in social cataloging services”</strong>, Expert Systems with Applications 89, pp.179-187, 2017 (<a href="../images/b/b1/Item_recommendation_using_tag_emotion_in_social_cataloging_services.pdf">pdf</a>)</li>
+  <li>Hee-Gook Jun; Dong-Hyuk Im; Hyoung-Joo Kim, <strong>“An RDF Metadata-based Weighted Semantic Pagerank Algorithm”</strong>, International Journal of Web &amp; Semantic Technology, vol. 7 no. 2 pp. 11-24, Apr. 2016 (<a href="../images/b/be/An_RDF_Metadata-based_Weighted_Semantic_Pagerank_Algorithm.pdf">pdf</a>)</li>
+  <li>Woo-Hyun Lee, Hee-Gook Jun, and Hyoung-Joo Kim, <strong>“Hadoop Mapreduce Performance Enhancement Using In-Node Combiners”</strong>, International Journal of Computer Science &amp; Information Technology, vol. 7 no. 5 pp. 1-18, Oct. 2015 (<a href="../images/6/6b/Hadoop_Mapreduce_Performance_Enhancement_Using_In-Node_Combiners.pdf">pdf</a>)</li>
+  <li>Hyunwoo Kim, Taewhi Lee, and Hyoung-Joo Kim, <strong>“A Parallel Tag Affinity Computation for Social Tagging Systems using MapReduce”</strong>, International Journal of Big Data Intelligence, vol. 1 no. 3 pp. 141-150, 2014 (<a href="../images/b/b6/A_Parallel_Tag_Affinity_Computation_for_Social_Tagging_Systems_using_MapReduce.pdf">pdf</a>)</li>
+  <li>Taewhi Lee, Hye-Chan Bae and Hyoung-Joo Kim, <strong>“Join Processing with Threshold-based Filtering in MapReduce”</strong>, Journal of Supercomputing, vol. 69 no. 2 pp.793-813, Aug. 2014 (<a href="../images/5/5d/Join_Processing_with_Threshold-based_Filtering_in_MapReduce.pdf">pdf</a>)</li>
+  <li>Kisung Kim, Bongki Moon and Hyoung-Joo Kim, <strong>“RG-index: an RDF Graph Index for Efficient SPARQL Query Processing”</strong>, Expert Systems with Applications, vol. 41 no. 10 pp.4596-4607, Aug. 2014 (<a href="../images/7/72/RG-index-_an_RDF_Graph_Index_for_Efficient_SPARQL_Query_Processing.pdf">pdf</a>)</li>
+  <li>Hyunwoo Kim and Hyoung-Joo Kim, <strong>“A Framework for Tag-aware Recommender Systems”</strong>, Expert Systems with Applications, vol. 41 no. 8 pp.4000-4009, Jun. 2014 (<a href="../images/3/30/A_Framework_for_Tag-aware_Recommender_Systems.pdf">pdf</a>)</li>
+  <li>Taewhi Lee, Dong-Hyuk Im, Hangkyu Kim, and Hyoung-Joo Kim, <strong>“Application of Filters to Multiway Joins in MapReduce”</strong>, Mathematical Problems in Engineering, vol. 2014, Article ID 249418, 11 pages, Mar. 2014 (<a href="../images/c/c3/Application_of_Filters_to_Multiway_Joins_in_MapReduce.pdf">pdf</a>)</li>
+  <li>Kisung Kim, Bongki Moon, Hyoung-Joo Kim, <strong>“R3F: RDF triple filtering method for efficient SPARQL query processing”</strong>, World Wide Web , vol. 18 Issue. 2 pp. 317-357, 2013 (<a href="../images/3/3f/R3F-_RDF_triple_filtering_method_for_efficient_SPARQL_query_processing.pdf">pdf</a>)</li>
+  <li>Taewhi Lee, Kisung Kim, and Hyoung-Joo Kim, <strong>“Exploiting Bloom Filters for Effcient Joins in MapReduce”</strong>, INFORMATION - An International Interdisciplinary Journal, vol. 16 no. 8 pp.5869-5885, Aug. 2013 (<a href="../images/6/66/Exploiting_bloom_filters_for_effcient_joins_in_MapReduce.pdf">pdf</a>)</li>
+  <li>Dong-Hyuk Im ; Sang-Won Lee ; Hyoung-Joo Kim, <strong>“Backward inference and pruning for RDF change detection using RDBMS”</strong>, Journal of Information Science, vol. 39 no. 2 pp.238-255, Apr. 2013 (<a href="../images/6/63/Backward_inference_and_pruning_for_RDF_change_detection_using_RDBMS.pdf">pdf</a>)</li>
+  <li>Kang-Pyo Lee ; Hong-Gee Kim ; Hyoung-Joo Kim, <strong>“A social inverted index for social tagging-based information retrieval”</strong>, Journal of Information Science, vol. 38 no. 4 pp.313-332, Aug. 2012 (<a href="../images/3/3f/A_social_inverted_index_for_social_tagging-based_information_retrieval.pdf">pdf</a>)</li>
+  <li>Dong-Hyuk Im ; Sang-Won Lee ; Hyoung-Joo Kim, <strong>“A version management framework for RDF triple stores”</strong>, International Journal of Software Engineering and Knowledge Engineering, vol. 22 no. 1 pp.211-228, Feb. 2012 (<a href="../images/1/14/A_version_management_framework_for_RDF_triple_stores.pdf">pdf</a>)</li>
+  <li>김성진 ; Hyung-Dong Lee ; Hyoung-Joo Kim, <strong>“Adaptive partitioned indexes for efficient XML keyword search”</strong>, Journal of Research and Practice in Information Technology, vol. 39 no. 3 pp.211-228, Aug. 2007 (<a href="../images/e/ee/Adaptive_partitioned_indexes_for_efficient_XML_keyword_search.pdf">pdf</a>)</li>
+  <li>Jung-Min Kim ; Hyo-Pil Shin ; Hyoung-Joo Kim, <strong>“Schema and constraints-based matching and merging of topic maps”</strong>, Information Processing &amp; Management, vol. 43 no. 4 pp.930-945, Jul. 2007 (<a href="../images/f/fd/Schema_and_constraints-based_matching_and_merging_of_topic_maps.pdf">pdf</a>)</li>
+  <li>Jung-Min Kim ; Byoung-Il Choi ; Hyo-Pil Shin ; Hyoung-Joo Kim, <strong>“A methodology for constructing of philosophy ontology based on philosophical texts”</strong>, Computer Standards &amp; Interfaces, vol. 29 no. 3 pp.302-315, Mar. 2007 (<a href="../images/a/a3/A_methodology_for_constructing_of_philosophy_ontology_based_on_philosophical_texts.pdf">pdf</a>)</li>
+  <li>Il-Hwan Choi ; Bongki Moon ; Hyoung-Joo Kim, <strong>“A clustering method based on path similarities of XML data”</strong>, Data &amp; Knowledge Engineering, vol. 60 no. 2 pp.361-376, Feb. 2007 (<a href="../images/f/ff/A_clustering_method_based_on_path_similarities_of_XML_data.pdf">pdf</a>)</li>
+  <li>이상원 ; 안정호 ; Hyoung-Joo Kim, <strong>“A schema version model for complex objects in object-oriented databases”</strong>, Journal of Systems Architecture, vol. 52 no. 10 pp.563-577, Oct. 2006 (<a href="../images/d/d0/A_schema_version_model_for_complex_objects_in_object-oriented_databases.pdf">pdf</a>)</li>
+  <li>Kyung-Sub Min ; Hyoung-Joo Kim, <strong>“A path-based node filtering method for efficient structural joins”</strong>, Information Processing Letters, vol. 95 no. 5 pp.480-486, Sep. 2005 (<a href="../images/9/96/A_path-based_node_filtering_method_for_efficient_structural_joins.pdf">pdf</a>)</li>
+  <li>Hyun-Joo Lee ; Sang-Won Lee ; Hyoung-Joo Kim, <strong>“Design and implementation of an extended relationship semantics in an ODMG-compliant OODBMS”</strong>, Journal of Systems and Software, vol. 76 no. 2 pp.171-180, May. 2005 (<a href="../images/a/a5/Design_and_implementation_of_an_extended_relationship_semantics_in_an_ODMG-compliant_OODBMS.pdf">pdf</a>)</li>
+  <li>Jong-Ik Kim ; Hyoung-Joo Kim, <strong>“A partition index for XML and semi-structured data”</strong>, Data &amp; Knowledge Engineering, vol. 51 no. 3 pp.349-368, Dec. 2004 (<a href="../images/b/b4/A_partition_index_for_XML_and_semi-structured_data.pdf">pdf</a>)</li>
+  <li>Jong-Ik Kim ; 이상호 ; Hyoung-Joo Kim, <strong>“Efficient structural joins with clustered extents”</strong>, Information Processing Letters, vol. 91 no. 2 pp.69-75, Jul. 2004 (<a href="../images/e/eb/Efficient_structural_joins_with_clustered_extents.pdf">pdf</a>)</li>
+  <li>Sang-Won Lee ; Yong-Han Kim ; Hyoung-Joo Kim, <strong>“The semantics of an extended referential integrity for a multilevel secure relational data model”</strong>, Data &amp; Knowledge Engineering, vol. 48 no. 1 pp.129-152, Jan. 2004 (<a href="../images/1/11/The_semantics_of_an_extended_referential_integrity_for_a_multilevel_secure_relational_data_model.pdf">pdf</a>)</li>
+  <li>Tae-Sun Chung ; Hyoung-Joo Kim, <strong>“Techniques for the evaluation of XML queries: a survey”</strong>, Data &amp; Knowledge Engineering, vol. 46 no. 2 pp.225-246, Aug. 2003 (<a href="../images/c/ce/Techniques_for_the_evaluation_of_XML_queries-_a_survey.pdf">pdf</a>)</li>
+  <li>Dong-Ho Lee ; Hyoung-Joo Kim, <strong>“An efficient technique for nearest-neighbor query processing on the SPY-TEC”</strong>, IEEE Transactions on Knowledge and Data Engineering, vol. 15 no. 4 pp.1472-1486, Jul. 2003 (<a href="../images/8/8d/An_efficient_technique_for_nearest-neighbor_query_processing_on_the_SPY-TEC.pdf">pdf</a>)</li>
+  <li>안정호 ; 송하주 ; Hyoung-Joo Kim, <strong>“Implementation techniques for extensible object storage systems”</strong>, Advanced Topics in Database Research, vol. 2 no. pp.104-127, May. 2003 (<a href="../images/e/e7/Implementation_techniques_for_extensible_object_storage_systems.pdf">pdf</a>)</li>
+  <li>Jong-Ik Kim ; Hyoung-Joo Kim, <strong>“Efficient processing of regular path joins using PID”</strong>, Information and Software Technology, vol. 45 no. 5 pp.241-251, Apr. 2003 (<a href="../images/8/80/Efficient_processing_of_regular_path_joins_using_PID.pdf">pdf</a>)</li>
+  <li>Chi-Young Seo ; Sang-Won Lee ; Hyoung-Joo Kim, <strong>“An efficient inverted index technique for XML documents using RDBMS”</strong>, Information and Software Technology, vol. 45 no. 1 pp.11-22, Jan. 2003 (<a href="../images/1/11/An_efficient_inverted_index_technique_for_XML_documents_using_RDBMS.pdf">pdf</a>)</li>
+  <li>Dong-Joo Park ; Hyoung-Joo Kim, <strong>“An enhanced technique for k-nearest neighbor queries with non-spatial selection predicates”</strong>, Multimedia Tools and Applications, vol. 19 no. 1 pp.79-103, Jan. 2003 (<a href="../images/e/ec/An_enhanced_technique_for_k-nearest_neighbor_queries_with_non-spatial_selection_predicates.pdf">pdf</a>)</li>
+  <li>Tae-Sun Chung ; Hyoung-Joo Kim, <strong>“A two phase optimization technique for XML queries with multiple regular path expressions”</strong>, Journal of Systems and Software, vol. 64 no. 3 pp.183-193, Dec. 2002 (<a href="../images/0/02/A_two_phase_optimization_technique_for_XML_queries_with_multiple_regular_path_expressions.pdf">pdf</a>)</li>
+  <li>Tae-Sun Chung ; Hyoung-Joo Kim, <strong>“XML query processing using document type definitions”</strong>, Journal of Systems and Software, vol. 64 no. 3 pp.195-205, Dec. 2002 (<a href="../images/2/2e/XML_query_processing_using_document_type_definitions.pdf">pdf</a>)</li>
+  <li>Dong-Ho Lee ; Hyoung-Joo Kim, <strong>“An efficient algorithm for hyperspherical range query processing in high-dimensional data space”</strong>, Information Processing Letters, vol. 83 no. 2 July pp.115-123, Jul. 2002 (<a href="../images/5/58/An_efficient_algorithm_for_hyperspherical_range_query_processing_in_high-dimensional_data_space.pdf">pdf</a>)</li>
+  <li>Sang-Won Park ; Hyoung-Joo Kim, <strong>“SigDAQ: An enhanced XML query optimization technique”</strong>, Journal of Systems and Software, vol. 61 no. 2 May pp.91-103, May. 2002 (<a href="../images/7/75/SigDAQ-_An_enhanced_XML_query_optimization_technique.pdf">pdf</a>)</li>
+  <li>Dong-Ho Lee ; Hyoung-Joo Kim, <strong>“An efficient nearest neighbor search in high-dimensional data spaces”</strong>, Information Processing Letters, vol. 81 no. 5 March pp.239-246, Mar. 2002 (<a href="../images/1/10/An_efficient_nearest_neighbor_search_in_high-dimensional_data_spaces.pdf">pdf</a>)</li>
+  <li>Tae-Sun Chung ; Hyoung-Joo Kim, <strong>“Extracting indexing information from XML DTDs”</strong>, Information Processing Letters, vol. 81 no. January pp.97-103, Jan. 2002 (<a href="../images/7/7a/Extracting_indexing_information_from_XML_DTDs.pdf">pdf</a>)</li>
+  <li>Jung-Ho Ahn ; Hyoung-Joo Kim, <strong>“The soprano extensible object storage system”</strong>, Journal of Database Management, vol. 13 no. 1 pp.15-24, Jan. 2002 (<a href="../images/f/f5/The_soprano_extensible_object_storage_system.pdf">pdf</a>)</li>
+  <li>Sang-Won Park ; Y. R. Choi ; Hyoung-Joo Kim, <strong>“XML query processing using signature and DTD”</strong>, Lecture Notes in Computer Science, vol. 2455 no. pp.162-171, Jan. 2002 (<a href="../images/9/95/XML_query_processing_using_signature_and_DTD.pdf">pdf</a>)</li>
+  <li>Dong-Joo Park ; Shin Heu ; Hyoung-Joo Kim, <strong>“The RS-tree: An efficient data structure for distance browsing queries”</strong>, Information Processing Letters, vol. 80 no. October pp.195-203, Oct. 2001 (<a href="../images/0/0a/The_RS-tree-_An_efficient_data_structure_for_distance_browsing_queries.pdf">pdf</a>)</li>
+  <li>Dong-Ho Lee ; Hyung-Dong Lee ; Il-Hwan Choi ; Hyoung-Joo Kim, <strong>“An algorithm for incremental nearest neighbor search in high-dimensional data spaces”</strong>, Lecture Notes in Computer Science, vol. 2105 no. September pp.436-453, Sep. 2001 (<a href="../images/b/be/An_algorithm_for_incremental_nearest_neighbor_search_in_high-dimensional_data_spaces.pdf">pdf</a>)</li>
+  <li>Tae-Sun Chung ; Sangwon Park ; Sang-young Han ; Hyoung-Joo Kim, <strong>“Extracting object-oriented schemas from XML DTDs using inheritance”</strong>, Lecture Notes in Computer Science, vol. 2115 no. September pp.49-59, Sep. 2001 (<a href="../images/9/97/Extracting_object-oriented_schemas_from_XML_DTDs_using_inheritance.pdf">pdf</a>)</li>
+  <li>Dong-Joo Park ; Hyoung-Joo Kim, <strong>“Prefetch policies for large objects in a web-enabled GIS application”</strong>, Data &amp; Knowledge Engineering, vol. 37 no. April pp.65-84, Apr. 2001 (<a href="../images/a/a1/Prefetch_policies_for_large_objects_in_a_web-enabled_GIS_application.pdf">pdf</a>)</li>
+  <li>Dong-Ho Lee ; Hyoung-Joo Kim, <strong>“A fast content-based indexing and retrieval technique by the shape information in large image database”</strong>, Journal of Systems and Software, vol. 56 no. 2 March pp.165-182, Mar. 2001 (<a href="../images/f/f7/A_fast_content-based_indexing_and_retrieval_technique_by_the_shape_information_in_large_image_database.pdf">pdf</a>)</li>
+  <li>Eun-Sun Cho ; Hyoung-Joo Kim, <strong>“Interface/Implementation-Separation mechanism for integrating OODBMSs and general-purpose OOPLs”</strong>, Computer Journal, vol. 43 no. 6 December pp.512-523, Dec. 2000 (<a href="../images/e/ef/Interface-Implementation-Separation_mechanism_for_integrating_OODBMSs_and_general-purpose_OOPLs.pdf">pdf</a>)</li>
+  <li>Ha-Joo Song ; Jung-Ho Ahn ; Hyoung-Joo Kim, <strong>“Using genetic algorithms to work out index configurations for the class-hierarchy indexing in object databases”</strong>, Information and Software Technology, vol. 42 no. 11 October pp.731-741, Oct. 2000 (<a href="../images/8/81/Using_genetic_algorithms_to_work_out_index_configurations_for_the_class-hierarchy_indexing_in_object_databases.pdf">pdf</a>)</li>
+  <li>Dong-Ho Lee ; Hyoung-Joo Kim, <strong>“SPY-TEC: An efficient indexing method for similarity search in high-dimensional data spaces”</strong>, Data &amp; Knowledge Engineering, vol. 34 no. 1 July pp.77-97, Jul. 2000 (<a href="../images/c/cd/SPY-TEC_An_efficient_indexing_method_for_similarity_search_in_high-dimensional_data_spaces.pdf">pdf</a>)</li>
+  <li>Jung-Ho Ahn ; Hyoung-Joo Kim, <strong>“Dynamic SEOF: an adaptable object prefetch policy for object-oriented database systems”</strong>, Computer Journal, vol. 43 no. 6 June pp.93-116, Jun. 2000 (<a href="../images/6/68/Dynamic_SEOF_an_adaptable_object_prefetch_policy_for_object-oriented_database_systems.pdf">pdf</a>)</li>
+  <li>Jung-Ho Ahn ; Ha-Joo Song ; Hyoung-Joo Kim, <strong>“Index set: A practical indexing scheme for object database systems”</strong>, Data &amp; Knowledge Engineering, vol. 33 no. 3 June pp.199-217, Jun. 2000 (<a href="../images/f/fd/Index_set_A_practical_indexing_scheme_for_object_database_systems.pdf">pdf</a>)</li>
+  <li>Sang-Won Lee ; Hyoung-Joo Kim, <strong>“Rich base Schema(RiBS) : A unified framework for OODB schema version”</strong>, Journal of Database Management, vol. 11 no. 1 March pp.29-37, Mar. 2000 (<a href="../images/7/76/Rich_base_Schema%28RiBS%29_A_unified_framework_for_OODB_schema_version.pdf">pdf</a>)</li>
+  <li>Eun-Sun Cho ; Hyoung-Joo Kim, <strong>“A C++ extension for OODBMSs with orthogonal persistence to class hierachies”</strong>, Information and Software Technology, vol. 42 no. 5 February pp.347-356, Feb. 2000 (<a href="../images/8/82/A_C%2B%2B_extension_for_OODBMSs_with_orthogonal_persistence_to_class_hierachies.pdf">pdf</a>)</li>
+  <li>Hyoung-Joo Kim, <strong>“Object versioning in an ODMG-comliant object database system”</strong>, Software-Practice &amp; Experience, vol. 29 no. 5 April pp.479-500, Apr. 1999 (<a href="../images/4/4f/Object_versioning_in_an_ODMG-comliant_object_database_system.pdf">pdf</a>)</li>
+  <li>Kang-Woo Lee ; Hyoung-Joo Kim, <strong>“An eager and pessimistic space reservation method for tables frequently accessed by concurrent transactions”</strong>, Ieice Transactions on Information and Systems, vol. E82-D no. 1 January pp.246-257, Jan. 1999 (<a href="../images/a/a2/An_eager_and_pessimistic_space_reservation_method_for_tables_frequently_accessed_by_concurrent_transactions.pdf">pdf</a>)</li>
+  <li>Jung-Ho Ahn ; Sang-Won Lee ; Ha-Joo Song ; Hyoung-Joo Kim, <strong>“A survey of architectural features of contemporary objects storage systems”</strong>, Journal of Systems Architecture, vol. 45 no. 5 pp.363-386, Dec. 1998 (<a href="../images/c/ca/A_survey_of_architectural_features_of_contemporary_objects_storage_systems.pdf">pdf</a>)</li>
+  <li>Sang-Won Lee ; Hyoung-Joo Kim, <strong>“A model of schema versions for object-oriented databases based on the concept of rich base schema”</strong>, Information and Software Technology, vol. 40 no. 3 pp.157-173, Jun. 1998 (<a href="../images/8/8a/A_model_of_schema_versions_for_object-oriented_databases_based_on_the_concept_of_rich_base_schema.pdf">pdf</a>)</li>
+  <li>Hyeokman Kim ; Sukho Lee ; Hyoung-Joo Kim, <strong>“Two-Step pruning : A distributed query optimization algorithm”</strong>, Lecture Notes in Computer Science, vol. 940 no. 1 pp.183-203, Jul. 1995 (<a href="../images/2/22/Two-Step_pruning_A_distributed_query_optimization_algorithm.pdf">pdf</a>)</li>
+  <li>Cheong Youn ; Hyoung-Joo Kim ; Lawrence J. Henschen ; Jiawei Han, <strong>“Classification and compilation of linear recursive queries indeductive databases”</strong>, IEEE Transactions on Knowledge and Data Engineering, vol. 4 no. 1 pp.52-67, Feb. 1992 (<a href="../images/7/77/Classification_and_compilation_of_linear_recursive_queries_indeductive_databases.pdf">pdf</a>)</li>
+  <li>Il-Yeol Song ; Hyoung-Joo Kim, <strong>“Design and implementation of a three-step intensional query processing scheme”</strong>, Journal of Database Administration, vol. 2 no. 2 pp.23-35, 1991</li>
+  <li>Hyoung-Joo Kim ; Henry F. Korth ; Abraham Silberschatz, <strong>“PICASSO: a graphical query language”</strong>, Software:Practice and Experience, vol. 18 no. 3 pp.169-203, Mar. 1988 (<a href="../images/e/e5/PICASSO_a_graphical_query_language.pdf">pdf</a>)</li>
+  <li>Jay Banerjee ; Hong-Tai Chou ; Jorge F. Garza ; Won Kim ; Darrell Woelk ; Nat Ballou ; Hyoung-Joo Kim, <strong>“Data model issues for object-oriented applications”</strong>, ACM Transactions on Office Information Systems, vol. 5 no. 1 pp.3-26, Jan. 1987 (<a href="../images/1/1f/Data_model_issues_for_object-oriented_applications.pdf">pdf</a>)</li>
+</ol>
+
+<h4 id="domestic-journal">Domestic Journal</h4>
+
+<ol>
+  <li>양수현, 김형주, “격자 탐색을 통한 확장 학습 블룸 필터의 거짓 양성 비율 개선”, 정보과학회논문지, vol. 49, no. 1, pp.78-88, 2022.1 (pdf)</li>
+  <li>강필구, 임유빈, 김형주, “품사 정보를 활용한 이미지 캡션 생성”, 정보과학회논문지, vol. 48, no. 3, pp.317-324, 2021.3 (pdf)</li>
+  <li>송창헌, 이용현, 김형주, “음악 유사도 비교를 위한 Siamese 네트워크 기반 그래프 임베딩의 개선”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 26, no. 11, pp.493-498, 2020.11 (pdf)</li>
+  <li>양현식, 임유빈, 이진영, 김동효, 김세중, 김형주, “급성 신장 손상 예측을 위한 의료 데이터 전처리”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 25, no. 9, pp.436-445, 2019.9 (pdf)</li>
+  <li>이용현, 임동혁, 구해모, 김형주, “관계형 데이터베이스 상에서 사용하는 최단 경로 탐색 알고리즘(ALT) 설계와 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 25, no. 4, pp. 215-222, 2019.4 (pdf)</li>
+  <li>이용현, 구해모, 김형주, “오토인코더를 활용한 효율적인 신용카드 사기 탐지 지도 기법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 25, no. 1, pp. 1-8, 2019.1 (pdf)</li>
+  <li>김동효, 구해모, 김형주, “DSMS 환경에서 이상 탐지를 위한 SVM과 리샘플링 기법의 분석”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 24, no. 9, pp. 442-445, 2018.9 (pdf)</li>
+  <li>구해모, 남창민, 이우현, 이용재, 김형주, “분산 인 메모리 DBMS 기반 병렬 K-Means 의 In-database 분석 함수로의 설계와 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 24, no. 3, pp. 105-112, 2018.3 (pdf)</li>
+  <li>이재환, 임혜원, 김형주, “가사의 감정 분석과 구조 분석을 이용한 노래 간 유사도 측정”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 22, no. 10, pp. 479-487, 2016.10 (pdf)</li>
+  <li>이인회, 오혜성, 김형주, “MapReduce 환경에서 재그룹핑을 이용한 Locality Sensitive Hashing 기반의 K-Nearest Neighbor 그래프 생성 알고리즘의 개선”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 21, no. 11, pp. 681-688, 2015.11 (pdf)</li>
+  <li>전희국, 현근수, 임경빈, 이우현, 김형주, “영화 흥행 실적 예측을 위한 빅데이터 전처리”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 20, no. 12, pp. 615-622, 2014.12 (pdf)</li>
+  <li>배혜찬 ; 이태휘 ; 김형주 “맵리듀스 환경에서 블룸 필터를 사용한 적응적 조인 처리”, 정보과학회논문지 : 데이타베이스, vol. 40 no. 4 pp.233-242, 2013.8 (pdf)</li>
+  <li>임성위 ; 전희국 ; 김형주 “유학 안내 시스템을 위한 혼합 매치메이킹 알고리즘”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 19 no. 6 pp.316-321, 2013.6 (pdf)</li>
+  <li>박지범 ; 임혜원 ; 김형주 “온라인 소셜 네트워크에서 사용자 간의 관계 강도 변화 추정 기법”, 정보과학회논문지 : 데이타베이스, vol. 40 no. 1 pp.44-53, 2013.2 (pdf)</li>
+  <li>전희국 ; 임동혁 ; 김형주 “시맨틱 링크를 사용한 페이지순위 알고리즘 개선”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 18 no. 12 pp.843-847, 2012.12 (pdf)</li>
+  <li>김소민 ; 임혜원 ; 김형주 “사용자 정보 및 활동에 기반한 트위터 사용자 리스트 생성”, 정보과학회논문지 : 데이타베이스, vol. 39 no. 6 pp.387-397, 2012.12 (pdf)</li>
+  <li>김혜원 ; 김기성 ; 김형주 “트위터의 실시간 트렌드에서 해시태그 추천을 개선하기 위한 해시태그 분류기법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 18 no. 11 pp.749-755, 2012.11 (pdf)</li>
+  <li>김태경 ; 김기성 ; 김형주 “맵리듀스에서 중복기반 조인과 비상충 조인을 이용한 효율적인 SPARQL 질의 처리”, 정보과학회논문지 : 데이타베이스, vol. 39 no. 4 pp.246-254, 2012.8 (pdf)</li>
+  <li>안인석 ; 김현우 ; 김형주 “텍스트 랭크 알고리즘을 이용한 사용자 타임라인 요약 기법”, 정보과학회논문지 : 데이타베이스, vol. 39 no. 4 pp.238-245, 2012.8 (pdf)</li>
+  <li>김현우 ; 김형주 “태그 확장과 시간 정보를 이용한 아이템 추천 방법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 18 no. 7 pp.521-527, 2012.7 (pdf)</li>
+  <li>송효진 ; 이태휘 ; 김형주 “모바일 통합 검색에서 온톨로지를 활용한 컬렉션 순서의 정확도 향상”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 18 no. 3 pp.187-196, 2012.3 (pdf)</li>
+  <li>옥승훈 ; 김기성 ; 김형주 “모바일 사전 응용의 반응속도 향상을 위한 선반입 기법”, 정보과학회논문지 : 데이타베이스, vol. 38 no. 5 pp.317-328, 2011.10 (pdf)</li>
+  <li>이성윤 ; 이태휘 ; 김형주 “사용자의 활동과 영향력을 이용한 트위터의 URL 추천 시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 17 no. 8 pp.447-458, 2011.8 (pdf)</li>
+  <li>임영석 ; 이강표 ; 김현우 ; 안재민 ; 김형주 “사용자 활동 점수에 기반한 태그 검색 개선”, 정보과학회논문지 : 컴퓨팅의 실제, vol.17 no.3 pp.141-204, 2011.3 (pdf)</li>
+  <li>양준석 ; 김기성 ; 김형주 “관계형 데이터베이스 뷰 정의로부터 온톨로지 클래스와 계층 관계 생성 기법”, 정보과학회논문지 : 데이타베이스, vol. 37 no. 6 pp.333-342, 2010.12 (pdf)</li>
+  <li>김현우 ; 이강표 ; 김형주 “태깅 시스템의 태그 추천 알고리즘”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 16 no. 9 pp.927-935, 2010.9 (pdf)</li>
+  <li>임동혁 ; 이상원 ; 김형주 “관계형 데이터베이스 기반의 후방향 추론을 이용하는 확장 가능한 RDF 데이타 변경 탐지 기법”, 정보과학회논문지 : 데이타베이스, vol.37 no.4 pp.197-202, 2010.8 (pdf)</li>
+  <li>이강표 ; 임영석 ; 안재민 ; 유진수 ; 김형주 “SOA 기반의 U-City 서비스 통합 아키텍처”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 16 no. 3 pp.257-262, 2010.3 (pdf)</li>
+  <li>양준석 ; 임혜원 ; 김현우 ; 임동혁 ; 임호재 ; 한상욱 ; 김형주 “웹 서비스 환경에서의 전자세금계산서 메시징 시스템의 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 16 no. 2 pp.157-162, 2010.2 (pdf)</li>
+  <li>김두남 ; 이강표 ; 김형주, “태그 동시 출현의 동적인 특징을 이용한 개선된 태그 클라우드의 태그 선택 방법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 15 no. 6 pp.405-413, 2009. 6 (pdf)</li>
+  <li>고병걸 ; 이강표 ; 김형주, “범주별 태그 안정성을 이용한 태그 부착자원의 SVM 기반 분류 기법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 15 no. 6 pp.414-423, 2009. 6 (pdf)</li>
+  <li>임동혁 ; 김형주, “후방향 전진 추론을 이용한 RDF 모델의 효율적인 변경 탐지”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 15 no. 2 pp.125-133, 2009. 2 (pdf)</li>
+  <li>이강표 ; 김현우 ; 장충수 ; 김형주, “FolksoViz: Wikipedia 본문을 이용한 상하위 관계 기반 폭소노미 시각화 기법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 14 no. 4 pp.401-411, 2008. 6 (pdf)</li>
+  <li>이강표 ; 유상원 ; 김형주, “RDF(S) 모델에 기반한 다양한 형태의 단백질 데이타베이스 통합”, 정보과학회논문지 : 데이타베이스, vol. 35 no. 2 pp.132-142, 2008. 4 (pdf)</li>
+  <li>이한준 ; 민경섭 ; 김형주, “RDBMS 기반의 토픽맵 무결성 검사 기법”, 정보과학회논문지 : 데이타베이스, vol. 34 no. 6 pp.493-502, 2007. 12 (pdf)</li>
+  <li>이동희 ; 임동혁 ; 김형주, “내포된 공노드를 포함하는 RDF 문서의 변경 탐지 기법”, 정보과학회논문지 : 데이타베이스, vol. 34 no. 6 pp.525-534, 2007. 12 (pdf)</li>
+  <li>김기성 ; 임동혁 ; 김철한 ; 김형주, “시그니처 트리를 사용한 의미적 유사성 검색 기법”, 정보과학회논문지 : 데이타베이스, vol. 34 no. 6 pp.553-560, 2007. 12 (pdf)</li>
+  <li>이형동 ; 김형주, “협업 필터링 추천시스템에서의 취향 공간을 이용한 평가 예측 기법”, 정보과학회논문지 : 데이타베이스, vol. 34 no. 05 pp.389-395, 2007. 10 (pdf)</li>
+  <li>임동혁 ; 이동희 ; 김형주, “K-Viz: 대사 경로 비교를 위한 KEGG 기반의 시각화”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 34 no. 5 pp.389-396, 2007. 5 (pdf)</li>
+  <li>이홍래 ; 심규석 ; 김형주, “부분 문자열 선택도 추정을 위한 서픽스트리 변환 기법”, 정보과학회논문지 : 데이타베이스, vol. 34 no. 2 pp.141-152, 2007. 4 (pdf)</li>
+  <li>김성진 ; 이형동 ; 김형주, “효율적 XML 키워드 검색을 위한 인덱스 분할 및 합병”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 7 pp.754-765, 2006. 12 (pdf)</li>
+  <li>김기성 ; 유상원 ; 김형주, “GORank: gene ontology를 이용한 유전자 산물의 의미적 유사성 검색”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 7 pp.682-692, 2006. 12 (pdf)</li>
+  <li>이형동 ; 김성진 ; 김형주, “의미 기반의 XML 키워드 검색을 위한 효율적인 인덱스 구조”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 5 pp.513-525, 2006. 10 (pdf)</li>
+  <li>이태휘 ; 김기성 ; 유상원 ; 김형주, “TripleDiff: 트리플 저장소에서 RDF 문서에 대한 점진적 갱신 알고리즘”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 5 pp.476-485, 2006. 10 (pdf)</li>
+  <li>이형동 ; 김형주, “문서 단위 순위화를 통한 XML 문서에 대한 키워드 검색 성능 향상”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 5 pp.538-550, 2006. 10 (pdf)</li>
+  <li>김정민 ; 신효필 ; 김형주, “T-MERGE 연산자에 기반한 분산 토픽맵의 자동 통합”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 33 no. 9 pp.787-801, 2006. 9 (pdf)</li>
+  <li>정호영 ; 김정민 ; 정준원 ; 김종남 ; 임동혁 ; 김형주, “RDF 문서의 저장소와 RDQL 질의 처리기의 설계 및 구현”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 4 pp.363-371, 2006. 8 (pdf)</li>
+  <li>박형우 ; 정준원 ; 김형주, “분산 생물정보 DB에 대한 GO 기반의 통합 시맨틱 질의 기법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 12 no. 4 pp.219-228, 2006. 8 (pdf)</li>
+  <li>정준원 ; 박형우 ; 임동혁 ; 이강표 ; 김형주, “GO guide : 생물학 온톨로지를 위한 브라우저 및 질의 변환”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 12 no. 3 pp.183-191, 2006. 6 (pdf)</li>
+  <li>최일환 ; 문봉기 ; 김형주, “XML 데이타의 경로 유사성에 기반한 클러스터링 기법”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 3 pp.342-352, 2006. 6 (pdf)</li>
+  <li>김기성 ; 유상원 ; 이태휘 ; 김형주, “RDF 스키마 함의 규칙 적용 순서를 이용한 RDFS 추론 엔진의 최적화”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 2 pp.151-162, 2006. 4 (pdf)</li>
+  <li>유지열 ; 유상원 ; 김형주, “빈번히 갱신되는 XML문서에 대한 프라임 넘버 레이블링 기법”, 정보과학회논문지 : 데이타베이스, vol. 33 no. 1 pp.129-137, 2006. 2 (pdf)</li>
+  <li>김정민 ; 신효필 ; 김형주, “분산 토픽맵의 다중 전략 매핑 기법”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 33 no. 1 pp.114-129, 2006. 1 (pdf)</li>
+  <li>임동혁 ; 정호영 ; 김형주, “OWL 질의 처리를 위한 시그너처 기반 최적화 기법”, 정보과학회논문지 : 데이타베이스, vol. 32 no. 6 pp.585-592, 2005. 12 (pdf)</li>
+  <li>이윤호 ; 최일환 ; 김종익 ; 김형주, “색인된 XML 문서에서 레벨 정보를 이용한 효과적인 구조 조인 기법”, 정보과학회논문지 : 데이타베이스, vol. 32 no. 6 pp.641-649, 2005. 12 (pdf)</li>
+  <li>김낙현 ; 이동호 ; 최일환 ; 김형주, “조선정보관리시스템에서의 갱신의 지역편중성을 갖는 XML 문서를 위한 XML 프록시 캐쉬 시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 11 no. 5 pp.393-400, 2005. 10 (pdf)</li>
+  <li>정호영 ; 김정민 ; 정준원 ; 김종남 ; 임동혁 ; 김형주, “관계형 데이타베이스 기반의 RDF와 OWL의 저장 및 질의처리”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 11 no. 5 pp.451-457, 2005. 10 (pdf)</li>
+  <li>김종남 ; 정준원 ; 민경섭 ; 김형주, “온톨로지에서의 그래프 레이블링을 이용한 효율적인 트랜지티브 클로저 질의 처리”, 정보과학회논문지 : 데이타베이스, vol. 32 no. 5 pp.526-535, 2005. 10 (pdf)</li>
+  <li>정준원 ; 정호영 ; 김종남 ; 임동혁 ; 김형주, “RDF 기반의 온톨로지 처리시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 11 no. 4 pp.381-392, 2005. 8 (pdf)</li>
+  <li>김정민 ; 최병일 ; 김형주, “텍스트 내용 지식 기반의 철학 온톨로지 구축”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 11 no. 3 pp.275-283, 2005. 6 (pdf)</li>
+  <li>이홍래 ; 이형동 ; 유상원 ; 김형주, “PIX: XML 문서 검색을 위한 색인 분할 기법”, 정보과학회논문지 : 데이타베이스, vol. 31 no. 6 pp.710-720, 2004. 12 (pdf)</li>
+  <li>정준원 ; 민경섭 ; 김형주, “지식 맵을 위한 캐슁 기법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 10 no. 3 pp.282-291, 2004. 6 (pdf)</li>
+  <li>김종익 ; 김형주, “XML 데이타 색인을 위한 경로 분할 기법”, 정보과학회논문지 : 데이타베이스, vol. 31 no. 3 pp.320-330, 2004. 6 (pdf)</li>
+  <li>민경섭 ; 김형주, “경로 포함 관계를 이용한 효율적인 XML 질의 처리 기법”, 정보과학회논문지 : 데이타베이스, vol. 31 no. 2 pp.183-194, 2004. 4 (pdf)</li>
+  <li>김정민 ; 박철만 ; 정준원 ; 이한준 ; 민경섭 ; 김형주, “K-Box : 토픽맵 기반의 온톨로지 관리 시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 10 no. 1 pp.1-13, 2004. 2 (pdf)</li>
+  <li>이수정 ; 이형동 ; 김형주, “사용자 경향에 기반한 동적 추천 기법 : 영화 추천 시스템을 중심으로”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 31 no. 2 pp.153-163, 2004. 2 (pdf)</li>
+  <li>유상원 ; 이홍래 ; 이형동 ; 김형주, “TV 프로그램을 위한 내용기반 추천 시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 9 no. 6 pp.683-692, 2003. 12 (pdf)</li>
+  <li>박희경 ; 박상원 ; 김형주, “객체지향 정보 저장소에서 참조 무결성 보장을 위한 XLink 시맨틱스”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 9 no. 6 pp.589-601, 2003. 12 (pdf)</li>
+  <li>정재목 ; 김형주, “웹 정보의 추출 및 통합을 위한 래퍼 시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 9 no. 5 pp.551-559, 2003. 10 (pdf)</li>
+  <li>유상원 ; 이형동 ; 김형주, “사용자 정보에 기반한 XML문서 전달 시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 9 no. 5 pp.487-497, 2003. 10 (pdf)</li>
+  <li>민경섭 ; 김형주, “상이한 구조의 XML 문서들에서 경로 질의 처리를 위한 RDBMS 기반 역 인덱스 기법”, 정보과학회논문지 : 데이타베이스, vol. 30 no. 4 pp.420-428, 2003. 8 (pdf)</li>
+  <li>오동일 ; 최일환 ; 박상원 ; 김형주, “XDOM : 확장성 기반의 경량 XML 객체 정보 저장소”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 9 no. 3 pp.332-340, 2003. 6 (pdf)</li>
+  <li>유신재 ; 민경섭 ; 김형주, “독립적인 질의 경로들을 사용하여 이질적인 문서들을 검색하는 XML 문서 검색 모델”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 30 no. 2 pp.140-152, 2003. 2 (pdf)</li>
+  <li>서치영 ; 이상원 ; 김형주, “XML 문서에 대한 RDBMS에 기반을 둔 효율적인 역색인 기법”, 정보과학회논문지 : 데이타베이스, vol. 30 no. 1 pp.27-40, 2003. 1 (pdf)</li>
+  <li>장문성 ; 정재목 ; 최일환 ; 김형주, “학습 추론을 이용한 GUI 기반의 HTML2XML 래퍼”, 정보과학회논문지 : 데이타베이스, vol. 29 no. 4 August pp.311-320, 2002. 8 (pdf)</li>
+  <li>김종익 ; 정태선 ; 김형주, “경로 식별자를 이용한 다중 정규경로 처리기법”, 정보과학회논문지 : 데이타베이스, vol. 29 no. 4 August pp.274-284, 2002. 8 (pdf)</li>
+  <li>정태선 ; 박상원 ; 한상영 ; 김형주, “XML 데이터를 위한 객체지향 데이터베이스 스키마 및 질의 처리”, 정보과학회논문지 : 데이타베이스, vol. 29 no. 2 April pp.89-98, 2002. 4 (pdf)</li>
+  <li>박상원 ; 박동주 ; 정태선 ; 김형주, “시그니처 기반 블럭 탐색을 통한 XML 질의 최적화 기법”, 정보과학회논문지 : 데이타베이스, vol. 29 no. 1 February pp.79-88, 2002. 2 (pdf)</li>
+  <li>정태선 ; 김형주, “DTD를 이용한 XML 데이타에 대한 질의 최적화 기법”, 정보과학회논문지 : 데이타베이스, vol. 28 no. 4 pp.723-731, 2001. 12 (pdf)</li>
+  <li>박철만 ; 박상원 ; 김형주, “XML 응용 프로그램 프레임워크와 CASE 도구의 설계 및 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 7 no. 6 December pp.569-581, 2001. 12 (pdf)</li>
+  <li>고봉수 ; 박상원 ; 민경섭 ; 김형주, “PDM/ODB: XML 데이타의 ODMG 표준 객체지향 데이타베이스로의 사상”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 7 no. 5 October pp.383-391, 2001. 10 (pdf)</li>
+  <li>정태선 ; 김형주, “다중 정규 경로 질의 처리를 위한 효율적 기법”, 정보과학회논문지 : 데이타베이스, vol. 28 no. 3 pp.449-457, 2001. 9 (pdf)</li>
+  <li>김형주, “캠퍼스 벤처 인큐베이션 센터를 운영하면서”, 韓國情報科學會誌, vol. 19 no. 8 pp.23-26, 2001. 8 (pdf)</li>
+  <li>정재목 ; 박상원 ; 정태선 ; 이병준 ; 민경섭 ; 이강우 ; 김형주,”XWEET: 웹 환경을 위한 통합 데이타베이스 시스템”, 정보과학회논문지 : 데이타베이스, vol. 28 no. 2 June pp.233-242, 2001. 6 (pdf)</li>
+  <li>이제민 ; 민경섭 ; 박상원 ; 김형주, “관계형 데이타베이스 시스템에서 XML-뷰를 통한 XML 데이타의 지원”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 7 no. 3 June pp.202-210, 2001. 6 (pdf)</li>
+  <li>이동호 ; 김형주, “구형 피라미드 기법을 이용한 효율적인 최근접 질의 처리 기법”, 정보과학회논문지 : 데이타베이스, vol. 28 no. 1 March pp.86-94, 2001. 3 (pdf)</li>
+  <li>박상원 ; 김형주, “시그니처를 이용한 XML 질의 최적화 방법”, 정보과학회논문지 : 데이타베이스, vol. 28 no. 1 March pp.104-114, 2001. 3 (pdf)</li>
+  <li>송하주 ; 김형주, “XML 데이타의 효과적인 검색을 위한 다중 경로 인덱스”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 7 no. 1 pp.12-23, 2001. 2 (pdf)</li>
+  <li>박상원 ; 정재목 ; 정태선 ; 김형주, “XML과 데이타베이스”, 韓國情報科學會誌, vol. 19 no. 1 January pp.24-30, 2001. 1 (pdf)</li>
+  <li>박상원 ; 민경섭 ; 김형주, “XML 데이타베이스 지원을 위한 통합 환경”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 6 no. 6 December pp.569-579, 2000. 12 (pdf)</li>
+  <li>박동주 ; 김형주, “비공간 검색 조건이 포함된 k-최근접 질의 처리를 위한 R-트리와 시그니쳐 파일의 결합”, 정보과학회논문지 : 데이타베이스, vol. 27 no. 4 December pp.651-662, 2000. 12 (pdf)</li>
+  <li>이현주 ; 송하주 ; 이상원 ; 김형주, “객체지향 데이타베이스 시스템에서 확장된 관계성의 설계와 구현”, 정보과학회논문지 : 데이타베이스, vol. 27 no. 3 September pp.457-468, 2000. 9 (pdf)</li>
+  <li>조형주 ; 박상원 ; 김형주, “UML 클래스 다이어그램 기반의 효율적인 c++코드 생성기의 설계와 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 6 no. 4 August pp.393-402, 2000. 8 (pdf)</li>
+  <li>박선섭 ; 정재목 ; 김형주, “Hashed B-트리 인텍스를 이용한 효율적인 무결성 검사”, 정보과학회논문지 : 데이타베이스, vol. 27 no. 2 June pp.216-226, 2000. 6 (pdf)</li>
+  <li>송하주 ; 김형주, “속성값 구간 배열을 이용한 계층 상이값 갯수의 계산 기법”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 6 no. 2 April pp.265-273, 2000. 4 (pdf)</li>
+  <li>정재목 ; 이강우 ; 김형주, “ARIES/RL: 장기 트랜잭션을 지원하기 위한 ARIES 확장”, 정보과학회논문지 : 데이타베이스, vol. 27 no. 1 March pp.129-140, 2000. 3 (pdf)</li>
+  <li>정승진 ; 정진완 ; 김형주, “OQL 질의 처리기를 위한 중첩 질의 구조 제거용 전위 모듈의 설계 및 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 6 no. 1 February pp.11-20, 2000. 2 (pdf)</li>
+  <li>박동주 ; 이석호 ; 김형주, “분산 환경에서 대용량 공간 데이타의 선인출 전략”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 12 pp.1404-1417, 1999. 12 (pdf)</li>
+  <li>이동호 ; 정진완 ; 김형주, “구형 피라미드 기법: 고차원 데이타의 유사성 검색을 위한 효율적인 색인 기법”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 11 pp.1270-1281, 1999. 11 (pdf)</li>
+  <li>최원익 ; 김형주 ; 이석호, “웹 응용을 위한 자바 질의 스텁의 구현 및 성능 평가”, 정보과학회논문지(C), vol. 5 no. 6 pp.663-673, 1999. 10 (pdf)</li>
+  <li>이강우 ; 김형주, “웹 트랜잭션 처리 시스템의 일관성 유지 지원”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 8 pp.946-954, 1999. 10 (pdf)</li>
+  <li>이강우 ; 김형주, “웹 트랜잭션 처리 시스템의 구현”, 정보과학회논문지(C), vol. 5 no. 5 pp.533-542, 1999. 10 (pdf)</li>
+  <li>송용준 ; 김형주, “동적 비디오 객체 데이타 모델(DVID)”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 9 pp.1052-1060, 1999. 9 (pdf)</li>
+  <li>이형동 ; 이병준 ; 김형주, “웹 응용 서버를 위한 효율적인 스케줄링 알고리즘”, 정보과학회논문지(C), vol. 5 no. 4 pp.405-415, 1999. 8 (pdf)</li>
+  <li>이주홍 ; 차광호 ; 김형주 ; 정진완, “멀티미디어 데이타베이스에서 최근접 질의의 성능평가에 관한 분석 모델”, 정보과학회논문지, vol. 26 no. 7 pp.0-0, 1999. 7 (pdf)</li>
+  <li>조은선 ; 김형주, “C++-based OODBPL에서 클래스의 분리를 지원하기 위한 구현 기법”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 6 pp.713-723, 1999. 6 (pdf)</li>
+  <li>고정미 ; 정재목 ; 김형주, “관계형 데이타베이스 시스템에서의 사용자 정의 함수 지원”, 정보과학회논문지(C), vol. 5 no. 3 pp.295-304, 1999. 6 (pdf)</li>
+  <li>민경섭 ; 이강우 ; 김형주, “무결성 검사 트랜잭션을 위한 회복 기법”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 5 pp.595-603, 1999. 5 (pdf)</li>
+  <li>송용준 ; 박동주 ; 이동호 ; 김형주, “TIVRON : OODBMS 기반 통합 비디오 검색시스템”, 한국통신학회논문지, vol. 24 no. 2 pp.266-276, 1999. 4 (pdf)</li>
+  <li>이상원 ; 김형주, “객체지향 데이타베이스의 복합 객체를 위한 스키마 버전 모델 “, 정보과학회논문지, vol. 26 no. 4 pp.473-486, 1999. 4 (pdf)</li>
+  <li>안정호 ; 김형주, “OODBMS 성능향상을 위한 객체 선인출 전략”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 2 pp.191-202, 1999. 2 (pdf)</li>
+  <li>김형주 ; 최일환 ; 이상철, “SRP RDBMS를 위한 Web 게이트웨이”, 정보과학회논문지(C), vol. 5 no. 1 February pp.1-14, 1999. 2 (pdf)</li>
+  <li>김형주, “DB분야의 역사와 기술전망”, 韓國情報科學會誌, vol. 17 no. 12 pp.26-28, 1999. 1 (pdf)</li>
+  <li>이동호 ; 박주홍 ; 정진완 ; 김형주, “대규모 이미지 데이타베이스에서 고차원 색인 구조를 이용한 효율적인 내용 기반 검색 시스템”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 26 no. 1 pp.52-65, 1999. 1 (pdf)</li>
+  <li>송용준 ; 김형주, “OODBMS 기반 확장 용이 MPEG 비디오 브라우저”, 정보과학회논문지(C), vol. 4 no. 6 pp.763-772, 1998. 12 (pdf)</li>
+  <li>박희경 ; 박철만 ; 김명소 ; 김형주, “국내외 전자상거래(EC) WWW Site 동향 분석”, 정보통신, vol. 15 no. 12 January pp.114-124, 1998. 12 (pdf)</li>
+  <li>안정호 ; 송하주 ; 김형주, “그리디 알고리즘에 의한 클래스 인덱싱 기법”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 25 no. 12 pp.1738-1748, 1998. 12 (pdf)</li>
+  <li>이강우 ; 김형주, “Hotspot 테이블을 위한 새로운 공간 비축 방법”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 25 no. 11 pp.1584-1593, 1998. 11 (pdf)</li>
+  <li>이병준 ; 박주홍 ; 김형주, “OODBMS를 위한 효율적인 메소드 지원방안”, 정보과학회논문지(C), vol. 4 no. 5 pp.644-653, 1998. 10 (pdf)</li>
+  <li>이상원 ; 김형주, “객체지향 데이타베이스 스키마 버전 모델”, 정보과학회논문지 : 데이타베이스, vol. 25 no. 10 pp.1453-1465, 1998. 10 (pdf)</li>
+  <li>박동주 ; 김형주, “SOP OODBMS에서 멀티미디어 데이타 지원을 위한 클래스 라이브러리의 설계 및 구현”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 25 no. 8 pp.1148-1158, 1998. 8 (pdf)</li>
+  <li>이상원 ; 김형주, “SOP 객체지향 데이타베이스 시스템에서의 객체 버전의 지원”, 정보과학회논문지(C), vol. 4 no. 4 pp.407-417, 1998. 8 (pdf)</li>
+  <li>김용한 ; 이상원 ; 김형주, “다단계 보안 관계형 데이타모델을 위한 확장된 참조 무결성 세만틱”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 25 no. 7 pp.996-1005, 1998. 7 (pdf)</li>
+  <li>정진완 ; 강흠근 ; 김형주 ; 박주홍 ; 한기준 ; 허신, “국가 지리 정보 시스템을 위한 공간 객체 관리 시스템의 구조”, 韓國情報科學會誌, vol. 16 no. 3 pp.5-9, 1998. 3 (pdf)</li>
+  <li>김기병 ; 김명원 ; 김형주, “비디오 데이타베이스에서 동작 표현 모델링 및 검색 기법”, 정보과학회논문지 : 데이타베이스, vol. 25 no. 2 pp.217-228, 1998. 2 (pdf)</li>
+  <li>장성우 ; 김형주, “VIOLA: 객체지향 데이타베이스를 위한 시각 질의 언어”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 24 no. 12 pp.1342-1353, 1997. 12 (pdf)</li>
+  <li>조은선 ; 한상영 ; 김형주, “객체지향 데이타베이스에서의 새로운 데이타 추상화 단계 “, 정보과학회논문지, vol. 24 no. 11 pp.1146-1157, 1997. 11 (pdf)</li>
+  <li>이동호 ; 송용준 ; 김형주, “SCARLET: 웨이브릿 변환을 이용한 내용 기반 이미지 검색 시스템의 설계 및 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 3 no. 4 pp.353-364, 1997. 8 (pdf)</li>
+  <li>여지황 ; 김형주, “SQL 질의 처리기의 클라이언트-서버 모듈 배치에 따른 성능 비교”, 정보과학회논문지(C), vol. 3 no. 3 pp.217-227, 1997. 6 (pdf)</li>
+  <li>김기욱 ; 김형주, “비디오 주석 시스템의 설계 및 구현”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 24 no. 6 pp.588-597, 1997. 6 (pdf)</li>
+  <li>조은선 ; 한상영 ; 김형주, “클래스의 인터페이스와 구현부의 분리를 지원하기 위한 객체 지향 프로그래밍 언어의 확장”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 24 no. 2 pp.207-217, 1997. 2 (pdf)</li>
+  <li>정태선 ; 조은선 ; 김형주, “Sopclos: 객체지향 데이타베이스 관리 시스템을 위한 CLOS 인터페이스”, 정보과학회논문지 : 소프트웨어 및 응용, vol. 24 no. 9 pp.1006-1015, 1997. 1 (pdf)</li>
+  <li>박상원 ; 김형주, “관계형 데이타베이스의 객체지향적 인터페이스를 위한 게이트웨이의 설계 및 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 3 no. 4 pp.333-342, 1997. 1 (pdf)</li>
+  <li>장성우 ; 김형주, “객체지향 데이타베이스 상에서 참조 구조의 시각화를 지원하는 시각적 검색 시스템”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 3 no. 5 pp.463-472, 1997. 1 (pdf)</li>
+  <li>김기병 ; 김형주, “내용 기반 검색 및 주석 기반 검색을 통합하는 비디오 데이타 모델의 설계 및 구현”, 정보과학회논문지 : 컴퓨팅의 실제, vol. 3 no. 2 pp.115-126, 1997. 1 (pdf)</li>
+  <li>안정호 ; 이강우 ; 송하주 ; 김형주, “Soprano : 객체 저장 시스템의 설계 및 구현”, 정보과학회논문지(C), vol. 2 no. 3 pp.243-255, 1996. 9 (pdf)</li>
+  <li>류경동 ; 이강우 ; 김형주, “클라이언트-서버 프로그래밍을 지원하기 위한 c++ 언어의 확장 “, 정보과학회논문지, vol. 23 no. 4 pp.443-454, 1996. 4 (pdf)</li>
+  <li>김기병 ; 김형주, “멀티미디어 객체 동기화를 위한 확장된 프로세스 대수”, 정보과학회논문지, vol. 22 no. 4 pp.526-534, 1995. 4 (pdf)</li>
+  <li>장성우 ; 김형주, “통신망 표현을 위한 확장용이 GUI의 객체 지향적 설계 및 구현”, 한국통신학회논문지, vol. 20 no. 2 pp.287-302, 1995. 2 (pdf)</li>
+  <li>송용준 ; 이상원 ; 안정호 ; 김형주, “객체지향 기법을 이용한 SQL 처리기 설계와 구현”, 정보과학회논문지, vol. 22 no. 1 pp.13-22, 1995. 1 (pdf)</li>
+  <li>조은선 ; 김형주 ; 한상영, “자료의 지속성을 유지하는 객체지향 프로그래밍 언어의 모델”, 정보과학회논문지, vol. 21 no. 5 pp.783-791, 1994. 5 (pdf)</li>
+  <li>안정호 ; 김형주, “SRP(SUN RDB Platform)에서 SOP(SNU OODB Platform)까지 - 관계형 및 객체 지향 DBMS의 개발”, 韓國情報科學會誌, vol. 12 no. 3 pp.53-62, 1994. 4 (pdf)</li>
+  <li>이강우 ; 김형주, “클라이언트-서버 DBMS로의 ARIES 확장”, 정보과학회논문지, vol. 21 no. 4 pp.1-10, 1994. 4 (pdf)</li>
+  <li>용환승 ; 이석호 ; 김형주, “객체지향 데이타베이스에서 시그너쳐를 이용한 전진 운행 질의 처리 기법”, 정보과학회논문지, vol. 21 no. 3 pp.1-10, 1994. 3 (pdf)</li>
+  <li>이상원 ; 김형주, “객체지향 데이타모델에서 다중사례화를 위한 버전개념의 확장”, 정보과학회논문지, vol. 21 no. 2 pp.1-10, 1994. 2 (pdf)</li>
+  <li>용환승 ; 이석호 ; 김형주, “비트 그룹 슬라이스 방식의 시그니쳐 화일 구조”, 정보과학회 논문지, vol.20 no. 9, 1993. 9</li>
+  <li>윤청, 김형주, “ 데이타 모델 간의 변환”, 정보과학회논문지, vol. 19 no. 6, 1992. 11</li>
+  <li>김형주, “ 관계 데이타베이스를 이용한 객체중심 데이타베이스의 표현과 구현”, 정보과학회논문지, vol. 17 no. 2, 1990. 4</li>
+  <li>김형주, “ 성질계승 그래프 : 객체 중심 데이타베이스 스키마를 위한 형식모델”, 정보과학회논문지, vol. 16 no. 5, 1989. 9</li>
+</ol>
+
+<h4 id="international-conference">International Conference</h4>
+
+<ol>
+  <li>Hee-Gook Jun; Woo-Hyun Lee; Dong-Hyuk Im; Sang-goo Lee; Hyoung-Joo Kim, <strong>“Weighted Semantic PageRank Using RDF Metadata on Hadoop,”</strong> In Proceedings of the 2014 International Conference on Internet Computing and Big Data, Jul. 2014 (<a href="../images/f/f4/ICM2561.pdf">pdf</a>)</li>
+  <li>Hyewon Lim; Taewhi Lee; Namyoon Kim; Sang-goo Lee; Hyoung-Joo Kim, <strong>“Characteristics of Online Social Services Sharing Long Duration Content,”</strong> In Proceedings of the 2014 International Conference on Internet Computing and Big Data, pp.22-28, Jul. 2014 (<a href="../images/d/dc/ICM2529.pdf">pdf</a>)</li>
+  <li>Taewhi Lee; Kisung Kim; Hyoung-Joo Kim, <strong>“Join Processing Using Bloom Filter in MapReduce”</strong>, ACM Research in Applied Computation Symposium, Oct. 2012 (<a href="../images/d/d3/Join_Processing_Using_Bloom_Filter_in_MapReduce.pdf">pdf</a>)</li>
+  <li>Hyunwoo Kim; Hyoung-Joo Kim, <strong>“Improving Recommendation based on Implicit Trust Relationships from Tags”</strong>, International Conference on Computers, Networks, Systems, and Industrial Applications, pp.25-30, Jul. 2012 (<a href="../images/1/19/Improving_Recommendation_based_on_Implicit_Trust_Relationships_from_Tags.pdf">pdf</a>)</li>
+  <li>Kisung Kim; Bongki Moon; Hyoung-Joo Kim, <strong>“RP-Filter: A Path-Based Triple Filtering Method for Efficien SPARQL Query Processing”</strong>, Joint International Semantic Technology, pp.33-47, Dec. 2011 (<a href="../images/1/1b/RP-Filter_A_Path-Based_Triple_Filtering_Method_for_Efficient_SPARQL_Query_Processing.pdf">pdf</a>)</li>
+  <li>Kangpyo Lee; Hyunwoo Kim; 신효필; Hyoung-Joo Kim, <strong>“Tag sense disambiguation for clarifying the vocabulary of social tags”</strong>, Symposium on Social Computing Applications, pp.729-734, Aug. 2009 (<a href="../images/d/d7/Tag_sense_disambiguation_for_clarifying_the_vocabulary_of_social_tags.pdf">pdf</a>)</li>
+  <li>Hyunwoo Kim; Kangpyo Lee; 신효필; Hyoung-Joo Kim, <strong>“Comparing N-gram models for tag suggestion in tagging system”</strong>, International Workshop on Data Engineering Issues in E-Commerce and Services, pp.0-0, Jul. 2009 (<a href="../images/e/e6/Comparing_N-gram_models_for_tag_suggestion_in_tagging_system.pdf">pdf</a>)</li>
+  <li>Kangpyo Lee; Hyunwoo Kim; 신효필; Hyoung-Joo Kim, <strong>“FolksoViz: A semantic relation-based folksonomy visualization using the wikipedia corpus”</strong>, International Workshop on e-Activity, pp.0-0, May.2009 (<a href="../images/e/e4/FolksoViz_A_semantic_relation-based_folksonomy_visualization_using_the_wikipedia_corpus.pdf">pdf</a>)</li>
+  <li>Hyunwoo Kim; Kangpyo Lee; 신효필; Hyoung-Joo Kim, <strong>“Tag suggestion method based on association pattern and bigram approach “</strong>, International Workshop on e-Activity, pp.0-0, May. 2009 (<a href="../images/0/08/Tag_suggestion_method_based_on_association_pattern_and_bigram_approach.pdf">pdf</a>)</li>
+  <li>Kangpyo Lee; Hyunwoo Kim; Chungsu Jang; Hyoung-Joo Kim, <strong>“FolksoViz: A subsumption-based folksonomy visualization using wikipedia texts “</strong>, International World Wide Web Conference, pp.1093-1094,Apr. 2008 (<a href="../images/0/0e/FolksoViz_A_subsumption-based_folksonomy_visualization_using_wikipedia_texts.pdf">pdf</a>)</li>
+  <li>Sang-Won Yoo; Kangpyo Lee; Hyoung-Joo Kim, <strong>“A query expansion technique for the functional annotation in biological databases”</strong>, Conference on IT Research &amp; Applications, pp.0-0, Apr. 2007 (<a href="../images/1/1d/A_query_expansion_technique_for_the_functional_annotation_in_biological_databases.pdf">pdf</a>)</li>
+  <li>Donghee Lee; Dong-Hyuk Im; Hyoung-Joo Kim, <strong>“A change detection technique for RDF documents containing nested blank nodes”</strong>, International Conference on Ubiquitous Information Technology &amp; Application, pp.0-0, Feb. 2007 (<a href="../images/2/24/A_change_detection_technique_for_RDF_documents_containing_nested_blank_nodes.pdf">pdf</a>)</li>
+  <li>Dong-Hyuk Im; Donghee Lee; Hyoung-Joo Kim, <strong>“K-Viz: KEGG based visualization for comparing metabolic pathways”</strong>, IADIS International Conference on Applied Computing, pp.0-0, Feb. 2007 (<a href="../images/b/b2/K-Viz_KEGG_based_visualization_for_comparing_metabolic_pathways.pdf">pdf</a>)</li>
+  <li>Dong-Ho Lee; Hyoung-Joo Kim, <strong>“An algorithm for incremental nearest neighbor search in high- dimensional data spaces”</strong>, International Conference on Human.Society@Internet conference, pp.4-6, Jul. 2001 (<a href="../images/b/be/An_algorithm_for_incremental_nearest_neighbor_search_in_high-dimensional_data_spaces.pdf">pdf</a>)</li>
+  <li>Sangwon Park; Hyoung-Joo Kim, <strong>“A new query processing technique for XML based on signature”</strong>, International Conference on Database Systems for Advance Applications, pp.22-29, Apr. 2001 (<a href="../images/1/11/A_new_query_processing_technique_for_XML_based_on_signature.pdf">pdf</a>)</li>
+  <li>Eun-Sun Cho; Sang-young Han; Hyoung-Joo Kim, <strong>“A new data abstraction layer required for OODBMS”</strong>, International Database Engineering and Applications Symposium, pp.144-148, Aug. 1997 (<a href="../images/d/d0/A_new_data_abstraction_layer_required_for_OODBMS.pdf">pdf</a>)</li>
+  <li>장성우; Hyoung-Joo Kim, <strong>“SOPView+: An object browser which supports navigating database objects by changing base object”</strong>, International Computer Software and Applications Conference, pp.100-103, Aug. 1997 (<a href="../images/e/e4/SOPView%2B_An_object_browser_which_supports_navigating_database_objects_by_changing_base_object.pdf">pdf</a>)</li>
+  <li>Jung-Ho Ahn; Hyoung-Joo Kim, <strong>“SEOF: An adaptable object prefetch policy for object-oriented database systems”</strong>, Proc. of the 13th International Conference on Data Engineering, pp.4-13, Apr. 1997 (<a href="../images/d/d2/SEOF_An_adaptable_object_prefetch_policy_for_object-oriented_database_systems.pdf">pdf</a>)</li>
+  <li>Jung-Ho Ahn; Kang-Woo Lee; Hyoung-Joo Kim, <strong>“Architectural issues in adopting distributed shared memory for distributed object management systems”</strong>, IEEE Computer Society Workshop on Future Trends of Distributed Computing Systems, pp.294-300, Aug. 1995 (<a href="../images/7/7b/Architectural_issues_in_adopting_distributed_shared_memory_for_distributed_object_management_systems.pdf">pdf</a>)</li>
+  <li>Hwan-Seung Young; Sukho Lee; Hyoung-Joo Kim, <strong>“Applying signatures for forward traversal query processing in object-oriented databases”</strong>, Proceedings of International Conference on Data Engineering, pp.518-525, Feb. 1994 (<a href="../images/c/cc/Applying_signatures_for_forward_traversal_query_processing_in_object-oriented_databases.pdf">pdf</a>)</li>
+  <li>Yang Hee Kim; Hyoung-Joo Kim, <strong>“Applying intensional query processing techniques to object-oriented database systems”</strong>, DASFAA, pp.405-412, Feb. 1993 (<a href="../images/7/75/Applying_intensional_query_processing_techniques_to_object-oriented_database_systems.pdf">pdf</a>)</li>
+  <li>Magdi M. A. Morsi; Shamkant B. Navathe; Hyoung-Joo Kim, <strong>“An extensible object-oriented database testbed”</strong>, Proceedings of International Conference on Data Engineering, pp.150-157, Feb. 1992 (<a href="../images/3/3d/An_extensible_object-oriented_database_testbed.pdf">pdf</a>)</li>
+</ol>
+
+<h4 id="domestic-conference">Domestic Conference</h4>
+
+<ol>
+  <li>이재환, 김남윤, 임혜원, 김형주,<strong>“트위터에서의 토픽별 감정 패턴 분석”</strong>, 한국정보과학회 동계학술발표회, pp.0-0, 2014. 12 (<a href="../images/6/66/%ED%8A%B8%EC%9C%84%ED%84%B0%EC%97%90%EC%84%9C%EC%9D%98*%ED%86%A0%ED%94%BD%EB%B3%84*%EA%B0%90%EC%A0%95*%ED%8C%A8%ED%84%B4*%EB%B6%84%EC%84%9D.pdf">pdf</a>)</li>
+  <li>임혜원; 양준석; 김현우; 임동혁; 김형주, <strong>“웹 서비스 환경에서의 전자세금계산서 메시징 시스템의 설계”</strong>,한국통신학회 하계종합학술발표회, pp.0-0, 2009. 6 (<a href="../images/a/ab/%EC%9B%B9_%EC%84%9C%EB%B9%84%EC%8A%A4_%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98_%EC%A0%84%EC%9E%90%EC%84%B8%EA%B8%88%EA%B3%84%EC%82%B0%EC%84%9C_%EB%A9%94%EC%8B%9C%EC%A7%95_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98_%EC%84%A4%EA%B3%84.pdf">pdf</a>)</li>
+  <li>김현우; 이강표; 김형주,<strong>“협력 태깅 환경에서의 다양한 태그 추천 방법론 비교 연구”</strong>, 한국통신학회 하계종합학술발표회, pp.0-0, 2009. 6 (<a href="../images/d/d6/%ED%98%91%EB%A0%A5_%ED%83%9C%EA%B9%85_%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98_%EB%8B%A4%EC%96%91%ED%95%9C_%ED%83%9C%EA%B7%B8_%EC%B6%94%EC%B2%9C_%EB%B0%A9%EB%B2%95%EB%A1%A0_%EB%B9%84%EA%B5%90_%EC%97%B0%EA%B5%AC.pdf">pdf</a>)</li>
+  <li>임동혁; 김형주,<strong>“시맨틱 웹 데이터의 버전 관리를 위한 변경 탐지 시스템”</strong>, 정보통신분야학회 합동학술대회, pp.587-589, 2008. 11 (<a href="../images/4/43/%EC%8B%9C%EB%A7%A8%ED%8B%B1_%EC%9B%B9_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98_%EB%B2%84%EC%A0%84_%EA%B4%80%EB%A6%AC%EB%A5%BC_%EC%9C%84%ED%95%9C_%EB%B3%80%EA%B2%BD_%ED%83%90%EC%A7%80_%EC%8B%9C%EC%8A%A4%ED%85%9C.pdf">pdf</a>)</li>
+  <li>유상원; 이강표; 김형주, <strong>“생물정보데이터베이스의 기능주석 검색을 위한 질의 확장기법”</strong>, Korean Database Conference, pp.0-0, 2007. 5 (<a href="../images/0/01/%EC%83%9D%EB%AC%BC%EC%A0%95%EB%B3%B4%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98_%EA%B8%B0%EB%8A%A5%EC%A3%BC%EC%84%9D_%EA%B2%80%EC%83%89%EC%9D%84_%EC%9C%84%ED%95%9C_%EC%A7%88%EC%9D%98_%ED%99%95%EC%9E%A5_%EA%B8%B0%EB%B2%95.pdf">pdf</a>)</li>
+  <li>정준원; 박형우; 임동혁; 이강표; 김형주, <strong>“GO guide : 생물학 온톨로지를 위한브라우저”</strong>, Korean Database Conference, pp.44-51, 2005. 5 (<a href="../images/0/02/GO_guide_%EC%83%9D%EB%AC%BC%ED%95%99_%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80%EB%A5%BC_%EC%9C%84%ED%95%9C_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80.pdf">pdf</a>)</li>
+  <li>이홍래; 이형동; 유상원; 김형주, <strong>“XML 문서상에서 키워드 검색을 위한 색인 분할기법”</strong>, 정보과학회 DB연구회지, pp.1-8, 2004. 5 (<a href="../images/5/5e/XML_%EB%AC%B8%EC%84%9C%EC%83%81%EC%97%90%EC%84%9C_%ED%82%A4%EC%9B%8C%EB%93%9C_%EA%B2%80%EC%83%89%EC%9D%84_%EC%9C%84%ED%95%9C_%EC%83%89%EC%9D%B8_%EB%B6%84%ED%95%A0_%EA%B8%B0%EB%B2%95.pdf">pdf</a>)</li>
+  <li>김종익; 최일환; 이현숙; 김형주, <strong>“XDBox : XML 객체 저장소의 구현”</strong>, 한국정보과학회 춘계학술대회, pp.572-574, 2003. 4 (<a href="../images/6/6c/XDBox_-_XML_%EA%B0%9D%EC%B2%B4_%EC%A0%80%EC%9E%A5%EC%86%8C%EC%9D%98_%EA%B5%AC%ED%98%84.pdf">pdf</a>)</li>
+  <li>이형동; 박철만; 김형주,<strong>” 포탈 서버 시스템의 설계 및 구현”</strong>, 한국정보과학회 춘계학술대회, pp.1-4, 2003. 4 (<a href="../images/0/09/%ED%8F%AC%ED%83%88_%EC%84%9C%EB%B2%84_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98_%EC%84%A4%EA%B3%84_%EB%B0%8F_%EA%B5%AC%ED%98%84.pdf">pdf</a>)</li>
+  <li>유상원; 이홍래; 이형동; 김형주, <strong>“내용 기반 추천기법의 TV 환경 적용에 관한 연구”</strong>, 한국정보과학회 춘계학술대회, pp.1-3, 2003. 4 (<a href="../images/9/9c/%EB%82%B4%EC%9A%A9_%EA%B8%B0%EB%B0%98_%EC%B6%94%EC%B2%9C%EA%B8%B0%EB%B2%95%EC%9D%98_TV_%ED%99%98%EA%B2%BD_%EC%A0%81%EC%9A%A9%EC%97%90_%EA%B4%80%ED%95%9C_%EC%97%B0%EA%B5%AC.pdf">pdf</a>)</li>
+  <li>김정민; 박철만; 정준원; 이한준; 정호영; 민경섭; 김형주, <strong>“온톨로지 기반의 지식맵 서비스 시스템의 설계 및 구현”</strong>, 한국정보과학회 춘계학술대회, pp.1-3, 2003. 4 (<a href="../images/9/95/%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80_%EA%B8%B0%EB%B0%98%EC%9D%98_%EC%A7%80%EC%8B%9D%EB%A7%B5_%EC%84%9C%EB%B9%84%EC%8A%A4_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98_%EC%84%A4%EA%B3%84_%EB%B0%8F_%EA%B5%AC%ED%98%84.pdf">pdf</a>)</li>
+  <li>정호영; 김정민; 정준원; 김형주, <strong>“XTM 기반의 지식맵”</strong>, 정보과학회 DB연구회지, pp.38-47, 2003. 3 (<a href="../images/e/e9/XTM_%EA%B8%B0%EB%B0%98%EC%9D%98_%EC%A7%80%EC%8B%9D%EB%A7%B5.pdf">pdf</a>)</li>
+  <li>김형주, <strong>“전사 CRM의 개요 및 구축 방안”</strong>, 정보과학회 DB연구회지, pp.27-36, 2001. 3 (<a href="../images/b/ba/%EC%A0%84%EC%82%AC_CRM%EC%9D%98_%EA%B0%9C%EC%9A%94_%EB%B0%8F_%EA%B5%AC%EC%B6%95_%EB%B0%A9%EC%95%88.pdf">pdf</a>)</li>
+  <li>김종익; 김형주; 정진완, <strong>“Web GIS를 위한 새로운 응용프로그램 개발 방법”</strong>, 한국정보과학회 춘계학술대회, pp.15-17, 2000. 4 (<a href="../images/f/f8/Web_GIS%EB%A5%BC_%EC%9C%84%ED%95%9C_%EC%83%88%EB%A1%9C%EC%9A%B4_%EC%9D%91%EC%9A%A9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EA%B0%9C%EB%B0%9C_%EB%B0%A9%EB%B2%95.pdf">pdf</a>)</li>
+  <li>김형주, <strong>“웹오메가(주)”</strong>, 정보과학회 DB연구회지, pp.39-42, 1999. 12 (<a href="../images/f/f5/%EC%9B%B9%EC%98%A4%EB%A9%94%EA%B0%80%28%EC%A3%BC%29.pdf">pdf</a>)</li>
+  <li>조은선; 한상영; 김형주, <strong>“A semantics of the separation of interface and implementation in c++”</strong>, COMP SAC 96, pp.83-89, 1996. 8 (<a href="../images/e/e5/A_semantics_of_the_separation_of_interface_and_implementation_in_c%2B%2B.pdf">pdf</a>)</li>
+  <li>장성우; 김형주,<strong>” SOPView: A Visual Query and Object Browsing Environment for SOP OODBMS “</strong>, COMP SAC 96, pp.354-360, 1996. 8 (<a href="../images/d/df/SOPView_A_Visual_Query_and_Object_Browsing_Environment_for_SOP_OODBMS.pdf">pdf</a>)</li>
+  <li>김기욱; 김기병; 김형주, <strong>“VIRON: An annotation-based video information retrieval system”</strong>, COMP SAC 96, pp.298-303, 1996. 8 (<a href="../images/e/e5/VIRON_An_annotation-based_video_information_retrieval_system.pdf">pdf</a>)</li>
+  <li>송하주; 이상원; 김형주, <strong>“Electro-21 객체지향 데이터베이스 시스템의 객체관리기 설계 및 구현”</strong>, 정보과학회 DB연구회지, pp.5-21, 1995. 7 (<a href="../images/d/d0/Electro-21_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98_%EA%B0%9D%EC%B2%B4%EA%B4%80%EB%A6%AC%EA%B8%B0_%EC%84%A4%EA%B3%84_%EB%B0%8F_%EA%B5%AC%ED%98%84.pdf">pdf</a>)</li>
+  <li>용환승; 이석호; 김형주, <strong>“시그니쳐를 이용한 내포 애트리뷰트 인덱스 기법에 관한 연구”</strong>, 한국정보과학회 춘계학술대회, pp.31-34, 1992. 1 (<a href="../images/1/15/%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B3%90%EB%A5%BC_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EB%82%B4%ED%8F%AC_%EC%95%A0%ED%8A%B8%EB%A6%AC%EB%B7%B0%ED%8A%B8_%EC%9D%B8%EB%8D%B1%EC%8A%A4_%EA%B8%B0%EB%B2%95%EC%97%90_%EA%B4%80%ED%95%9C_%EC%97%B0%EA%B5%AC.pdf">pdf</a>)</li>
+</ol>
+
+<h4 id="book-chapter">Book Chapter</h4>
+
+<ol>
+  <li>(With H. Kim, S. Lee) “Two-step pruning: A distributed query optimization algorithm”, 13th British National Conference on Database, Manchester, UK, July 1995, in Advances in Databases, Lecture Notes in Computer Science(LNCS) 940, Springer-Verlag, pp.183-203, July 1995.</li>
+  <li>(With Suk-Ho Lee and Hernan Astudillo R.) “Method Maintenance Issues in Dynamic Object-Oriented Databases”, Database Systems for Next-Generation Applications: Principle and Practice, World Scientific Publishing Co. 1992.</li>
+  <li>Hyoung-Joo Kim, “Algorithmic and Computational Aspects of Object-Oriented Schema Design”, Object-Oriented Database with Applications to CAD/CAM, CASE, VLSI and Network Management, Prentice Hall. 1991.</li>
+</ol>
+
+<h4 id="miscellaneous-paper">Miscellaneous Paper</h4>
+
+<ol>
+  <li>Hyoung-Joo Kim, “Hidden Disadvantages of Object-Oriented Databases”, KOCSEA News Letter, April, 1990.</li>
+  <li>(With H. Korth), “PSYCHO : A Graphical Language for Supporting Schema Evolution in Object-Oriented Databases”, The University of Texas at Austin.</li>
+  <li>Hyoung-Joo Kim, “Issues in Object-Oriented Database Schemas”, The University of Texas at Austin, May, 1988, TR-87-43, December, 1987.</li>
+  <li>Hyoung-Joo Kim, “Graphical Environment for Database Systems, MSc thesis.” The University of Texas at Austin, August, 1985.</li>
+</ol>
+
+<h2 id="books">Books</h2>
+
+<h4 id="author">Author</h4>
+
+<ol>
+  <li>쉽게 배우는 C++, 1993년, 교학사</li>
+  <li>알기쉬운 객체지향시스템, 1993년, 동아출판사</li>
+  <li>C++ Programming 이론과 실제, 1997년, 교학사</li>
+  <li>쉽게 배우는 ANSI/ISO C++, 1998년 교학사</li>
+  <li>ANSI/ISO C++ Programming의 이론과 실제, 1998년, 교학사</li>
+  <li>전자상거래 세상에 할 일이 많다, 1999년 4월, 도서출판 비비컴</li>
+  <li>일주일에 배우는 CORBA, 1999년 9월, 도서출판 마이트프레스</li>
+  <li>JAVA가 있다, 2001년 2월, YBM Sisa</li>
+</ol>
+
+<h4 id="coauthor">Coauthor</h4>
+
+<ol>
+  <li>21세기 컴퓨터공학, 공저(최양희 외 14명), 교학사</li>
+  <li>SRP (서울대 RDBMS 만든 이야기), 공저(SRP팀), 2000년 1월, 도서출판 마이트프레스</li>
+  <li>SOP (서울대 OODBMS 만든 이야기), 공저(SOP팀), 2000년 1월, 도서출판 마이트프레스</li>
+  <li>술술구술면접, 공저(김대식, 최재천), 2001년, 이슈투데이</li>
+</ol>
+
+<h4 id="korean-version">Korean version</h4>
+
+<ol>
+  <li>객체지향 (번역서), 1997년, 교학사</li>
+  <li>Database System Concepts (번역서), 4판, 2002년 9월, McGraw-Hill</li>
+  <li>Database System Concepts (번역서), 5판, 2006년 9월, McGraw-Hill</li>
+  <li>Database System Concepts (번역서), 6판, 2010년 12월, McGraw-Hill</li>
+</ol>
+:ET
