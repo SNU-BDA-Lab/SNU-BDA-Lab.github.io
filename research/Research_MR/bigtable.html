@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns:og="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Research MachineLearning BigTable | Big Data Analytics Lab</title>
+    <!--페이지 제목-->
+
+    <meta name="author" content="username" />
+
+    <meta name="title" content="Members" />
+    <link rel="icon" type="image/png" href="http://localhost:4000/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Members" />
+    <meta name="twitter:title" content="Members" />
+
+    <meta name="keywords" content="Big-Data," />
+
+    <link rel="canonical" href="http://example.com/" />
+    <meta property="og:site_name" content="Big Data Analytics Lab" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://example.com" />
+    <meta name="description" content="Big Data Analytics Lab" />
+    <meta property="og:description" content="Big Data Analytics Lab" />
+    <meta name="twitter:description" content="Big Data Analytics Lab" />
+
+    <meta property="og:image" content="http://example.com/sharer.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="http://example.com/sharer.png" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
+
+<body class="wrap">
+    <header>
+        <nav class="main-nav">
+            <a href="#" class="opener show-on-mobiles">...</a>
+            <div class="clear-opener show-on-mobiles"></div>
+            <div class="grid">
+                <ul>
+                    <li>
+                        <h1 class="site-title"><a href="/">Big Data Analytics Lab</a></h1>
+                    </li>
+                    >
+                    <li>
+                        <a href="/"><i class="fa fa-home"></i>Main Page</a>
+                    </li>
+                    <li>
+                        <a href="/members"><i class="fa fa-info-circle"></i>Members</a>
+                    </li>
+                    <li>
+                        <a href="/research"><i class="fa fa-check"></i>Research</a>
+                    </li>
+                    <li>
+                        <a href="/publication"><i class="fa fa-star"></i>Publication</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div id="home" class="grid post">
+            <div class="unit whole">
+                <h1 id="firstHeading" class="title">BigTable</h1>
+                <!--내용 제목-->
+                <h3 id="tagline">From Big Data Analytics Lab</h3>
+
+                <div class="row">
+                    <div id="p-cactions" class="large-12 columns">
+                        <div id="content">
+                            <h5 id="siteSub" class="subtitle"></h5>
+                            <div id="contentSub" class="clear_both"></div>
+                            <div id="bodyContent" class="mw-bodytext">
+                                <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+                                    <div class="mw-parser-output">
+                                        <p><big><b>Bigtable: A Distributed Storage System for Structured Data</b></big>
+                                        </p>
+                                        <p>Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A.
+                                            Wallach, Michael Burrows, Tushar Chandra, Andrew Fikes, Robert E. Gruber:
+                                            Bigtable: A Distributed Storage System for Structured Data. ACM Trans.
+                                            Comput. Syst. 26(2): (2008) <br>
+                                            Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A.
+                                            Wallach, Michael Burrows, Tushar Chandra, Andrew Fikes, Robert Gruber:
+                                            Bigtable: A Distributed Storage System for Structured Data (Awarded Best
+                                            Paper!). OSDI 2006: 205-218
+                                        </p>
+                                        <div id="toc" class="toc">
+                                            <div class="toctitle">
+                                                <h2>Contents</h2><span class="toctoggle">&nbsp;[<a role="button"
+                                                        tabindex="0" class="togglelink">hide</a>]&nbsp;</span>
+                                            </div>
+                                            <ul>
+                                                <li class="toclevel-1 tocsection-1"><a href="#Introduction"><span
+                                                            class="tocnumber">1</span> <span
+                                                            class="toctext">Introduction</span></a></li>
+                                                <li class="toclevel-1 tocsection-2"><a href="#Data_Model"><span
+                                                            class="tocnumber">2</span> <span class="toctext">Data
+                                                            Model</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-3"><a href="#Rows"><span
+                                                                    class="tocnumber">2.1</span> <span
+                                                                    class="toctext">Rows</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-4"><a href="#Implementation"><span
+                                                            class="tocnumber">3</span> <span
+                                                            class="toctext">Implementation</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-5"><a href="#Compactions"><span
+                                                                    class="tocnumber">3.1</span> <span
+                                                                    class="toctext">Compactions</span></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <h1><span class="mw-headline" id="Introduction">Introduction</span></h1>
+                                        <ul>
+                                            <li> 2003년 후반부터 개발</li>
+                                            <li> Design goals: wide applicability, scalability, high performance, high
+                                                availability</li>
+                                            <li> throughput 위주의 batch processing 부터 latency-sensitive한 data 처리까지 다양한
+                                                workload를 요하는 여러 Google product에서 사용.</li>
+                                            <li> database와의 차이점
+                                                <ul>
+                                                    <li> full relational data model을 지원하지 않음. data layout과 format에 대한
+                                                        dynamic control이 가능한 simple model.</li>
+                                                    <li> client가 storage에서 제공하는 locality 성질을 고려하도록 허용.</li>
+                                                    <li> data는 string인 row와 column 이름으로 인덱스됨. data는 uninterpreted
+                                                        string으로 처리.</li>
+                                                </ul>
+                                            </li>
+                                            <li> 스키마 파라미터로 데이터를 디스크에서 serve할지 메모리에서 serve할지 dynamic control 가능</li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="Data_Model">Data Model</span></h1>
+                                        <ul>
+                                            <li> <b>cluster</b>: Bigtable SW를 실행하는 프로세스들의 집합. table의 집합을 serving.</li>
+                                            <li> <b>table</b>: sparse, distributed, persistent multidimensional sorted
+                                                map
+                                                <ul>
+                                                    <li> <a rel="nofollow" class="external text"
+                                                            href="http://jimbojw.com/wiki/index.php?title=Understanding_Hbase_and_BigTable">Understanding
+                                                            HBase and BigTable</a> - a good conceptual primer with JSON
+                                                        examples</li>
+                                                </ul>
+                                            </li>
+                                            <li> <b>cell</b>: row key, column key, timestamp로 reference되는 storage
+                                                <ul>
+                                                    <li> (row:string, column:string, time:int64) -&gt; string</li>
+                                                </ul>
+                                            </li>
+                                            <li> row들은 묶여서 load balancing의 단위가 됨. column들은 묶여서 access control과 resource
+                                                accounting의 단위가 됨.</li>
+                                            <li> 예로 사용할 Webtable</li>
+                                        </ul>
+                                        <p><a href="/index.php/File:Webtable.png" class="image"
+                                                title="A slice of an example table that stores Web pages"><img
+                                                    alt="A slice of an example table that stores Web pages"
+                                                    src="/images/7/7f/Webtable.png" width="560" height="124"></a>
+                                        </p>
+                                        <h2><span class="mw-headline" id="Rows">Rows</span></h2>
+                                        <ul>
+                                            <li> key: 임의의 string. 보통 10-100bytes. 64KB까지 가능.</li>
+                                            <li> single row key 하에 있는 데이터의 read/write 는 atomic. (column 수와 무관)</li>
+                                            <li> Bigtable은 row key를 lexicographic order로 정렬하여 데이터를 유지.</li>
+                                            <li> 한 table의 row range는 동적으로 partition됨.</li>
+                                            <li> <b>tablet</b>: 각 row range를 가리킴. distribution과 load balancing의 단위가 됨.
+                                                <ul>
+                                                    <li> short row range에 대한 read는 적은 수의 머신과만 통신하게 되므로 효율적.</li>
+                                                    <li> 이런 성질을 잘 이용하게끔 row key를 선택하면 효과적이다.
+                                                        <ul>
+                                                            <li> e.g., Webtable에서 URL의 hostname component를 뒤집어서 저장.
+                                                                (maps.google.com -&gt; com.google.maps) </li>
+                                                            <li> 이렇게 하면 같은 도메인(*.google.com)에 속한 row들이 모여 있게 되므로 효과적.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="Implementation">Implementation</span></h1>
+                                        <h2><span class="mw-headline" id="Compactions">Compactions</span></h2>
+                                        <p><a href="/index.php/File:Compactions.png" class="image"
+                                                title="Compactions"><img alt="Compactions"
+                                                    src="/images/5/55/Compactions.png" width="800" height="426"></a>
+                                        </p>
+                                        <ul>
+                                            <li> <b>minor compaction</b>: memtable의 크기가 threshold를 넘으면 새 memtable을 만들고
+                                                기존 것은 frozen memtable로 만든 뒤 SSTable로 변환하여 GFS에 write.
+                                                <ul>
+                                                    <li> tablet 서버의 메모리 사용량을 줄이고, recovery time을 짧게 하는 효과.</li>
+                                                </ul>
+                                            </li>
+                                            <li> <b>merging compaction</b>: background로 주기적으로 여러 개의 SSTable이 있으면 merge를
+                                                수행.
+                                                <ul>
+                                                    <li> read operation이 읽을때 merge하는 오버헤드를 없앰.</li>
+                                                </ul>
+                                            </li>
+                                            <li> <b>major compaction</b>: 모든 SSTable들을 하나의 SSTable로 rewrite하는 것. 지워진 데이터
+                                                및 정보가 없는 SSTable을 만든다. 정기적으로 모든 tablet을 돌면서 수행.
+                                                <ul>
+                                                    <li> 지워진 데이터의 resource 반환. sensitive data를 남기지 않고 완전히 지우는 효과.</li>
+                                                </ul>
+                                            </li>
+                                            <li> GFS 서버와 Bigtable tablet 서버가 같이 떠 있는 경우 locality optimization. 자신의 노드에
+                                                있는 SSTable을 compaction.</li>
+                                        </ul>
+
+                                        <!-- 
+                                    NewPP limit report
+                                    Cached time: 20220512043934
+                                    Cache expiry: 86400
+                                    Dynamic content: false
+                                    CPU time usage: 0.008 seconds
+                                    Real time usage: 0.015 seconds
+                                    Preprocessor visited node count: 20/1000000
+                                    Preprocessor generated node count: 26/1000000
+                                    Post‐expand include size: 0/2097152 bytes
+                                    Template argument size: 0/2097152 bytes
+                                    Highest expansion depth: 2/40
+                                    Expensive parser function count: 0/100
+                                    -->
+                                        <!--
+                                    Transclusion expansion time report (%,ms,calls,template)
+                                    100.00%    0.000      1 -total
+                                    -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="grid site-footer">
+        <p>&copy;&nbsp;Big Data Analytics Lab</p>
+        <p>
+            <small>Powered by
+                <a href="http://jekyllrb.com" target="_blank"><em>Jekyll</em></a>
+                using
+                <a href="http://bitwiser.in/bitwiser/" target="_blank"><em>Bitwiser</em></a>
+                theme.</small>
+        </p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

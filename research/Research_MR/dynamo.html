@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html xmlns:og="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Research MachineLearning Dynamo | Big Data Analytics Lab</title>
+    <!--페이지 제목-->
+
+    <meta name="author" content="username" />
+
+    <meta name="title" content="Members" />
+    <link rel="icon" type="image/png" href="http://localhost:4000/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Members" />
+    <meta name="twitter:title" content="Members" />
+
+    <meta name="keywords" content="Big-Data," />
+
+    <link rel="canonical" href="http://example.com/" />
+    <meta property="og:site_name" content="Big Data Analytics Lab" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://example.com" />
+    <meta name="description" content="Big Data Analytics Lab" />
+    <meta property="og:description" content="Big Data Analytics Lab" />
+    <meta name="twitter:description" content="Big Data Analytics Lab" />
+
+    <meta property="og:image" content="http://example.com/sharer.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="http://example.com/sharer.png" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
+
+<body class="wrap">
+    <header>
+        <nav class="main-nav">
+            <a href="#" class="opener show-on-mobiles">...</a>
+            <div class="clear-opener show-on-mobiles"></div>
+            <div class="grid">
+                <ul>
+                    <li>
+                        <h1 class="site-title"><a href="/">Big Data Analytics Lab</a></h1>
+                    </li>
+                    >
+                    <li>
+                        <a href="/"><i class="fa fa-home"></i>Main Page</a>
+                    </li>
+                    <li>
+                        <a href="/members"><i class="fa fa-info-circle"></i>Members</a>
+                    </li>
+                    <li>
+                        <a href="/research"><i class="fa fa-check"></i>Research</a>
+                    </li>
+                    <li>
+                        <a href="/publication"><i class="fa fa-star"></i>Publication</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div id="home" class="grid post">
+            <div class="unit whole">
+                <h1 id="firstHeading" class="title">Dynamo</h1>
+                <!--내용 제목-->
+                <h3 id="tagline">From Big Data Analytics Lab</h3>
+
+                <div class="row">
+                    <div id="p-cactions" class="large-12 columns">
+                        <div id="content">
+                            <h5 id="siteSub" class="subtitle"></h5>
+                            <div id="contentSub" class="clear_both"></div>
+                            <div id="bodyContent" class="mw-bodytext">
+                                <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+                                    <div class="mw-parser-output">
+                                        <p><big><b>Dynamo: Amazon’s Highly Available Key-value Store</b></big>
+                                        </p>
+                                        <p>Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati,
+                                            Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall,
+                                            Werner Vogels: Dynamo: amazon's highly available key-value store. SOSP 2007:
+                                            205-220
+                                        </p>
+                                        <div id="toc" class="toc">
+                                            <div class="toctitle">
+                                                <h2>Contents</h2><span class="toctoggle">&nbsp;[<a role="button"
+                                                        tabindex="0" class="togglelink">hide</a>]&nbsp;</span>
+                                            </div>
+                                            <ul>
+                                                <li class="toclevel-1 tocsection-1"><a href="#Background"><span
+                                                            class="tocnumber">1</span> <span
+                                                            class="toctext">Background</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-2"><a
+                                                                href="#System_Assumptions_and_Requirements"><span
+                                                                    class="tocnumber">1.1</span> <span
+                                                                    class="toctext">System Assumptions and
+                                                                    Requirements</span></a></li>
+                                                        <li class="toclevel-2 tocsection-3"><a
+                                                                href="#Design_Considerations"><span
+                                                                    class="tocnumber">1.2</span> <span
+                                                                    class="toctext">Design Considerations</span></a>
+                                                            <ul>
+                                                                <li class="toclevel-3 tocsection-4"><a
+                                                                        href="#Consistency"><span
+                                                                            class="tocnumber">1.2.1</span> <span
+                                                                            class="toctext">Consistency</span></a></li>
+                                                                <li class="toclevel-3 tocsection-5"><a
+                                                                        href="#Resolving_Update_Conflict"><span
+                                                                            class="tocnumber">1.2.2</span> <span
+                                                                            class="toctext">Resolving Update
+                                                                            Conflict</span></a>
+                                                                    <ul>
+                                                                        <li class="toclevel-4 tocsection-6"><a
+                                                                                href="#.EC.96.B8.EC.A0.9C_.ED.95.A0_.EA.B2.83.EC.9D.B8.EA.B0.80"><span
+                                                                                    class="tocnumber">1.2.2.1</span>
+                                                                                <span class="toctext">언제 할
+                                                                                    것인가</span></a></li>
+                                                                        <li class="toclevel-4 tocsection-7"><a
+                                                                                href="#.EB.88.84.EA.B0.80_.ED.95.A0_.EA.B2.83.EC.9D.B8.EA.B0.80"><span
+                                                                                    class="tocnumber">1.2.2.2</span>
+                                                                                <span class="toctext">누가 할
+                                                                                    것인가</span></a></li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li class="toclevel-3 tocsection-8"><a
+                                                                        href="#.EA.B8.B0.ED.83.80_.EC.A3.BC.EC.9A.94_.EC.9B.90.EC.B9.99"><span
+                                                                            class="tocnumber">1.2.3</span> <span
+                                                                            class="toctext">기타 주요 원칙</span></a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-9"><a href="#System_Architecture"><span
+                                                            class="tocnumber">2</span> <span class="toctext">System
+                                                            Architecture</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-10"><a
+                                                                href="#Data_Processing"><span
+                                                                    class="tocnumber">2.1</span> <span
+                                                                    class="toctext">Data Processing</span></a>
+                                                            <ul>
+                                                                <li class="toclevel-3 tocsection-11"><a
+                                                                        href="#System_Interface"><span
+                                                                            class="tocnumber">2.1.1</span> <span
+                                                                            class="toctext">System Interface</span></a>
+                                                                </li>
+                                                                <li class="toclevel-3 tocsection-12"><a
+                                                                        href="#Partitioning"><span
+                                                                            class="tocnumber">2.1.2</span> <span
+                                                                            class="toctext">Partitioning</span></a>
+                                                                    <ul>
+                                                                        <li class="toclevel-4 tocsection-13"><a
+                                                                                href="#Consistent_Hashing"><span
+                                                                                    class="tocnumber">2.1.2.1</span>
+                                                                                <span class="toctext">Consistent
+                                                                                    Hashing</span></a></li>
+                                                                        <li class="toclevel-4 tocsection-14"><a
+                                                                                href="#Dynamo.EA.B0.80_.EC.82.AC.EC.9A.A9.ED.95.98.EB.8A.94_.EB.B3.80.EC.A2.85_consistent_hashing"><span
+                                                                                    class="tocnumber">2.1.2.2</span>
+                                                                                <span class="toctext">Dynamo가 사용하는 변종
+                                                                                    consistent hashing</span></a></li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li class="toclevel-3 tocsection-15"><a
+                                                                        href="#Replication"><span
+                                                                            class="tocnumber">2.1.3</span> <span
+                                                                            class="toctext">Replication</span></a></li>
+                                                                <li class="toclevel-3 tocsection-16"><a
+                                                                        href="#Data_Versioning"><span
+                                                                            class="tocnumber">2.1.4</span> <span
+                                                                            class="toctext">Data Versioning</span></a>
+                                                                    <ul>
+                                                                        <li class="toclevel-4 tocsection-17"><a
+                                                                                href="#Data.EA.B0.80_.EC.97.AC.EB.9F.AC_.EB.B2.84.EC.A0.84.EC.9D.B4_.EC.83.9D.EA.B8.B0.EB.8A.94_.EC.9D.B4.EC.9C.A0"><span
+                                                                                    class="tocnumber">2.1.4.1</span>
+                                                                                <span class="toctext">Data가 여러 버전이 생기는
+                                                                                    이유</span></a></li>
+                                                                        <li class="toclevel-4 tocsection-18"><a
+                                                                                href="#Conflict_Resolution"><span
+                                                                                    class="tocnumber">2.1.4.2</span>
+                                                                                <span class="toctext">Conflict
+                                                                                    Resolution</span></a></li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li class="toclevel-3 tocsection-19"><a
+                                                                        href="#Maintaining_Consistency"><span
+                                                                            class="tocnumber">2.1.5</span> <span
+                                                                            class="toctext">Maintaining
+                                                                            Consistency</span></a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="toclevel-2 tocsection-20"><a
+                                                                href="#Cluster_Management"><span
+                                                                    class="tocnumber">2.2</span> <span
+                                                                    class="toctext">Cluster Management</span></a>
+                                                            <ul>
+                                                                <li class="toclevel-3 tocsection-21"><a
+                                                                        href="#Membership_and_Failure_Detection"><span
+                                                                            class="tocnumber">2.2.1</span> <span
+                                                                            class="toctext">Membership and Failure
+                                                                            Detection</span></a>
+                                                                    <ul>
+                                                                        <li class="toclevel-4 tocsection-22"><a
+                                                                                href="#Ring_Membership"><span
+                                                                                    class="tocnumber">2.2.1.1</span>
+                                                                                <span class="toctext">Ring
+                                                                                    Membership</span></a></li>
+                                                                        <li class="toclevel-4 tocsection-23"><a
+                                                                                href="#External_Discovery"><span
+                                                                                    class="tocnumber">2.2.1.2</span>
+                                                                                <span class="toctext">External
+                                                                                    Discovery</span></a></li>
+                                                                        <li class="toclevel-4 tocsection-24"><a
+                                                                                href="#Failure_Detection"><span
+                                                                                    class="tocnumber">2.2.1.3</span>
+                                                                                <span class="toctext">Failure
+                                                                                    Detection</span></a></li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li class="toclevel-3 tocsection-25"><a
+                                                                        href="#Adding.2FRemoving_Storage_Nodes"><span
+                                                                            class="tocnumber">2.2.2</span> <span
+                                                                            class="toctext">Adding/Removing Storage
+                                                                            Nodes</span></a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="toclevel-2 tocsection-26"><a
+                                                                href="#Handling_Failures"><span
+                                                                    class="tocnumber">2.3</span> <span
+                                                                    class="toctext">Handling Failures</span></a>
+                                                            <ul>
+                                                                <li class="toclevel-3 tocsection-27"><a
+                                                                        href="#Handling_Temporary_Failures"><span
+                                                                            class="tocnumber">2.3.1</span> <span
+                                                                            class="toctext">Handling Temporary
+                                                                            Failures</span></a></li>
+                                                                <li class="toclevel-3 tocsection-28"><a
+                                                                        href="#Handling_Permanent_Failures"><span
+                                                                            class="tocnumber">2.3.2</span> <span
+                                                                            class="toctext">Handling Permanent
+                                                                            Failures</span></a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-29"><a href="#Implementation"><span
+                                                            class="tocnumber">3</span> <span
+                                                            class="toctext">Implementation</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-30"><a
+                                                                href="#Local_Persistence_Component"><span
+                                                                    class="tocnumber">3.1</span> <span
+                                                                    class="toctext">Local Persistence
+                                                                    Component</span></a></li>
+                                                        <li class="toclevel-2 tocsection-31"><a
+                                                                href="#Request_Coordination_Component"><span
+                                                                    class="tocnumber">3.2</span> <span
+                                                                    class="toctext">Request Coordination
+                                                                    Component</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-32"><a
+                                                        href="#Experience_.26_Lessons_Learned"><span
+                                                            class="tocnumber">4</span> <span class="toctext">Experience
+                                                            &amp; Lessons Learned</span></a></li>
+                                            </ul>
+                                        </div>
+
+                                        <h1><span class="mw-headline" id="Background">Background</span></h1>
+                                        <ul>
+                                            <li> RDBMS를 사용할 때의 문제점
+                                                <ul>
+                                                    <li> 과도한 기능 -&gt; 비싼 H/W와 운영 인력 필요 -&gt; 비용 증가
+                                                        <ul>
+                                                            <li> 아마존에서는 많은 서비스들이 DB에 접근할 때 단순히 primary-key access만 하고,
+                                                                복잡한 query 같은 건 없더라..
+                                                                <ul>
+                                                                    <li> e.g., best seller lists, shopping carts,
+                                                                        customer preferences, session management, sales
+                                                                        rank, and product catalog</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> availability에 한계가 있음. 대신 consistency를 선택한 결과.
+                                                        <ul>
+                                                            <li> 기업의 입장에서는 서비스가 잠깐이라도 멈추면 막대한 영업 손실.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> scale-out이 힘들고, load balancing을 위해 잘 partitioning하는 것도 어려움.
+                                                        <ul>
+                                                            <li> 계속 늘어가는 데이터를 처리할 수 있어야 함.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="System_Assumptions_and_Requirements">System
+                                                Assumptions and Requirements</span></h2>
+                                        <ul>
+                                            <li> Query model
+                                                <ul>
+                                                    <li> primary-key로 접근하는 단순 read/write. </li>
+                                                    <li> value는 비교적 작은 binary object(즉, blob). 대략 1MB 이하 가정.</li>
+                                                    <li> 한 data item에 대한 operation만 지원. </li>
+                                                    <li> relational schema 필요 없음.</li>
+                                                </ul>
+                                            </li>
+                                            <li> ACID 성질
+                                                <ul>
+                                                    <li> high availability를 위해 consistency 완화. </li>
+                                                    <li> isolation 보장 안함. </li>
+                                                    <li> atomicity는 single key update만 허용.</li>
+                                                </ul>
+                                            </li>
+                                            <li> Efficiency
+                                                <ul>
+                                                    <li> 철저히 low latency를 보장해야 함.
+                                                        <ul>
+                                                            <li> peak time에 초당 어느 정도 request가 들어올 때 99.9% 이상에 대해 일정 응답시간
+                                                                이하 보장.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> Other assumptions
+                                                <ul>
+                                                    <li> 아마존 내부에서만 쓰이므로 보안 관련 요구사항은 없음.</li>
+                                                    <li> 수백 노드 이상 scalability 제공.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Design_Considerations">Design
+                                                Considerations</span></h2>
+                                        <h3><span class="mw-headline" id="Consistency">Consistency</span></h3>
+                                        <ul>
+                                            <li> RDBMS: synchronous replica coordination을 해서 강한 consistency를 보장하지만
+                                                availabilty는 취약.</li>
+                                            <li> Dynamo: optimistic replication 기법을 사용해서 availability를 높임. concurrent,
+                                                disconnected work에 대해서는 괜찮은 수준으로만 처리.
+                                                <ul>
+                                                    <li> <b>eventual consistency</b>: 모든 update는 종내 모든 replica에 도달한다.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Resolving_Update_Conflict">Resolving Update
+                                                Conflict</span></h3>
+                                        <h4><span class="mw-headline"
+                                                id=".EC.96.B8.EC.A0.9C_.ED.95.A0_.EA.B2.83.EC.9D.B8.EA.B0.80">언제 할
+                                                것인가</span></h4>
+                                        <ul>
+                                            <li> RDBMS: write할 때 처리. 모든 replica에 쓰지 못하면 write 실패.
+                                                <ul>
+                                                    <li> RDBMS에서는 common case인 read를 빠르게 하는 것이 중요.</li>
+                                                </ul>
+                                            </li>
+                                            <li> Dynamo: <b>"always writable"</b>. read할 때 처리.
+                                                <ul>
+                                                    <li> 아마존에서는 고객의 update를 거부하는 것은 고객에게 나쁜 체험을 안겨줌.
+                                                        <ul>
+                                                            <li> e.g., 쇼핑 카트에 아이템을 담거나 삭제하는데 실패하는 경우</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h4><span class="mw-headline"
+                                                id=".EB.88.84.EA.B0.80_.ED.95.A0_.EA.B2.83.EC.9D.B8.EA.B0.80">누가 할
+                                                것인가</span></h4>
+                                        <ul>
+                                            <li> data store에서 처리: 단순한 policy만 쓸수 있음. "last write wins"</li>
+                                            <li> application에서 처리: 각 app에 맞는 방법을 쓸수 있음.
+                                                <ul>
+                                                    <li> e.g., 쇼핑 카트에서 update 충돌 시 서로 merge해서 처리.</li>
+                                                </ul>
+                                            </li>
+                                            <li> app에서 처리하지 않으면 data store 단에서 처리하도록 함.</li>
+                                        </ul>
+                                        <h3><span class="mw-headline"
+                                                id=".EA.B8.B0.ED.83.80_.EC.A3.BC.EC.9A.94_.EC.9B.90.EC.B9.99">기타 주요
+                                                원칙</span></h3>
+                                        <ul>
+                                            <li> incremental scalability: 노드 추가를 쉽게.</li>
+                                            <li> symmetry &amp; decentralization: 모든 노드는 동일한 책임을 지님. 특별한 노드가 없음. 중앙 제어
+                                                방식 배제.</li>
+                                            <li> heterogeneity: 각 서버의 성능에 맞게 작업 분배.</li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="System_Architecture">System
+                                                Architecture</span></h1>
+                                        <table class="wikitable" border="1" cellpadding="5" cellspacing="0">
+                                            <caption> Dynamo에서 사용한 기법들 및 장점 요약
+                                            </caption>
+                                            <tbody>
+                                                <tr>
+                                                    <th> Problem </th>
+                                                    <th> Technique </th>
+                                                    <th> Advantage
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td> <a href="/index.php/Research_MR/Dynamo#Partitioning"
+                                                            title="Research MR/Dynamo">Data Partitioning</a> </td>
+                                                    <td> Consistent Hashing </td>
+                                                    <td> Incremental Scalability
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <a href="/index.php/Research_MR/Dynamo#Data_Versioning"
+                                                            title="Research MR/Dynamo">High Availability for writes</a>
+                                                    </td>
+                                                    <td> Vector clocks with reconciliation during reads </td>
+                                                    <td> Version size is decoupled from update rates
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <a href="/index.php/Research_MR/Dynamo#Handling_Temporary_Failures"
+                                                            title="Research MR/Dynamo">Handling temporary failures</a>
+                                                    </td>
+                                                    <td> Sloppy Quorum and hinted handoff </td>
+                                                    <td> Provides high availability and durability guarantee when some
+                                                        of the replicas are not available
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <a href="/index.php/Research_MR/Dynamo#Handling_Permanent_Failures"
+                                                            title="Research MR/Dynamo">Recovering from permanent
+                                                            failures</a> </td>
+                                                    <td> Anti-entropy using Merkle trees </td>
+                                                    <td> Synchronizes divergent replicas in the background
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td> <a href="/index.php/Research_MR/Dynamo#Membership_and_Failure_Detection"
+                                                            title="Research MR/Dynamo">Membership and failure
+                                                            detection</a> </td>
+                                                    <td> Gossip-based membership protocol and failure detection </td>
+                                                    <td> Preserves symmetry and avoids having a centralized registry for
+                                                        storing membership and node liveness information
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <h2><span class="mw-headline" id="Data_Processing">Data Processing</span></h2>
+                                        <h3><span class="mw-headline" id="System_Interface">System Interface</span></h3>
+                                        <p>단순 key access를 위해 딱 두가지 operation만 제공: get(), put()
+                                        </p>
+                                        <ul>
+                                            <li> get(key): 하나의 object / conflict 시 여러 버전 object의 리스트 + context</li>
+                                            <li> put(key, context, object): context는 version 관리를 위한 정보 등의 system
+                                                metadata를 담음.
+                                                <ul>
+                                                    <li> insert, delete 모두 put()으로 처리됨.</li>
+                                                </ul>
+                                            </li>
+                                            <li> key와 object 모두 opaque byte array로 간주. key에는 MD5 hash 사용.</li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Partitioning">Partitioning</span></h3>
+                                        <h4><span class="mw-headline" id="Consistent_Hashing"><a rel="nofollow"
+                                                    class="external text"
+                                                    href="http://en.wikipedia.org/wiki/Consistent_hashing">Consistent
+                                                    Hashing</a></span></h4>
+                                        <p>원래 hashing은 노드 개수(hash slot 개수)가 바뀌면 <b>모든 key를 다시 mapping</b>해야 하는데 이를 평균
+                                            k/n개만 바꾸면 되도록 개선. (k: 키 개수, n: 노드 개수)
+                                        </p>
+                                        <ul>
+                                            <li> hash 값의 range를 어떤 고정된 <b>circular space("ring")의 위치</b>로 함. (즉, angle
+                                                값.) 노드들을 ring에 random하게 분포시키고 각 key를 hash한 위치에서 시계방향으로 걸어가서 나오는 첫 노드에게
+                                                할당하는 방식.</li>
+                                            <li> 노드가 추가/제거되었을 때 그 노드의 바로 다음 노드만 영향을 받고, 나머지는 그대로임.</li>
+                                        </ul>
+                                        <div class="thumb tright">
+                                            <div class="thumbinner" style="width:282px;"><a
+                                                    href="/index.php/File:Dynamo_Consistent_Hashing.png"
+                                                    class="image"><img alt=""
+                                                        src="/images/thumb/6/66/Dynamo_Consistent_Hashing.png/280px-Dynamo_Consistent_Hashing.png"
+                                                        width="280" height="219" class="thumbimage"
+                                                        srcset="/images/thumb/6/66/Dynamo_Consistent_Hashing.png/420px-Dynamo_Consistent_Hashing.png 1.5x, /images/6/66/Dynamo_Consistent_Hashing.png 2x"></a>
+                                                <div class="thumbcaption">
+                                                    <div class="magnify"><a
+                                                            href="/index.php/File:Dynamo_Consistent_Hashing.png"
+                                                            class="internal" title="Enlarge"></a></div>Partitioning and
+                                                    replication of keys in Dynamo ring
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4><span class="mw-headline"
+                                                id="Dynamo.EA.B0.80_.EC.82.AC.EC.9A.A9.ED.95.98.EB.8A.94_.EB.B3.80.EC.A2.85_consistent_hashing">Dynamo가
+                                                사용하는 변종 consistent hashing</span></h4>
+                                        <p>노드들의 성능이 다른 경우 및 load balancing을 고려하여 consistent hashing을 개선.
+                                        </p>
+                                        <ul>
+                                            <li> <b>"virtual nodes</b> 개념 도입: 한 노드에 ring의 여러 위치 할당 가능.</li>
+                                            <li> 장점
+                                                <ul>
+                                                    <li> 한 노드가 죽었을 때 그로 인한 load가 여러 노드로 분산됨.</li>
+                                                    <li> 한 노드가 추가될 때 여러 노드로부터 load를 골고루 가져옴.</li>
+                                                    <li> 노드의 성능에 따라 virtual node 할당 개수를 조정함으로써 효율적 자원 이용 가능.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Replication">Replication</span></h3>
+                                        <ul>
+                                            <li> 위의 consistent hashing으로 할당된 노드가 coordinator node가 되어 replication을 책임짐.
+                                            </li>
+                                            <li> 자신의 local에 저장하고, 시계 방향으로 N-1개의 노드에 replication하도록 함.
+                                                <ul>
+                                                    <li> virtual node 개념 때문에 N개 노드 중에 물리적으로 같은 노드가 들어 있으면 실제로 N 노드에 저장이
+                                                        안됨. 이를 고려하여 물리적으로 같은 노드는 skip하면서 저장할 노드들(특정 key의
+                                                        <i><b>preference list</b></i>라고 함)을 선택.
+                                                    </li>
+                                                    <li> 모든 노드가 어떤 key에 대해서든 preferece list를 판단할 수 있도록 설계됨.</li>
+                                                    <li> 여러 data center에 replica가 골고루 분산될수 있도록 preference list를 만들어야 함.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Data_Versioning">Data Versioning</span></h3>
+                                        <h4><span class="mw-headline"
+                                                id="Data.EA.B0.80_.EC.97.AC.EB.9F.AC_.EB.B2.84.EC.A0.84.EC.9D.B4_.EC.83.9D.EA.B8.B0.EB.8A.94_.EC.9D.B4.EC.9C.A0">Data가
+                                                여러 버전이 생기는 이유</span></h4>
+                                        <ul>
+                                            <li> Dynamo는 eventual consistency만을 제공하며, 모든 replica가 asynchronous하게
+                                                propagation됨.
+                                                <ul>
+                                                    <li> update가 모든 replica에 전달되지 않은 상황에서 뒤이어 바로 read가 들어온 경우 최신 update가
+                                                        반영되지 않은 예전 object가 return될 수 있음.</li>
+                                                    <li> server outage나 network partitions 등의 failure scenario에서는
+                                                        update가 모든 replica에 전달되는 시간이 길어질 수도 있음.</li>
+                                                </ul>
+                                            </li>
+                                            <li> 아마존에는 이러한 정도의 inconsistency를 감내할 만한 application들이 많이 있음.
+                                                <ul>
+                                                    <li> e.g., shopping cart - add to cart / delete item from cart</li>
+                                                </ul>
+                                            </li>
+                                            <li> Dynamo는 각 modification의 결과물을 new &amp; immutable 버전으로 처리. 한 object에 대해
+                                                동시에 여러 버전이 있을 수 있음.
+                                                <ul>
+                                                    <li> network partition, node failure 등으로 인해 동일한 데이터의 버전이 두 개뿐만 아니라
+                                                        여러 개일 수도 있음.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h4><span class="mw-headline" id="Conflict_Resolution">Conflict
+                                                Resolution</span></h4>
+                                        <ul>
+                                            <li> 새 버전이 이전 버전(들)을 포함하는 경우: 시스템이 새 버전을 authoritative 버전으로 결정. (syntactic
+                                                reconciliation)</li>
+                                            <li> 버전들이 branch가 발생한 경우: client가 reconciliation을 해주어야 함. (semantic
+                                                reconciliation)
+                                                <ul>
+                                                    <li> e.g., shopping cart - "add to cart" 결과는 절대 사라지지 않음. 반면에 삭제했던
+                                                        item은 다시 나타날 수도 있음. 사용자가 merge할 수 있도록.</li>
+                                                </ul>
+                                            </li>
+                                            <li> 버전들의 인과 관계를 알아내기 위해서는 <a rel="nofollow" class="external text"
+                                                    href="http://en.wikipedia.org/wiki/Vector_clock">vector clock</a>
+                                                이용.</li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Maintaining_Consistency">Maintaining
+                                                Consistency</span></h3>
+                                        <ul>
+                                            <li> <a rel="nofollow" class="external text"
+                                                    href="http://en.wikipedia.org/wiki/Quorum_%28Distributed_Systems%29">quorum
+                                                    system</a>과 유사한 consistency protocol 사용.</li>
+                                            <li> latency를 좋게 하기 위해 보통 R + W &lt; N 이 되도록 설정. (R: read / W: write
+                                                operation이 성공한 걸로 간주하기 위해 필요한 최소 노드 수)</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Cluster_Management">Cluster Management</span>
+                                        </h2>
+                                        <h3><span class="mw-headline" id="Membership_and_Failure_Detection">Membership
+                                                and Failure Detection</span></h3>
+                                        <h4><span class="mw-headline" id="Ring_Membership">Ring Membership</span></h4>
+                                        <ul>
+                                            <li> ring에서 완전히 노드 추가/제거하는 건 관리자가 명시적으로 처리.
+                                                <ul>
+                                                    <li> 드물기 때문. 따라서 replica들을 rebalancing하는 일도 잘 발생하지 않음.</li>
+                                                    <li> 실수로 노드를 추가하는 일도 막을 수 있음.</li>
+                                                </ul>
+                                            </li>
+                                            <li> <a rel="nofollow" class="external text"
+                                                    href="http://en.wikipedia.org/wiki/Gossip_protocol">gossip-based
+                                                    protocol</a> 사용해서 membership의 변화를 모든 노드에 전파.
+                                                <ul>
+                                                    <li> 매 초마다 random하게 고른 peer와 통신해서 membership 변경 기록을 reconcile.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h4><span class="mw-headline" id="External_Discovery">External Discovery</span>
+                                        </h4>
+                                        <ul>
+                                            <li> 일부 노드들끼리만 통신하여 logical network partition 문제가 생기는 것을 막기 위해 몇몇 노드를 seed로
+                                                지정.
+                                                <ul>
+                                                    <li> seed는 모든 노드에게 알려짐. 명시적으로 주소를 설정.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h4><span class="mw-headline" id="Failure_Detection">Failure Detection</span>
+                                        </h4>
+                                        <ul>
+                                            <li> temporary node failure: 개별 노드들에 의해 감지됨. 메시지에 응답이 없는 경우.</li>
+                                            <li> permanent node failure: 관리자가 명시적으로 join/leave method 수행.</li>
+                                        </ul>
+                                        <h3><span class="mw-headline"
+                                                id="Adding.2FRemoving_Storage_Nodes">Adding/Removing Storage
+                                                Nodes</span></h3>
+                                        <ul>
+                                            <li> 노드 추가/제거 시에는 할당된 key range에 따라 N개의 노드들로부터 key들을 넘겨받거나 넘겨줌.</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Handling_Failures">Handling Failures</span>
+                                        </h2>
+                                        <h3><span class="mw-headline" id="Handling_Temporary_Failures">Handling
+                                                Temporary Failures</span></h3>
+                                        <ul>
+                                            <li> <b>Sloppy quorum</b>
+                                                <ul>
+                                                    <li> 모든 read/write operation은 preference list 중에 처음 N개의
+                                                        <i><b>healthy</b></i> 노드에 수행된다. 항상 처음 N개가 아님에 유의.
+                                                    </li>
+                                                    <li> high availability를 위해 quorum membership을 유연하게 가져감.</li>
+                                                </ul>
+                                            </li>
+                                            <li> <b>Hinted handoff</b>
+                                                <ul>
+                                                    <li> write operation 중 어떤 노드가 일시적으로 다운됐거나 네트웍이 연결이 안되는 경우,
+                                                        preference list의 순서에 따라 이를 대신 수행하는 노드가 생김.</li>
+                                                    <li> 이러한 경우 replica를 저장할 때 metadata에 원래 저장했어야 하는 노드를 hint로 적어둠.</li>
+                                                    <li> hint가 달린 replica들은 따로 local db에 두고 주기적으로 스캔. 원래의 노드가 살아난 경우
+                                                        replica를 그리로 보내주고 자신은 제거.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Handling_Permanent_Failures">Handling
+                                                Permanent Failures</span></h3>
+                                        <p>hinted replica를 가진 노드가 original replica 노드가 살아나기 전에 죽는 등의 시나리오에서 오래된
+                                            replica들이 계속 남아 있을 수 있다. <br>
+                                            그에 따라 문제가 발생할 소지를 줄이고 durability를 높이기 위해 replica synchronization을 수행. <br>
+                                            <a rel="nofollow" class="external text"
+                                                href="http://en.wikipedia.org/wiki/Hash_tree">Merkle tree</a>를 이용한
+                                            anti-entropy protocol 사용.
+                                        </p>
+                                        <ul>
+                                            <li> Merkle tree
+                                                <ul>
+                                                    <li> leaf node는 개별 key 값의 value들의 hash 값.</li>
+                                                    <li> parent node는 child 노드들의 값들을 concatenation해서 다시 hash한 값.</li>
+                                                    <li> 두 Merkle tree의 노드 값이 동일면 child 노드들은 검사해보지 않아도 동일함을 알 수 있다.</li>
+                                                </ul>
+                                            </li>
+                                            <li> Dynamo에서 Merkle tree를 사용하는 방식
+                                                <ul>
+                                                    <li> 각 노드마다 각 key range(한 virtual node가 담당하는 key들의 집합) 마다 하나의 Merkle
+                                                        tree를 유지.</li>
+                                                    <li> 두 노드가 root의 hash 값부터 교환하면서 바뀐 부분을 찾아서 replica synchronization.
+                                                    </li>
+                                                    <li> 단점: 시스템에서 노드가 추가/삭제되면 key range가 바뀌어서 tree 재생성이 필요하다.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="Implementation">Implementation</span></h1>
+                                        <ul>
+                                            <li> 주요 S/W component
+                                                <ul>
+                                                    <li> <a href="/index.php/Research_MR/Dynamo#Request_Coordination_Component"
+                                                            title="Research MR/Dynamo">request coordination</a></li>
+                                                    <li> membership and failure detection</li>
+                                                    <li> <a href="/index.php/Research_MR/Dynamo#Local_Persistence_Component"
+                                                            title="Research MR/Dynamo">local persistence engine</a></li>
+                                                </ul>
+                                            </li>
+                                            <li> 모두 Java로 구현.</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Local_Persistence_Component">Local Persistence
+                                                Component</span></h2>
+                                        <ul>
+                                            <li> 여러 종류의 storage engine을 plug-in해서 사용할 수 있음.</li>
+                                            <li> 다루는 object의 크기에 따라 선택해서 사용.
+                                                <ul>
+                                                    <li> Berkeley Database (BDB) Transactional Data Store: 제일 많이 사용. 다루는
+                                                        object의 크기가 수십 KB 정도인 경우</li>
+                                                    <li> MySQL: object 크기가 더 클때 사용.</li>
+                                                    <li> BDB Java Edition, in-memory buffer with persistent backing
+                                                        store 등</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Request_Coordination_Component">Request
+                                                Coordination Component</span></h2>
+                                        <ul>
+                                            <li> 모든 통신은 Java NIO 채널을 사용해서 구현.</li>
+                                            <li> 하나의 client request마다 요청을 받은 노드에 state machine instance를 생성. 요청을 책임짐.
+                                                <ul>
+                                                    <li> key에 대한 책임이 있는 노드 확인</li>
+                                                    <li> 노드들에게 request 보내기, response 기다리기 </li>
+                                                    <li> 필요한 경우 retry하기</li>
+                                                    <li> reply 처리해서 client에게 packaging</li>
+                                                    <li> read repair: client에게 reply한 후에도 다른 노드들의 'outstanding'
+                                                        response를 받기 위해 약간동안 더 기다림.
+                                                        <ul>
+                                                            <li> 혹시 stale version의 데이터가 오면 fresh version을 보내줘서 업데이트하도록
+                                                                시킴. replica sync.의 부담을 덜도록.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="Experience_.26_Lessons_Learned">Experience
+                                                &amp; Lessons Learned</span></h1>
+                                        <ul>
+                                            <li> application에 맞게 version reconciliation logic 및 quorum parameter 설정을 조정
+                                                가능.
+                                                <ul>
+                                                    <li> business logic specific reconciliation: 서비스에 맞는 고유 logic 사용.
+                                                        <ul>
+                                                            <li> e.g., 쇼핑 카트 - 다른 버전을 merging</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> timestamp based reconciliation: "last write wins"
+                                                        <ul>
+                                                            <li> e.g, 고객 세션 정보 - 가장 큰 timestamp의 것만 남김</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> high performance read engine: write가 적고 read만 많은 경우
+                                                        <ul>
+                                                            <li> e.g., 상품 카탈로그, 광고 아이템 - R = 1, W = N 으로 quorum
+                                                                parameter 조정.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <div class="thumb tright">
+                                            <div class="thumbinner" style="width:402px;"><a
+                                                    href="/index.php/File:Dynamo_Consistent_Hashing_Optimization.png"
+                                                    class="image"><img alt=""
+                                                        src="/images/thumb/0/0c/Dynamo_Consistent_Hashing_Optimization.png/400px-Dynamo_Consistent_Hashing_Optimization.png"
+                                                        width="400" height="148" class="thumbimage"
+                                                        srcset="/images/thumb/0/0c/Dynamo_Consistent_Hashing_Optimization.png/600px-Dynamo_Consistent_Hashing_Optimization.png 1.5x, /images/0/0c/Dynamo_Consistent_Hashing_Optimization.png 2x"></a>
+                                                <div class="thumbcaption">
+                                                    <div class="magnify"><a
+                                                            href="/index.php/File:Dynamo_Consistent_Hashing_Optimization.png"
+                                                            class="internal" title="Enlarge"></a></div>Partitioning and
+                                                    placement of keys in the three strategies
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul>
+                                            <li> 메모리에 object buffer를 두고 write를 모아서 background thread가 주기적으로 처리.
+                                                <ul>
+                                                    <li> durability를 낮추고 performance를 높임</li>
+                                                </ul>
+                                            </li>
+                                            <li> consistent hashing의 partitioning &amp; placement 최적화
+                                                <ul>
+                                                    <li> strategy 1: T random tokens per node and partition by token
+                                                        value (<a href="/index.php/Research_MR/Dynamo#Partitioning"
+                                                            title="Research MR/Dynamo">앞에 나온 내용</a>)
+                                                        <ul>
+                                                            <li> token이 random하게 선택되고, range의 크기가 다양함.</li>
+                                                            <li> hand-off 시 문제가 있음
+                                                                <ul>
+                                                                    <li> 새 노드 join시 key range를 넘겨주어야 하는데 넘겨줄 item을 찾기 위해
+                                                                        local persistence store를 scan해야 함.</li>
+                                                                    <li> 바뀐 range에 맞게 Merkle tree도 다시 계산해야 함.</li>
+                                                                </ul>
+                                                            </li>
+                                                            <li> 전체 key space의 snapshot을 얻는 과정에서 key range가 다양해서
+                                                                archive가 어려움 (?)</li>
+                                                            <li> 이러한 문제들은 기본적으로 data partitioning과 placement가 밀접하게 엮여
+                                                                있는데서 기인.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> strategy 2: T random tokens per node and equal sized partition
+                                                        <ul>
+                                                            <li> 파티션은 동일한 크기로 하자... strategy 1-&gt;3으로 가는 중간단계.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> strategy 3: Q/S tokens per node, equal-sized partition
+                                                        <ul>
+                                                            <li> 동일한 크기의 파티션(Q: 파티션 개수) + 파티션 사이 사이 지점을 token으로 두고 노드마다
+                                                                Q/S개의 token 할당(S: 노드 개수)
+                                                                <ul>
+                                                                    <li> 장점: strategy 1의 문제 해결. bootstrap, recovery가
+                                                                        빨라짐. archive가 쉬움.</li>
+                                                                    <li> 단점: node membership이 바뀔 때 coordinate 필요.</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> data item이 여러 버전이 발생하는 이유: failure (node, data center, network),
+                                                concurrent write
+                                                <ul>
+                                                    <li> 24시간 통계 결과 99.94%의 경우에 1개 버전만 리턴.</li>
+                                                </ul>
+                                            </li>
+                                            <li> server의 load balancer를 쓰지 않고 client-driven coordination을 사용하면 latency가
+                                                좋아짐.
+                                                <ul>
+                                                    <li> client가 주기적으로 노드 membership 정보를 업데이트하고 이를 이용해서 request 처리.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> background task(replica sync, data handoff 등) 는 admission control 메커니즘을
+                                                통해 foreground task(get, put 처리) 에 큰 영향을 주지 않을 정도로만 동작.
+                                                <ul>
+                                                    <li> admission controller가 99.9% 서비스 수준 요구사항을 지키기 위해 꾸준히 latency 등의
+                                                        상태 정보를 monitoring하고 그에 따라 time slice를 bg process에게 할당.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <!-- 
+                                    NewPP limit report
+                                    Cached time: 20220512043602
+                                    Cache expiry: 86400
+                                    Dynamic content: false
+                                    CPU time usage: 0.013 seconds
+                                    Real time usage: 0.020 seconds
+                                    Preprocessor visited node count: 129/1000000
+                                    Preprocessor generated node count: 136/1000000
+                                    Post‐expand include size: 0/2097152 bytes
+                                    Template argument size: 0/2097152 bytes
+                                    Highest expansion depth: 2/40
+                                    Expensive parser function count: 0/100
+                                    -->
+                                        <!--
+                                    Transclusion expansion time report (%,ms,calls,template)
+                                    100.00%    0.000      1 -total
+                                    -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="grid site-footer">
+        <p>&copy;&nbsp;Big Data Analytics Lab</p>
+        <p>
+            <small>Powered by
+                <a href="http://jekyllrb.com" target="_blank"><em>Jekyll</em></a>
+                using
+                <a href="http://bitwiser.in/bitwiser/" target="_blank"><em>Bitwiser</em></a>
+                theme.</small>
+        </p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

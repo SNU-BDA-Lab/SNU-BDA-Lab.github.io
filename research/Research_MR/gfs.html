@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html xmlns:og="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Research MachineLearning GFS | Big Data Analytics Lab</title>
+    <!--페이지 제목-->
+
+    <meta name="author" content="username" />
+
+    <meta name="title" content="Members" />
+    <link rel="icon" type="image/png" href="http://localhost:4000/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Members" />
+    <meta name="twitter:title" content="Members" />
+
+    <meta name="keywords" content="Big-Data," />
+
+    <link rel="canonical" href="http://example.com/" />
+    <meta property="og:site_name" content="Big Data Analytics Lab" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://example.com" />
+    <meta name="description" content="Big Data Analytics Lab" />
+    <meta property="og:description" content="Big Data Analytics Lab" />
+    <meta name="twitter:description" content="Big Data Analytics Lab" />
+
+    <meta property="og:image" content="http://example.com/sharer.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="http://example.com/sharer.png" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
+
+<body class="wrap">
+    <header>
+        <nav class="main-nav">
+            <a href="#" class="opener show-on-mobiles">...</a>
+            <div class="clear-opener show-on-mobiles"></div>
+            <div class="grid">
+                <ul>
+                    <li>
+                        <h1 class="site-title"><a href="/">Big Data Analytics Lab</a></h1>
+                    </li>
+                    >
+                    <li>
+                        <a href="/"><i class="fa fa-home"></i>Main Page</a>
+                    </li>
+                    <li>
+                        <a href="/members"><i class="fa fa-info-circle"></i>Members</a>
+                    </li>
+                    <li>
+                        <a href="/research"><i class="fa fa-check"></i>Research</a>
+                    </li>
+                    <li>
+                        <a href="/publication"><i class="fa fa-star"></i>Publication</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div id="home" class="grid post">
+            <div class="unit whole">
+                <h1 id="firstHeading" class="title">GFS</h1>
+                <!--내용 제목-->
+                <h3 id="tagline">From Big Data Analytics Lab</h3>
+
+                <div class="row">
+                    <div id="p-cactions" class="large-12 columns">
+                        <div id="content">
+                            <h5 id="siteSub" class="subtitle"></h5>
+                            <div id="contentSub" class="clear_both"></div>
+                            <div id="bodyContent" class="mw-bodytext">
+                                <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+                                    <div class="mw-parser-output">
+                                        <p><big><b>The Google File System</b></big>
+                                        </p>
+                                        <p>Ghemawat et al. The Google file system. 19th ACM Symposium on Operating
+                                            Systems Principles, Lake George, NY, October, 2003.
+                                        </p>
+                                        <div id="toc" class="toc">
+                                            <div class="toctitle">
+                                                <h2>Contents</h2><span class="toctoggle">&nbsp;[<a role="button"
+                                                        tabindex="0" class="togglelink">hide</a>]&nbsp;</span>
+                                            </div>
+                                            <ul>
+                                                <li class="toclevel-1 tocsection-1"><a href="#Introduction"><span
+                                                            class="tocnumber">1</span> <span
+                                                            class="toctext">Introduction</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-2"><a
+                                                                href="#Design_assumption"><span
+                                                                    class="tocnumber">1.1</span> <span
+                                                                    class="toctext">Design assumption</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-3"><a href="#Design_Overview"><span
+                                                            class="tocnumber">2</span> <span class="toctext">Design
+                                                            Overview</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-4"><a href="#Assumptions"><span
+                                                                    class="tocnumber">2.1</span> <span
+                                                                    class="toctext">Assumptions</span></a></li>
+                                                        <li class="toclevel-2 tocsection-5"><a href="#Interface"><span
+                                                                    class="tocnumber">2.2</span> <span
+                                                                    class="toctext">Interface</span></a></li>
+                                                        <li class="toclevel-2 tocsection-6"><a
+                                                                href="#Architecture"><span class="tocnumber">2.3</span>
+                                                                <span class="toctext">Architecture</span></a></li>
+                                                        <li class="toclevel-2 tocsection-7"><a
+                                                                href="#Single_Master"><span class="tocnumber">2.4</span>
+                                                                <span class="toctext">Single Master</span></a></li>
+                                                        <li class="toclevel-2 tocsection-8"><a href="#Chunk_Size"><span
+                                                                    class="tocnumber">2.5</span> <span
+                                                                    class="toctext">Chunk Size</span></a></li>
+                                                        <li class="toclevel-2 tocsection-9"><a href="#Metadata"><span
+                                                                    class="tocnumber">2.6</span> <span
+                                                                    class="toctext">Metadata</span></a>
+                                                            <ul>
+                                                                <li class="toclevel-3 tocsection-10"><a
+                                                                        href="#In-memory_Data_Structures"><span
+                                                                            class="tocnumber">2.6.1</span> <span
+                                                                            class="toctext">In-memory Data
+                                                                            Structures</span></a></li>
+                                                                <li class="toclevel-3 tocsection-11"><a
+                                                                        href="#Chunk_Locations"><span
+                                                                            class="tocnumber">2.6.2</span> <span
+                                                                            class="toctext">Chunk Locations</span></a>
+                                                                </li>
+                                                                <li class="toclevel-3 tocsection-12"><a
+                                                                        href="#Operation_Log"><span
+                                                                            class="tocnumber">2.6.3</span> <span
+                                                                            class="toctext">Operation Log</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="toclevel-2 tocsection-13"><a
+                                                                href="#Consistency_Model"><span
+                                                                    class="tocnumber">2.7</span> <span
+                                                                    class="toctext">Consistency Model</span></a>
+                                                            <ul>
+                                                                <li class="toclevel-3 tocsection-14"><a
+                                                                        href="#Guarantees_by_GFS"><span
+                                                                            class="tocnumber">2.7.1</span> <span
+                                                                            class="toctext">Guarantees by GFS</span></a>
+                                                                </li>
+                                                                <li class="toclevel-3 tocsection-15"><a
+                                                                        href="#Implication_for_Applications"><span
+                                                                            class="tocnumber">2.7.2</span> <span
+                                                                            class="toctext">Implication for
+                                                                            Applications</span></a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-16"><a
+                                                        href="#System_Interactions"><span class="tocnumber">3</span>
+                                                        <span class="toctext">System Interactions</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-17"><a
+                                                                href="#Leases_and_Mutation_Order"><span
+                                                                    class="tocnumber">3.1</span> <span
+                                                                    class="toctext">Leases and Mutation Order</span></a>
+                                                        </li>
+                                                        <li class="toclevel-2 tocsection-18"><a href="#Data_Flow"><span
+                                                                    class="tocnumber">3.2</span> <span
+                                                                    class="toctext">Data Flow</span></a></li>
+                                                        <li class="toclevel-2 tocsection-19"><a
+                                                                href="#Atomic_Record_Appends"><span
+                                                                    class="tocnumber">3.3</span> <span
+                                                                    class="toctext">Atomic Record Appends</span></a>
+                                                        </li>
+                                                        <li class="toclevel-2 tocsection-20"><a href="#Snapshot"><span
+                                                                    class="tocnumber">3.4</span> <span
+                                                                    class="toctext">Snapshot</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-21"><a href="#Master_Operation"><span
+                                                            class="tocnumber">4</span> <span class="toctext">Master
+                                                            Operation</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-22"><a
+                                                                href="#Namespace_Management_and_Locking"><span
+                                                                    class="tocnumber">4.1</span> <span
+                                                                    class="toctext">Namespace Management and
+                                                                    Locking</span></a></li>
+                                                        <li class="toclevel-2 tocsection-23"><a
+                                                                href="#Replica_Placement"><span
+                                                                    class="tocnumber">4.2</span> <span
+                                                                    class="toctext">Replica Placement</span></a></li>
+                                                        <li class="toclevel-2 tocsection-24"><a
+                                                                href="#Creation.2C_Re-replication.2C_Rebalancing"><span
+                                                                    class="tocnumber">4.3</span> <span
+                                                                    class="toctext">Creation, Re-replication,
+                                                                    Rebalancing</span></a></li>
+                                                        <li class="toclevel-2 tocsection-25"><a
+                                                                href="#Garbage_Collection"><span
+                                                                    class="tocnumber">4.4</span> <span
+                                                                    class="toctext">Garbage Collection</span></a>
+                                                            <ul>
+                                                                <li class="toclevel-3 tocsection-26"><a
+                                                                        href="#mechanism"><span
+                                                                            class="tocnumber">4.4.1</span> <span
+                                                                            class="toctext">mechanism</span></a></li>
+                                                                <li class="toclevel-3 tocsection-27"><a
+                                                                        href="#discussion"><span
+                                                                            class="tocnumber">4.4.2</span> <span
+                                                                            class="toctext">discussion</span></a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="toclevel-2 tocsection-28"><a
+                                                                href="#Stale_Replica_Detection"><span
+                                                                    class="tocnumber">4.5</span> <span
+                                                                    class="toctext">Stale Replica Detection</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="toclevel-1 tocsection-29"><a
+                                                        href="#Fault_Tolerance_and_Diagnosis"><span
+                                                            class="tocnumber">5</span> <span class="toctext">Fault
+                                                            Tolerance and Diagnosis</span></a>
+                                                    <ul>
+                                                        <li class="toclevel-2 tocsection-30"><a
+                                                                href="#High_Availability"><span
+                                                                    class="tocnumber">5.1</span> <span
+                                                                    class="toctext">High Availability</span></a></li>
+                                                        <li class="toclevel-2 tocsection-31"><a
+                                                                href="#Data_Integrity"><span
+                                                                    class="tocnumber">5.2</span> <span
+                                                                    class="toctext">Data Integrity</span></a></li>
+                                                        <li class="toclevel-2 tocsection-32"><a
+                                                                href="#Diagnostic_Tools"><span
+                                                                    class="tocnumber">5.3</span> <span
+                                                                    class="toctext">Diagnostic Tools</span></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <h1><span class="mw-headline" id="Introduction">Introduction</span></h1>
+                                        <ul>
+                                            <li> Google의 급격히 늘어나는 데이터 처리를 위해 설계.</li>
+                                            <li> 목표는 기존 분산 파일 시스템처럼 performance, scalability, reliability, availability
+                                                등으로 동일하지만 Google의 application workload와 기술 환경에 맞추어 가정을 두고 설계.</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Design_assumption">Design assumption</span>
+                                        </h2>
+                                        <ul>
+                                            <li> component failure는 예외가 아니라 일상적이다.
+                                                <ul>
+                                                    <li> 수백, 수천 대의 값싼 머신을 사용하므로 failure point가 많다.
+                                                        <ul>
+                                                            <li> 어플리케이션 버그, OS 버그, 사람 실수, 디스크, 메모리, 커넥터, 네트웍, 전원 등등...
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> 그러므로 계속적인 monitoring, error detection, fault tolerance,
+                                                        automatic recovery 등의 기능이 필수적이다.</li>
+                                                </ul>
+                                            </li>
+                                            <li> 예전에 비해 파일이 훨씬 크다. (수-GB는 예사)
+                                                <ul>
+                                                    <li> I/O operation, block 크기 등의 가정 및 파라미터를 재검토해야 함.</li>
+                                                </ul>
+                                            </li>
+                                            <li> 대부분의 파일이 overwrite가 아니라 append 방식으로 변경됨.
+                                                <ul>
+                                                    <li> 실제로는 random write는 거의 없음. 한번 쓰이고 나면, 거의 읽기만 함. 그것도 순차적으로만 읽는
+                                                        경우가 많음.</li>
+                                                    <li> 다음과 같이 다양한 경우라도 마찬가지 특징을 보임.
+                                                        <ul>
+                                                            <li> 데이터 분석을 위해 쭉 scan하는 경우</li>
+                                                            <li> 돌고 있는 어플리케이션에서 계속 생성되는 데이터 스트림</li>
+                                                            <li> archival data</li>
+                                                            <li> 임시로 저장되는 중간 결과</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> 파일 시스템과 어플리케이션을 같이 설계했기 때문에 얻는 이익도 있음.
+                                                <ul>
+                                                    <li> consistency model이 간단해짐.</li>
+                                                    <li> atomic append operation</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="Design_Overview">Design Overview</span></h1>
+                                        <h2><span class="mw-headline" id="Assumptions">Assumptions</span></h2>
+                                        <ul>
+                                            <li> 종종 fail하는 값싼 commodity component들을 많이 써서 구성.</li>
+                                            <li> 파일의 크기는 크고 개수는 많지는 않다. (100MB 이상 파일 수백만 개 정도?)</li>
+                                            <li> workload의 주요 구성
+                                                <ul>
+                                                    <li> read
+                                                        <ul>
+                                                            <li> large streaming read: 수백 KB 정도 읽기. 보통 1MB 이상. 계속 그 다음
+                                                                영역을 순차적으로 읽는 경우가 흔함.</li>
+                                                            <li> small random read: 임의의 offset에서 수KB 정도 읽기.
+                                                                application에서 성능을 높이기 위해 모아서 sort해서 batch로 읽기도 함.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> write
+                                                        <ul>
+                                                            <li> large sequential write: append. 한번 쓰이면 거의 변경되지 않음.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> 여러 client가 동시에 같은 파일에 append하는 경우를 효율적으로 구현해야 한다.
+                                                <ul>
+                                                    <li> 파일을 producer-consumer queue 또는 many-way merging 방식으로 사용하는 경우가
+                                                        많음.</li>
+                                                    <li> 수백 개의 producer가 동시에 append할 경우 잘 처리해야 함. synchronization
+                                                        overhead를 최소화하면서 atomicity를 보장해야 함.</li>
+                                                </ul>
+                                            </li>
+                                            <li> low latency보다는 high sustained bandwidth가 더 중요하다.
+                                                <ul>
+                                                    <li> 대부분의 application이 응답시간보다는 throughput에 초점을 둠.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Interface">Interface</span></h2>
+                                        <p>친숙한 파일 시스템 인터페이스 제공. POSIX 같은 표준 API를 구현하고 있지는 않음.
+                                        </p>
+                                        <ul>
+                                            <li> create, delete, open, close, read, write</li>
+                                            <li> snapshot: 파일 또는 디렉토리 트리 copy를 값싸게 처리. </li>
+                                            <li> record append: client들이 추가적인 locking 없이 동시에 atomic하게 처리.</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Architecture">Architecture</span></h2>
+                                        <p><a href="/index.php/File:GFS_Architecture.png" class="image"
+                                                title="GFS Architecture"><img alt="GFS Architecture"
+                                                    src="/images/4/41/GFS_Architecture.png" width="663"
+                                                    height="288"></a>
+                                        </p>
+                                        <ul>
+                                            <li> GFS 클러스터는 하나의 master, 여러 개의 chunkserver로 구성. 다수의 client가 접근함.
+                                                <ul>
+                                                    <li> 각 구성요소가 user-level 서버 프로세스를 수행하는 일반 LINUX 머신. </li>
+                                                </ul>
+                                            </li>
+                                            <li> chunk
+                                                <ul>
+                                                    <li> 파일은 fixed-size chunk로 나누어짐.</li>
+                                                    <li> 각 chunk는 변하지 않고 global하게 unique한 64bit chunk handle로 식별됨.
+                                                        (chunk 생성 시 master가 부여)</li>
+                                                    <li> Chunkserver가 local disk에 LINUX 파일로 저장.</li>
+                                                    <li> read/write는 chunk handle과 byte range를 지정해서 수행.</li>
+                                                    <li> reliability를 위해 여러 chunkserver에 복제. (기본 3개. 파일 namespace 별로 다르게
+                                                        지정 가능)</li>
+                                                </ul>
+                                            </li>
+                                            <li> master
+                                                <ul>
+                                                    <li> 전체 파일 시스템에 대한 metadata 유지.
+                                                        <ul>
+                                                            <li> namespace, access control 정보, file-chunk mapping,
+                                                                chunk들의 현재 위치.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> chunk lease 관리, garbage collection, chunk migration</li>
+                                                    <li> 각 chunkserver와 주기적으로 HeartBeat 메시지 주고받음.</li>
+                                                </ul>
+                                            </li>
+                                            <li> client
+                                                <ul>
+                                                    <li> 어플리케이션에 링크됨.</li>
+                                                    <li> 파일 시스템 API 구현.</li>
+                                                    <li> master, chunkserver와 통신.
+                                                        <ul>
+                                                            <li> master와는 metadata operation을 위해서만 통신. file data는
+                                                                chunkserver와 통신해서 얻음.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> client도 chunkserver도 file data를 cache하지 않음.
+                                                <ul>
+                                                    <li> client: 주로 큰 파일을 sequential하게 read/write하는 workload 특성 상 이득이
+                                                        없음. cache하기엔 데이터 크기도 큼.
+                                                        <ul>
+                                                            <li> 덕분에 cache coherence 문제도 없고 시스템이 단순해짐.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> chunkserver에서는 chunk를 local file로 저장하므로 자주 접근되는 데이터는 LINUX
+                                                        buffer cache가 알아서 메모리에 두기 때문에 따로 cache할 필요 없음.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Single_Master">Single Master</span></h2>
+                                        <ul>
+                                            <li> 설계가 간단해지고 global knowledge를 이용해 복잡한 chunk placement 및 replication 의사
+                                                결정을 하기 좋다.</li>
+                                            <li> master가 bottleneck이 되는 것을 막기 위해 metadata만 처리. 이후 실제 file data를 위한 통신은
+                                                master를 거치지 않음.
+                                                <ul>
+                                                    <li> client는 (file name, chunk index) chunk에 대한 metadata(chunnk
+                                                        handle과 replica들의 위치)를 master에게 요청. (chunk size는 고정이므로 byte
+                                                        offset을 보면 몇번째 chunk인지 알 수 있다.)</li>
+                                                    <li> client는 metadata를 cache하여 이후에 같은 chunk에 대한 operation을 할때
+                                                        master와 통신을 생략한다.</li>
+                                                    <li> 한번에 여러 chunk의 metadata를 미리 가져오기도 함.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Chunk_Size">Chunk Size</span></h2>
+                                        <p>주요 설계 파라미터 중 하나. 기본값 64MB. 일반 파일 시스템보다 훨씬 크다.
+                                        </p>
+                                        <ul>
+                                            <li> 장점
+                                                <ul>
+                                                    <li> client-master 간의 metadata를 위한 통신 회수 감소</li>
+                                                    <li> client-chunkserver 간의 통신 비용 감소 (한번 연결해서 오래 사용)</li>
+                                                    <li> master가 보유하는 metadata 크기 감소</li>
+                                                </ul>
+                                            </li>
+                                            <li> 단점
+                                                <ul>
+                                                    <li> 작은 파일의 경우 단 하나의 chunk로 구성 → hot spot이 될 수 있음.
+                                                        <ul>
+                                                            <li> 실제 workload에서는 잘 안 일어남. </li>
+                                                            <li> replica 개수를 늘리는 방법으로 해결 가능.</li>
+                                                            <li> 장기적으로는 chunkserver가 아니라 다른 client로부터 데이터를 읽어오도록 구현하는
+                                                                방법도 있음.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Metadata">Metadata</span></h2>
+                                        <ul>
+                                            <li> file &amp; chunk namespace, file-chunk mapping: operation log에 남겨서
+                                                persistent하게 유지.</li>
+                                            <li> 각 chunk의 replica 위치: persistent하게 저장하지 않음. master startup &amp;
+                                                chunkserver join할 때 물어봐서 유지.</li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="In-memory_Data_Structures">In-memory Data
+                                                Structures</span></h3>
+                                        <ul>
+                                            <li> metadata는 메모리에 저장. master operation 속도 빠름.</li>
+                                            <li> master는 주기적으로 background로 metadata의 전체 상태 검사.
+                                                <ul>
+                                                    <li> garbage collection, chunkserver fail 발생 시 re-replicate, load
+                                                        &amp; disk space usage balancing을 위한 chunk migration 등 수행.</li>
+                                                </ul>
+                                            </li>
+                                            <li> metadata 크기가 작아서 메모리에 유지 가능.
+                                                <ul>
+                                                    <li> 각 64MB chunk마다 64byte 이하</li>
+                                                    <li> file namespace는 prefix compression 처리.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Chunk_Locations">Chunk Locations</span></h3>
+                                        <ul>
+                                            <li> persistent하게 유지하지 않음. master startup 시 chunkserver로부터 정보를 polling해서 생성.
+                                                <ul>
+                                                    <li> persistent하게 저장할 경우 master와 chunkserver 간 sync 문제, chunkserver의
+                                                        failure, membership 변경되었을 때의 처리 등 문제가 복잡해짐.</li>
+                                                </ul>
+                                            </li>
+                                            <li> 이후 chunk placement 및 chunkserver monitoring에는 HeartBeat 메시지 이용.</li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Operation_Log">Operation Log</span></h3>
+                                        <ul>
+                                            <li> persisitent하게 기록하는 역할 외에 concurrent operation의 순서를 정하는 logical time
+                                                line 역할도 한다.</li>
+                                            <li> 중요한 정보이기 때문에 local &amp; remote에 flush한 이후에 client operation에 응답한다.
+                                            </li>
+                                            <li> log replay를 통해 recovery 가능. recovery 시간 단축을 위해 checkpoint도 함.</li>
+                                            <li> ckpt 생성할 때는 log file을 switch한 뒤 다른 thread가 ckpt를 만든다. (들어오는 작업을 계속 처리해
+                                                주기 위해)</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Consistency_Model">Consistency Model</span>
+                                        </h2>
+                                        <h3><span class="mw-headline" id="Guarantees_by_GFS">Guarantees by GFS</span>
+                                        </h3>
+                                        <ul>
+                                            <li> file 생성 등 file namespace 관련 변경은 atomic. master가 혼자 처리. namespace
+                                                locking 이용.</li>
+                                        </ul>
+                                        <p><a href="/index.php/File:GFS_FileRegionState.png" class="image"
+                                                title="File Region State After Mutation"><img
+                                                    alt="File Region State After Mutation"
+                                                    src="/images/7/79/GFS_FileRegionState.png" width="339"
+                                                    height="148"></a>
+                                        </p>
+                                        <ul>
+                                            <li> data mutation 후의 file region 상태는 mutation의 종류, 성공/실패 여부, concurrent
+                                                mutation이 있는지에 따라 달라진다.
+                                                <ul>
+                                                    <li> consistent: 어느 replica로부터 읽는지에 관계없이 모든 client가 항상 같은 data를 본다.
+                                                    </li>
+                                                    <li> defined: consistent + write한 온전한 내용을 client가 볼 수 있다.
+                                                        <ul>
+                                                            <li> Q) defined를 굳이 만든 이유는 무엇인가? client 입장에서 defined region과
+                                                                아닌 region이 어떤 의미를 갖는 것인가? </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> concurrent success
+                                                        <ul>
+                                                            <li> 모든 client가 항상 같은 data를 보긴 하므로 consistent.</li>
+                                                            <li> write가 성공했다 하더라도 순서에 따라 온전한 내용을 볼수 없는 것이 있으므로
+                                                                undefined.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> record append
+                                                        <ul>
+                                                            <li> append 시도가 성공한 영역은 defined.</li>
+                                                            <li> 중간에 mutation 실패가 발생한 경우 실패한 영역이 끼어 있을 수도 있다...?
+                                                                <ul>
+                                                                    <li> Q) serial success인 경우에도 왜 interspersed with
+                                                                        inconsistent인지?? append 자체만 놓고 보면 순수하게 defined
+                                                                        아닌가?</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> data mutation은 write, record append 두 종류
+                                                <ul>
+                                                    <li> write는 application이 지정한 offset에 write</li>
+                                                    <li> record append는 파일 맨끝의 위치가 다른 mutation의 영향을 받으므로 GFS가 offset 선택.
+                                                        적어도 한번 이상 atomically append</li>
+                                                    <li> offset은 client에게 반환되는데 defined region의 시작을 나타낸다.</li>
+                                                    <li> record간에 padding또는 중복이 있을 수 있다.</li>
+                                                    <li> Q) GFS는 record라는 개념을 어떻게 사용하는 거지? file system에서 record라는 개념을
+                                                        명시적으로 얘기하나?</li>
+                                                </ul>
+                                            </li>
+                                            <li> 일련의 data mutation이 일어난 후에는 file region은 defined 상태가 되고, 마지막 mutation에
+                                                의한 write는 반드시 포함한다.
+                                                <ul>
+                                                    <li> GFS는 mutation을 모든 replica에 같은 순서로 적용.</li>
+                                                    <li> stale한 replica를 감지하기 위해 chunk version number 사용.
+                                                        <ul>
+                                                            <li> chunkserver가 다운되는 등의 일로 mutation이 누락된 replica가 생길 수 있음.
+                                                            </li>
+                                                            <li> stale replica는 절대 mutation에 참여하거나 client에게 위치를 알려주지 않음.
+                                                                조만간 garbage collection됨.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> Client가 chunk location을 cache하기 때문에 stale replica를 읽을수 있음
+                                                <ul>
+                                                    <li> 그러나 이런 경우는 cache entry timeout이내의 window로 제한됨</li>
+                                                    <li> cache가 purge되거나 reopen하면 문제가 없다.</li>
+                                                    <li> 또한 주로 append-only인 경우라서 stale replica는 부족한 정보를 제공하지 이전의 정보를
+                                                        제공하는 일이 없다.</li>
+                                                </ul>
+                                            </li>
+                                            <li> component failure 대비
+                                                <ul>
+                                                    <li> master-chunkserver 간 주기적인 handshake를 통한 failed chunkserver 감지
+                                                    </li>
+                                                    <li> checksum을 이용한 data corruption 감지</li>
+                                                    <li> 위의 문제들이 감지되면 replica를 가능한 빨리 복구.</li>
+                                                    <li> 모든 replica를 잃어버리면 unavailable 상태가 됨.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="Implication_for_Applications">Implication for
+                                                Applications</span></h3>
+                                        <ul>
+                                            <li> 이런 relaxed consistency를 극복하기 위한 GFS application의 대책
+                                                <ul>
+                                                    <li> overwrite보다는 append를 해라</li>
+                                                    <li> checkpoint를 해라</li>
+                                                    <li> write를 self-validating하고 self-identifying한 record를 기록해라</li>
+                                                </ul>
+                                            </li>
+                                            <li> 실제 application에서는 주로 overwriting보다 appending으로 파일이 변경됨.
+                                                <ul>
+                                                    <li> 전형적인 use case 1: writer가 파일을 처음부터 끝까지 생성.
+                                                        <ul>
+                                                            <li> writer가 임시 파일에 데이터를 다 쓴 후에 이름을 바꿔줘라.</li>
+                                                            <li> 아니면 주기적으로 ckpt를 수행하고 reader는 확실히 defined가 보장된 최근 ckpt
+                                                                까지의 영역만 읽어라.
+                                                                <ul>
+                                                                    <li> ckpt를 하면 실패후에 write를 incrementally restart할 수
+                                                                        있다</li>
+                                                                    <li> 또 reader가 incomplete한 내용을 읽지 않도록 해준다.</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> 또다른 케이스로 merge또는 producer-consumer queue등과 같이 여러 writer가 동시에
+                                                        write를 하는 경우
+                                                        <ul>
+                                                            <li> 적어도-한번-이상-append의 시멘틱 덕분에 여러 writer의 output은 보호된다.</li>
+                                                            <li> reader는 padding과 duplicate를 처리해야 한다.</li>
+                                                            <li> 그래서 각 record는 validate를 하기 위한 정보 필요:checksum</li>
+                                                            <li> reader는 checksum을 이용해 padding을 처리할 수 있다.</li>
+                                                            <li> 또 duplicate가 발생하면 안되는 경우라면 unique ID를 부여해라.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="System_Interactions">System
+                                                Interactions</span></h1>
+                                        <p>최대한 master의 개입을 줄이는 방향으로 디자인
+                                        </p>
+                                        <h2><span class="mw-headline" id="Leases_and_Mutation_Order">Leases and Mutation
+                                                Order</span></h2>
+                                        <ul>
+                                            <li> mutation: chunk의 data 또는 metadata를 변경하는 operation
+                                                <ul>
+                                                    <li> 각 mutation은 chunk의 모든 replica에 대해 수행됨.</li>
+                                                    <li> mutation 순서를 맞추기 위해 lease라는 개념을 사용.
+                                                        <ul>
+                                                            <li> master가 replica들 중 하나를 골라 chunk lease를 부여함. 그 replica를
+                                                                primary라고 부름.</li>
+                                                            <li> primary가 mutation의 순서를 정하고 모든 replica들은 이 순서를 따름.</li>
+                                                            <li> global mutation order는 마스터가 lease를 부여하는 순서에 따라 정해지고,
+                                                                lease 안에서의 순서는 primary가 정함.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> lease 교체
+                                                <ul>
+                                                    <li> initial timeout: 60초</li>
+                                                    <li> primary는 chunk가 mutation되는 동안에 master에게 extension요청(HeartBeat에
+                                                        piggyback)</li>
+                                                    <li> master가 가끔 revoke하는 경우도 있음(file 이름 변경 등)</li>
+                                                    <li> master와 primary가 disconnect되었다면 timeout 후에 다른 replica에게 lease
+                                                        grant</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <p><a href="/index.php/File:GFS_DataFlow.jpeg" class="image"
+                                                title="Write Control and Data Flow"><img
+                                                    alt="Write Control and Data Flow"
+                                                    src="/images/d/dd/GFS_DataFlow.jpeg" width="333" height="323"></a>
+                                        </p>
+                                        <ol>
+                                            <li> client가 master에게 어느 chunkserver가 current lease를 가지고 있는지 &amp; 다른
+                                                replica들의 위치를 물어봄. 아무도 lease가 없으면 마스터가 하나 골라서 부여.</li>
+                                            <li> master는 primary와 secondary replicas의 위치를 알려준다. client는 이를 cache해두고 사용.
+                                                primary가 unreachable 또는 더이상 primary가 아닌 경우에만 다시 master에게 요청</li>
+                                            <li> client가 모든 replica에게 데이터 push. 데이터는 primary부터 보낼 필요 없이 보내는 순서는 아무렇게나 해도
+                                                됨. 성능 향상을 위해 network topology 상 가까운 곳부터.</li>
+                                            <li> replica가 모두 ack를 보내면 client는 write요청을 primary에게 보냄. primary는 여러
+                                                clients로 부터 받은 mutation들에 serial order를 부여한다. 그런후 primary 스스로 local에
+                                                mutation을 반영한다.</li>
+                                            <li> primary는 secondary에게 write요청을 보내고 secondary도 같은 순서로 mutation을 반영한다.
+                                            </li>
+                                            <li> sencodary들은 operation이 끝나면 primary에게 끝났다고 ack을 보낸다.</li>
+                                            <li> primary가 client에게 reply. 에러가 발생한 경우, primary &amp; 일부 secondary에만
+                                                mutation이 성공한 상태임. (primary가 실패하면 여기까지 못옴) 그러면 client request는 실패한 것으로
+                                                간주. 수정된 영역은 inconsistent 상태가 됨. client가 retry 처리해야 함.</li>
+                                        </ol>
+                                        <ul>
+                                            <li> write할 데이터가 많으면 GFS client는 multiple write operation으로 나눈다. </li>
+                                            <li> 나뉘어진 operation들은 interleave될 수 있다.</li>
+                                            <li> 따라서 여러 동시 write의 경우 consistent하지만 undefined일 수 있다.</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Data_Flow">Data Flow</span></h2>
+                                        <ul>
+                                            <li> data flow와 control flow를 분리함으로서 네트웍 효율을 높히고 bottleneck을 방지지.</li>
+                                            <li> 데이터는 chunkserver 간에 파이프라인 방식으로 전송됨.</li>
+                                            <li> 네트웍 bandwidth를 최대한 이용하기 위해 network topology 상 가장 가까운 머신으로 전송.</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Atomic_Record_Appends">Atomic Record
+                                                Appends</span></h2>
+                                        <ul>
+                                            <li> unix의 O_APPEND와 같이 GFS가 계산한 offset에 atomically append</li>
+                                            <li> 일반 mutation과 같은 과정을 거침</li>
+                                            <li> fail의 경우, client가 retry함</li>
+                                            <li> 따라서 완전히 기록된 replica의 경우에는 duplication이 발생할 수 있고 불완전하게 기록된 replica에는
+                                                padding이 발생한다.</li>
+                                            <li> replica가 bytewise하게 같음을 보장하지 않고, atomic하게 기록되는 것을 보장</li>
+                                            <li> success시 알려주는 offset의 region은 defined, intervening region은 inconsistent
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Snapshot">Snapshot</span></h2>
+                                        <ul>
+                                            <li> 파일 또는 디렉토리 트리의 copy를 만드는 operation</li>
+                                            <li> copy-on-write 기법 사용
+                                                <ul>
+                                                    <li> snapshot 요청이 들어오면 마스터는 해당 chunk에 대한 outstanding lease를 revoke.
+                                                    </li>
+                                                    <li> 이후에 들어오는 첫 write 때 master가 해당 chunk의 reference count가 1보다 큰걸
+                                                        알아차리고 chunk를 local copy해서 new chunk를 만들들도록 함.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="Master_Operation">Master Operation</span></h1>
+                                        <ul>
+                                            <li> namespace operation</li>
+                                            <li> chuck replia 관리
+                                                <ul>
+                                                    <li> placement decision</li>
+                                                    <li> new chunk 생성 (replica)</li>
+                                                    <li> reclaim unused storage</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Namespace_Management_and_Locking">Namespace
+                                                Management and Locking</span></h2>
+                                        <ul>
+                                            <li> GFS는 디렉토리 별 자료구조나 hard/symbolic link 등이 없고, full pathname을 metadata로
+                                                mapping.</li>
+                                            <li> 메모리에 lookup table을 저장하기 위해 prefix compression으로 크기 줄임.</li>
+                                            <li> namespace 관련 operation 시에는 locking 사용. 상위 디렉토리 이름부터 차례차례 lock을 잡음.</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Replica_Placement">Replica Placement</span>
+                                        </h2>
+                                        <ul>
+                                            <li> 목표
+                                                <ul>
+                                                    <li> data reliability와 availability</li>
+                                                    <li> bandwidth 활용도 증가</li>
+                                                </ul>
+                                            </li>
+                                            <li> 여러 machine에 나누는 것 뿐 아니라 여러 rack에 걸쳐 나뉘도록 해야함
+                                                <ul>
+                                                    <li> 이런 경우 write시에는 여러 rack에 나눠야하는 tradeoff가 있다.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline"
+                                                id="Creation.2C_Re-replication.2C_Rebalancing">Creation, Re-replication,
+                                                Rebalancing</span></h2>
+                                        <ul>
+                                            <li> chunk replica가 만들어지는 3가지 이유.</li>
+                                            <li> replica 생성할 위치 선택 기준
+                                                <ul>
+                                                    <li> 디스크 공간 사용이 평균 이하인 곳</li>
+                                                    <li> 각 chunkserver 당 최근 replica 생성 개수는 제한</li>
+                                                    <li> 여러 rack에 걸쳐 분산되도록 함</li>
+                                                </ul>
+                                            </li>
+                                            <li> re-replicate
+                                                <ul>
+                                                    <li> chunkserver가 unabailable해지거나 replica가 corrupt된 경우.</li>
+                                                    <li> 당장 운영에 필수적인 일은 아니므로 일반 opertion 성능을 해치지 않는 선에서 우선 순위를 두어서 진행.
+                                                        <ul>
+                                                            <li> replica 개수가 적은 chunk부터. client 진행이 막혀 있는 chunk부터. live
+                                                                files의 chunk부터.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> rebalancing
+                                                <ul>
+                                                    <li> 디스크 공간 및 load balancing을 위해.</li>
+                                                    <li> 새 chunkserver 추가 시 rebalancing을 통해 점점 데이타가 채워짐.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Garbage_Collection">Garbage Collection</span>
+                                        </h2>
+                                        <h3><span class="mw-headline" id="mechanism">mechanism</span></h3>
+                                        <ul>
+                                            <li> file이 delete되면 master에 logging</li>
+                                            <li> file의 자원들이 바로 회수되지 않고, 다른 이름으로 rename한다.</li>
+                                            <li> regular scan시에 특정 기간이 지난 hidden file을 지운다.</li>
+                                            <li> chunk namespace scan시에 고아 chunk가 있으면 지운다.</li>
+                                            <li> HeartBeat msg에 chunk list를 보내고 master가 지워야 하는 chunk를 알려준다.</li>
+                                        </ul>
+                                        <h3><span class="mw-headline" id="discussion">discussion</span></h3>
+                                        <ul>
+                                            <li> 장점: simple, reliable
+                                                <ul>
+                                                    <li> master가 모르는 chunk가 생기더라도 처리 가능.</li>
+                                                    <li> msg 손실이 발생하더라도 언젠가는 처리된다.</li>
+                                                    <li> 따로 scan할 필요 없이 regular namespace scan 시 같이 처리.</li>
+                                                    <li> master가 한가한 시간에 batch로 처리할 수 있어서 효율적.</li>
+                                                </ul>
+                                            </li>
+                                            <li> 단점: 공간 반환이 지연되므로 공간 사용이 tight한 경우에 문제가 될수 있다. (별로 문제같진 않은듯...)
+                                                <ul>
+                                                    <li> 명시적으로 purge해서 공간 반환 가능.</li>
+                                                    <li> namespace별로 replication 및 reclamation 정책 지정 가능.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Stale_Replica_Detection">Stale Replica
+                                                Detection</span></h2>
+                                        <ul>
+                                            <li> stale replica: chunk server가 fail되거나 해서 mutation을 miss한 경우</li>
+                                            <li> chunk version number를 이용해 관리</li>
+                                            <li> Master가 new lease를 grant때에 chunk version number 증가, replica들에게 알려줌</li>
+                                            <li> master와, replica는 CVN을 기록</li>
+                                            <li> 그 다음에 client가 데이터 전송</li>
+                                            <li> 증가된 CVN을 받지 못한 replica는 다음 restart시에 master가 인지.</li>
+                                            <li> Q) CVN 증가후에 fail된 놈들은 어쩌라는거냐. mutation과 CVN이 1:1 대응이 안되는 것 같은데, 이상하다.
+                                            </li>
+                                        </ul>
+                                        <h1><span class="mw-headline" id="Fault_Tolerance_and_Diagnosis">Fault Tolerance
+                                                and Diagnosis</span></h1>
+                                        <h2><span class="mw-headline" id="High_Availability">High Availability</span>
+                                        </h2>
+                                        <ul>
+                                            <li> Fast recovery
+                                                <ul>
+                                                    <li> master, chunkserver가 start하는데에 몇초면 된다는 내용</li>
+                                                    <li> shutdown시에 그냥 kill. DB처럼 정보를 남기고 하는게 없다.</li>
+                                                </ul>
+                                            </li>
+                                            <li> Chunk Replication
+                                                <ul>
+                                                    <li> High available하게 잘 했다</li>
+                                                </ul>
+                                            </li>
+                                            <li> Master Replication
+                                                <ul>
+                                                    <li> reliability</li>
+                                                    <li> master log를 사용해 active-standby 처럼...</li>
+                                                    <li> shadow는 mirror와 다름. 이것은 read 전용(stale할 수 있다)</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Data_Integrity">Data Integrity</span></h2>
+                                        <ul>
+                                            <li> 한 chunk는 64KB block으로 나뉨</li>
+                                            <li> 각 block은 32bit checksum유지</li>
+                                            <li> chunkserver in-memory와 disk에 기록</li>
+                                        </ul>
+                                        <h2><span class="mw-headline" id="Diagnostic_Tools">Diagnostic Tools</span></h2>
+                                        <ul>
+                                            <li> tracelog, memory log 같은게 있다는 소리</li>
+                                        </ul>
+
+                                        <!-- 
+                                    NewPP limit report
+                                    Cached time: 20220512043040
+                                    Cache expiry: 86400
+                                    Dynamic content: false
+                                    CPU time usage: 0.013 seconds
+                                    Real time usage: 0.024 seconds
+                                    Preprocessor visited node count: 127/1000000
+                                    Preprocessor generated node count: 132/1000000
+                                    Post‐expand include size: 0/2097152 bytes
+                                    Template argument size: 0/2097152 bytes
+                                    Highest expansion depth: 2/40
+                                    Expensive parser function count: 0/100
+                                    -->
+                                        <!--
+                                    Transclusion expansion time report (%,ms,calls,template)
+                                    100.00%    0.000      1 -total
+                                    -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="grid site-footer">
+        <p>&copy;&nbsp;Big Data Analytics Lab</p>
+        <p>
+            <small>Powered by
+                <a href="http://jekyllrb.com" target="_blank"><em>Jekyll</em></a>
+                using
+                <a href="http://bitwiser.in/bitwiser/" target="_blank"><em>Bitwiser</em></a>
+                theme.</small>
+        </p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

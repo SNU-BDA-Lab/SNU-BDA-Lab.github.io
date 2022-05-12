@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Research SimilaritySearch | Big Data Analytics Lab</title>
+    <title>Research Pathway system | Big Data Analytics Lab</title>
     <!--페이지 제목-->
 
     <meta name="author" content="username" />
@@ -64,7 +64,7 @@
     <section class="content">
         <div id="home" class="grid post">
             <div class="unit whole">
-                <h1 id="firstHeading" class="title">Similarity Search</h1>
+                <h1 id="firstHeading" class="title">Pathway system</h1>
                 <!--내용 제목-->
                 <h3 id="tagline">From Big Data Analytics Lab</h3>
 
@@ -77,32 +77,46 @@
                                 <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
                                     <div class="mw-parser-output">
                                         <h1><span class="mw-headline" id="Overview">Overview</span></h1>
-                                        <p>저희 팀은 유사성 검색(Similarity Search)에 대한 연구를 하고 있습니다. 데이터베이스의 데이터가 점점 다양하고
-                                            복잡해지면서 유사성 검색에 대한 필요가 높아지고 있습니다.
-                                            유사성 검색의 대표적인 예로 멀티미디어 데이터베이스에서의 이미지 검색을 들 수 있습니다. 이미지 검색은
-                                            정확히 동일한 이미지를 찾는 것보다는 유사한 이미지를 찾는 것이 더욱 중요합니다. 그리고 생물정보학에서
-                                            유사한 DNA서열을 검색하는 것도 유사성 검색의 한 예입니다. 특히 최근에는 지식을 온톨로지라는 형태로 인코딩하여
-                                            데이터로 접근하면서 의미론적 유사성(Semantic similarity)에 대한 관심이 높아지고 있습니다. 저희 팀에서도 의미론적
-                                            유사성 검색에 대한 연구를 수행하고 있습니다. 온톨로지로 의미를 기술한 데이터가 존재하는 상황에서 어떻게 하면
-                                            유사한 의미를 가진 데이터를 검색 할 수 있는지, 의미론적 유사성의 정의를 어떻게 내릴지, 어떻게 효율적으로
-                                            검색할 수 있는지, 등이 저희 팀의 주된 연구 주제 입니다. 현재 유사한 기능을 하는 단백질을 검색하는
-                                            GORank시스템을 개발하였으며 계속적으로 발전시키고 있는 상태입니다. 앞으로는 이런 의미론적 유사성을 사용하여
-                                            클러스터링에 적용하는 방향으로 연구를 진행할 계획입니다.
+                                        <p>생명체의 대부분의 화학 반응은 효소(enzyme)에 의한 화합물 (substrate)에서 화합물(product)로의 변환이다.
+                                            이런 반응관계를 일반적으로 pathway라 부르며 이 pathway를 이용하여 유전자가 어떤 경로상에서 다른 어떤 유전자와 관계하고
+                                            있는지 혹은 그 유전자의 역할이 무엇인지를 지도나 표로부터 찾을 수 있게 된다. Pathway 데이터베이스는 세포의 다양한 처리 과정에
+                                            연관되는 분자의 경로와 화합물에 대한 다이어그램 정보를 포함한다. R-Pathway는 최초 화합물에서부터 최종 화합물까지의 경로분석,
+                                            하나의 종에 대한 Pathway들 모아 여러종의 Pathway Map을 겹쳐 봄으로써 종간의 유사성 검사를 할수있도록 지원합니다. 그
+                                            구성은 아래와 같습니다.
+                                        </p>
+                                        <ul>
+                                            <li><b>KEGG RDF Mapping</b>&nbsp;:KEGG XML data, 즉 KGML data를 XSLT를 이용하여
+                                                RDF형식의 데이타로 변환합니다. W3C에서 제공하는 XSLT를 기본으로하여 KGML DTD를 지키는 모든 KEGG data를
+                                                변환할수 있도록 수정하였습니다. </li>
+                                            <li><b>Pathway Function</b>&nbsp;: 먼저 종을 선택하면 다음 세가지를 제공합니다
+                                                <ul>
+                                                    <li><b>Gene Search</b>&nbsp;: Gene을 입력하면 해당 종이 나타나는 Pathway Map 목록을
+                                                        보여줍니다. </li>
+                                                    <li><b>GO Search</b>&nbsp;: GO ID를 입력하면 해당 종이 나타나는 Pathway Map 목록을
+                                                        보여줍니다. </li>
+                                                    <li><b>Pathway from initial compound to final compound</b>&nbsp;: 최초
+                                                        기질과 최종 산물을 입력하면 해당 종의 유전자들을 이용해서 변환이 가능한지, 가능하다면 그 변환경로를 보여줍니다.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><b>Pathway Visualization</b>
+                                                <ul>
+                                                    <li><b>Metabolism Viewe</b>r&nbsp;: Pathway Map을 선택하고 비교하고자 하는 종들을
+                                                        선택하면 종들이 가진 효소를 Map상에 표시해줍니다. 특정 효소를 여러종이 가지고 있다면 그 백분율에 따라 색깔을
+                                                        달리 표시합니다.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
 
-                                        </p>
-                                        <h1><span class="mw-headline" id="Resources">Resources</span></h1>
-                                        <p><a href="/images/c/c5/Research_similarity_gorank.ppt" class="internal"
-                                                title="Research similarity gorank.ppt">The Overview of GORank</a>
-                                        </p>
                                         <!-- 
                                         NewPP limit report
-                                        Cached time: 20220512055653
+                                        Cached time: 20220512055501
                                         Cache expiry: 86400
                                         Dynamic content: false
-                                        CPU time usage: 0.002 seconds
-                                        Real time usage: 0.006 seconds
-                                        Preprocessor visited node count: 16/1000000
-                                        Preprocessor generated node count: 32/1000000
+                                        CPU time usage: 0.001 seconds
+                                        Real time usage: 0.001 seconds
+                                        Preprocessor visited node count: 3/1000000
+                                        Preprocessor generated node count: 8/1000000
                                         Post‐expand include size: 0/2097152 bytes
                                         Template argument size: 0/2097152 bytes
                                         Highest expansion depth: 2/40
