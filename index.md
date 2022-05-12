@@ -6,9 +6,6 @@ sitemap:
 ---
 
 <style>
-div#home {
-  max-width: 95%;
-}
 h1#main-page{
   margin-bottom: 0px;
   /* font-weight: bolder; */
