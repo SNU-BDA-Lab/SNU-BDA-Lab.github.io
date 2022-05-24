@@ -3,6 +3,13 @@ layout: page
 title: Admission
 ---
 
+<style>
+  h1#admission {
+    margin-bottom: 0px;
+    /* font-weight: bolder; */
+  }
+</style>
+
 # Admission
 
 _From Big Data Analytics Lab_
