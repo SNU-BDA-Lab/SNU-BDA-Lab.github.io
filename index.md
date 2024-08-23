@@ -13,7 +13,7 @@ h1#main-page{
 </style>
 
 <h1 id="main-page">SNU BDA (Big Data Analytics) Lab</h1>
-
+<br/><br/> 
     
 
 <!-- <p align="center"> -->
